@@ -23,7 +23,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ✔️ Creation of static websites (personal, blog, project site) using `R{distill}` - `GitHub Pages`- `AWS` (for vanity domain registration)\
 ✔️ Setting up a reproducible data science workflow (using `R/RStudio` and `git/GitHub`)
 
-### Technical writing \|\| Editing
+### Technical writing \| Editing
 
 I am a native Italian🇮🇹 speaker but I have published extensively in English🇺🇸 ---including in peer-reviewed journals--- as I lived/studied/worked in the USA for 14 years. I also have conversational knowledge of Spanish🇪🇸 and Portuguese🇧🇷.
 
