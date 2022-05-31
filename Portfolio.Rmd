@@ -1,0 +1,46 @@
+---
+title: "Portfolio"
+description: |
+  Examples of past data science projects 
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<i class="fa fa-refresh" style="color: #a21048"></i> coming soon...
+
+
+<!-- ### Raccolta e analisi di dati \| Statistica \| Econometria -->
+
+<!-- ✔️ Progettazione di database relazionali\ -->
+<!-- ✔️ Recupero di dati da diverse fonti (API, web scraping)\ -->
+<!-- ✔️ Pulizia dei dati e analisi dei dati esplorativa (EDA)\ -->
+<!-- ✔️ Visualizzazione e dashboard\ -->
+<!-- ✔️ Progettazione e svolgimento di sondaggi/surveys\ -->
+<!-- ✔️ Statistica descrittiva\ -->
+<!-- ✔️ Statistiche inferenziali\ -->
+<!-- ✔️ Regressione e analisi multivariata\ -->
+<!-- ✔️ Analisi quantitativa dei testi e NLP (Natural Language Processing)🆕\ -->
+<!-- ✔️ Presentazione  dei risultati in qualsiasi forma (rapporti, articoli accademici o divulgativi, presentazioni, dashboard, siti web di progetto)\ -->
+<!-- ✔️ Creazione di siti web statici (personale, blog, sito di progetto) utilizzando `R{distill}` - `GitHub Pages`- `AWS` (per la registrazione di un dominio personalizzato)\ -->
+<!-- ✔️ Configurazione di flusso di lavoro automatizzato  e riproducibile (usando `R/RStudio` e `git/GitHub`) -->
+
+<!-- ### Scrittura tecnica \| Editing -->
+
+<!-- Sono madrelingua italiana🇮🇹 ma ho pubblicato ampiamente in inglese🇺🇸 --- anche su riviste scientifiche --- poiché ho vissuto/studiato/lavorato negli Stati Uniti per 14 anni. Ho anche una livello intermedia di spagnolo🇪🇸 e portoghese🇧🇷. -->
+
+<!-- Posso quindi offrire aiuto anche nei seguenti ambiti (sfruttando la mia padronanza della lingua inglese): -->
+
+<!-- ✔️ Impostazione di un articolo o una relazione tecnica/commerciale\ -->
+<!-- ✔️ Redazione e/o correzione di bozze di relazioni tecniche, tesi e articoli accademici\ -->
+<!-- ✔️ Revisione di CV, lettere di presentazione o altri documenti per candidature di lavoro\ -->
+<!-- ✔️ Preparazione proposte di grant\ -->
+<!-- ✔️ Snellire l'aggiornamento di reportistica ricorrente tramite strumenti come _scripting_ (`R`, `Markdown`), controllo del versione e strumenti di automazione (`git`, `make`) -->
+
+
+
+<!-- ---  -->
+
+<!-- <p style="color:#a21048;"> _[In possesso di Partita IVA come libero professionista]_ </p> -->
+

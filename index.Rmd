@@ -1,0 +1,65 @@
+---
+title: "Luisa Maria Mimmi"
+description: |
+  Independent policy analyst and consulting data scientist
+image: "images/Lula_unipv_crop2.jpeg"
+links:
+#  - label: '<i class="fas fa-envelope"></i> Email'  # with
+  - label: '<i class="fas fa-envelope"></i>'
+    url: "mailto:lmm76@georgetown.edu"
+  - label: '<i class="fab fa-linkedin-in"></i>'
+    url: "https://www.linkedin.com/in/luisa-m-mimmi"  
+  - label: '<i class="fab fa-twitter"></i>'
+    url: "https://twitter.com/Lulliter"
+  - label: '<i class="fab fa-github"></i>'
+    url: "https://github.com/Lulliter"
+  - label: '<i class="ai ai-google-scholar"></i>' # added a line in jnitta.css for Academicons
+    url: "https://scholar.google.com/citations?user=OBYla5gAAAAJ&hl=en&oi=ao"  
+site: distill::distill_website    
+output: 
+  postcards::trestles
+---
+
+## Independent policy analyst and consulting data scientist
+
+------------------------------------------------------------------------
+
+### My story
+
+```{r pic, eval=FALSE, echo=FALSE, fig.retina = 2, out.width= "50%" }
+# The {knitr} arguments out.width and out.height don’t change the dimensions of the png created. Instead, they control the size of the HTML container on the web-page.
+knitr::include_graphics(here::here("images", "Lula_unipv_crop.jpeg"))
+```
+
+```{=html}
+<!-- DA https://github.com/apalbright/thelittledataset/blob/master/content/_index.Rmarkdown
+NO perche si allarga !?!?! -->
+```
+<!-- <img src="./images/Lula_unipv_crop.jpeg" style="float: right; margin-right: 1px; margin-top: 1px" alt="" width="46%" height="46%" /> -->
+
+```{=html}
+<!-- DA https://stackoverflow.com/questions/255170/markdown-and-image-alignment
+NO perche non funziona !?!?! -->
+```
+<!-- ![image alt <](./images/Lula_unipv_crop.jpeg) -->
+
+I am an economist by training with a solid background in statistics and econometrics. I have over 15 years of experience working in international organizations, where I acquired my hands-on expertise in designing and implementing diagnostic tools, advanced analytics and data visualizations applied to public policy and economic development.
+
+As a life-long learner (and nerd🤓!), I especially enjoy discovering new data science tools and techniques that can help tackling complex policy issues. I rely on open source software and I strive -to the extent possible- to make my own analytical work automated, open, collaborative and reproducible.
+
+Here are more details about my professional journey: <a href="https://raw.githubusercontent.com/Lulliter/cv/master/01_CV_Rmarkdown/Luisa-M-Mimmi_CV.pdf"> <img src="images/icons8-great-britain-40.png"/> CV-4pg (ENG) </a> \|\| <a href="https://raw.githubusercontent.com/Lulliter/cv/master/02_CV_Rmarkdown_ITA/Luisa-M-Mimmi_CV_ITA.pdf"> <img src="images/icons8-italy-40.png"/> CV-4pg (ITA) </a>
+
+<!-- <a href="https://raw.githubusercontent.com/Lulliter/cv/master/03_CV_vitae/twentysecondsRES.pdf"> -->
+
+<!--   <img src="images/icons8-great-britain-40.png" alt=""> Résumé-1pg (ENG)  -->
+
+<!-- </a> -->
+
+### Now
+
+These days I do consulting work somewhere at the intersection of Public Policy and Data Science (preferably using `r fontawesome::fa("r-project", fill = "#5F85A7")` programming).
+
+I could help you with projects like [these]() \|\| Potrei assistervi in progetti come [questi]()
+
+Reach out to me anytime if you want to chat!
+
