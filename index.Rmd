@@ -59,7 +59,7 @@ Here are more details about my professional journey: <a href="https://raw.github
 
 These days I do consulting work somewhere at the intersection of Public Policy and Data Science (preferably using `r fontawesome::fa("r-project", fill = "#5F85A7")` programming).
 
-I could help you with projects like [these]() \|\| Potrei assistervi in progetti come [questi]()
+I could help you with projects like [these](http://luisamimmi.org/Consulting_ENG.html) \|\| Potrei assistervi in progetti come [questi](http://luisamimmi.org/Consulting_ITA.html)
 
 Reach out to me anytime if you want to chat!
 
