@@ -20,12 +20,6 @@ output:
   postcards::trestles
 ---
 
-## Independent policy analyst and consulting data scientist
-
-------------------------------------------------------------------------
-
-### My story
-
 ```{r pic, eval=FALSE, echo=FALSE, fig.retina = 2, out.width= "50%" }
 # The {knitr} arguments out.width and out.height don’t change the dimensions of the png created. Instead, they control the size of the HTML container on the web-page.
 knitr::include_graphics(here::here("images", "Lula_unipv_crop.jpeg"))
@@ -43,23 +37,50 @@ NO perche non funziona !?!?! -->
 ```
 <!-- ![image alt <](./images/Lula_unipv_crop.jpeg) -->
 
-I am an economist by training with a solid background in statistics and econometrics. I have over 15 years of experience working in international organizations, where I acquired my hands-on expertise in designing and implementing diagnostic tools, advanced analytics and data visualizations applied to public policy and economic development.
 
-As a life-long learner (and nerd🤓!), I especially enjoy discovering new data science tools and techniques that can help tackling complex policy issues. I rely on open source software and I strive -to the extent possible- to make my own analytical work automated, open, collaborative and reproducible.
+<p style="font-size:10pt">
+[*[Jump to English]*](#en)
+</p>
 
-Here are more details about my professional journey: <a href="https://raw.githubusercontent.com/Lulliter/cv/master/01_CV_Rmarkdown/Luisa-M-Mimmi_CV.pdf"> <img src="images/gb.png"/> CV-4pg (ENG) </a> \|\| <a href="https://raw.githubusercontent.com/Lulliter/cv/master/02_CV_Rmarkdown_ITA/Luisa-M-Mimmi_CV_ITA.pdf"> <img src="images/it.png"/> CV-4pg (ITA) </a>
 
+## Analista di Politiche Pubbliche e Data Scientist {#it}
+
+***Contattami per verificare come posso collaborare al tuo progetto***
+
+La mia esperienza (e passione) è all'incrocio tra Economia, Politiche Pubbliche e _Data Science_. Ho una vastissima esperienza nella raccolta-analisi-presentazione di dati acquisita lavorando in ambiti molto diversi ---dalla consulenza privata, alle banche multilaterali di sviluppo, alle ONG. Di questi tempi, il mio software preferito per la statistica (e molto altro) è `r fontawesome::fa("r-project", fill = "#5F85A7")`, ma ho familiarità con altri linguaggi di programmazione (`SQL`, `SAS`, `Stata`).
+
+Potrei assistere in progetti come [*questi*](http://luisamimmi.org/Consulting_ITA.html)
+
+### Chi sono
+
+Di formazione, sono un economista con un solido _background_ in statistica ed econometria. In oltre 15 anni di esperienza, ho acquisito una significativa esperienza pratica nella progettazione e implementazione di strumenti diagnostici, analisi avanzate e visualizzazioni di dati applicati alle politiche pubbliche e allo sviluppo economico.
+
+Sono una persona curiosa (e anche un po' _nerd_ 🤓) che continua a imparare e a sperimentare strumenti e tecniche di _data science_ che consentono di analizzare empiricamente aspetti complessi di politica pubblica. Mi affido prevalentemente a software _open source_ e cerco, per quanto possibile, di rendere il mio lavoro analitico automatizzato, aperto, collaborativo e riproducibile.
+
+Qui ci sono maggiori dettagli sul mio percorso professionale: <a href="https://raw.githubusercontent.com/Lulliter/cv/master/02_CV_Rmarkdown_ITA/Luisa-M-Mimmi_CV_ITA.pdf"> <img src="images/it.png"/> CV-4pg (ITA) </a>
+
+
+------------------------------------------------------------------------
+<p style="font-size:10pt">
+[*[Torna all'italiano]*](#it)
+</p>
+
+## Independent Policy Analyst and consulting Data Scientist {#en}
+
+***Get in touch if you have a project in mind. I'd love to discuss how I can help you.***
+
+My expertise (and passion) is at the intersection of Economics, Public Policy and Data Science. I have extensive hands-on experience in data collection-analysis-presentation acquired working in very different settings ---from private consulting to multilateral development banks, to NGOs. These days, my favorite software for statistics (and much more) is `r fontawesome::fa("r-project", fill = "#5F85A7")`, but I'm familiar with other relevant programming languages (`SQL`,`SAS`, `Stata`).
+
+I could help you with projects like [*these*](http://luisamimmi.org/Consulting_ENG.html)
+
+### My story
+
+I am an economist by training with a solid background in statistics and econometrics. Through over 15 years of experience, I acquired a hands-on expertise in designing and implementing diagnostic tools, advanced analytics and data visualizations applied to public policy and economic development.
+
+As a life-long learner (and massive nerd! 🤓), I especially enjoy discovering new data science tools and techniques that can help tackling complex policy issues in a data-driven manner. I rely on open source software and I strive ---to the extent possible--- to make my own analytical work automated, open, collaborative and reproducible.
+
+Here are more details about my professional journey: <a href="https://raw.githubusercontent.com/Lulliter/cv/master/01_CV_Rmarkdown/Luisa-M-Mimmi_CV.pdf"> <img src="images/gb.png"/> CV-4pg (ENG) </a> 
 <!-- <a href="https://raw.githubusercontent.com/Lulliter/cv/master/03_CV_vitae/twentysecondsRES.pdf"> -->
-
 <!--   <img src="images/icons8-great-britain-40.png" alt=""> Résumé-1pg (ENG)  -->
-
 <!-- </a> -->
-
-### Now
-
-These days I do consulting work somewhere at the intersection of Public Policy and Data Science (preferably using `r fontawesome::fa("r-project", fill = "#5F85A7")` programming).
-
-I could help you with projects like [these](http://luisamimmi.org/Consulting_ENG.html) \|\| Potrei assistervi in progetti come [questi](http://luisamimmi.org/Consulting_ITA.html)
-
-Reach out to me anytime if you want to chat!
 

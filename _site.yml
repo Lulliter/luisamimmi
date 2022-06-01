@@ -15,15 +15,15 @@ navbar:
       icon: fas fa-home
     # - text: "About"
     #   href: about.html
-    - text: "Consulting Services"
+    - text: "Consulenze | Consulting"
       icon:  fas fa-handshake-o
       menu:
-        - text: "English"
-          href: Consulting_ENG.html
-          # icon:  fa-chevron-circle-right
         - text: "Italiano"
           href: Consulting_ITA.html
           # icon: fa-chevron-circle-right
+        - text: "English"
+          href: Consulting_ENG.html
+          # icon:  fa-chevron-circle-right
     - text: "Portfolio"
       href: Portfolio.html
 # === METADATA values that help 2 index, cite, and share.

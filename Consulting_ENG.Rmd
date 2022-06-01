@@ -8,7 +8,9 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-### Data collection and Analysis \| Statistics \| Econometrics
+
+
+### Data collection & Analysis \| Statistics \| Econometrics
 
 ✔️ Relational database design\
 ✔️ Retrieval of data from different sources (APIs, web scraping)\
@@ -27,13 +29,14 @@ knitr::opts_chunk$set(echo = FALSE)
 
 I am a native Italian🇮🇹 speaker but I have published extensively in English🇺🇸 ---including in peer-reviewed journals--- as I lived/studied/worked in the USA for 14 years. I also have conversational knowledge of Spanish🇪🇸 and Portuguese🇧🇷.
 
-I can effectively assist also with:
+Hence, I can effectively assist also with:
 
 ✔️ Outlining an article or technical/business report\
 ✔️ Editing and/or proofreading technical reports, theses and academic articles\
 ✔️ Revising and improving CVs, cover letters or documents for job applications\
-✔️ Preparing grant proposals\
-✔️ Automating the updating of recurring reports via literate programming, version control and build automation tool (`R`, `Markdown`, `git`, `make`)
+✔️ Preparing and/or revising grant proposals\
+✔️ Automating the preparation of recurring reports via scripted programming (`SQL`, `R`, `Markdown`), and tools for version control and automation (`git`, `make`)
+ 
 
 --- 
 

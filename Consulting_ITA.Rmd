@@ -26,17 +26,17 @@ knitr::opts_chunk$set(echo = FALSE)
 ✔️ Creazione di siti web statici (personale, blog, sito di progetto) utilizzando `R{distill}` - `GitHub Pages`- `AWS` (per la registrazione di un dominio personalizzato)\
 ✔️ Configurazione di flusso di lavoro automatizzato  e riproducibile (usando `R/RStudio` e `git/GitHub`)
 
-### Scrittura tecnica \| Editing
+### Scrittura tecnica \| Revisione \| Traduzioni  
 
-Sono madrelingua italiana🇮🇹 ma ho pubblicato ampiamente in inglese🇺🇸 --- anche su riviste scientifiche --- poiché ho vissuto/studiato/lavorato negli Stati Uniti per 14 anni. Ho anche una livello intermedia di spagnolo🇪🇸 e portoghese🇧🇷.
+Sono madrelingua italiana🇮🇹 ma ho pubblicato ampiamente in inglese🇺🇸 --- anche su riviste scientifiche --- poiché ho vissuto/studiato/lavorato negli Stati Uniti per 14 anni. Conosco anche spagnolo🇪🇸 e portoghese🇧🇷.
 
-Posso quindi offrire aiuto anche nei seguenti ambiti (sfruttando la mia padronanza della lingua inglese):
+Posso quindi offrire aiuto anche nei seguenti ambiti (sfruttando in particolare la mia conoscenza approfondita della lingua inglese):
 
 ✔️ Impostazione di un articolo o una relazione tecnica/commerciale\
 ✔️ Redazione e/o correzione di bozze di relazioni tecniche, tesi e articoli accademici\
 ✔️ Revisione di CV, lettere di presentazione o altri documenti per candidature di lavoro\
-✔️ Preparazione proposte di grant\
-✔️ Snellire l'aggiornamento di reportistica ricorrente tramite strumenti come _scripting_ (`R`, `Markdown`), controllo del versione e strumenti di automazione (`git`, `make`)
+✔️ Preparazione e/o revisione di domande di sussidi/grant\
+✔️ Ottimizzazione della preparazione di reportistica ricorrente tramite l'uso di linguaggi di _scripting_ (`SQL`, `R`, `Markdown`), controllo di versione, e strumenti di automazione (`git`, `make`)
 
 
 
