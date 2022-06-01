@@ -37,32 +37,34 @@ NO perche non funziona !?!?! -->
 ```
 <!-- ![image alt <](./images/Lula_unipv_crop.jpeg) -->
 
-
 <p style="font-size:10pt">
-[*[Jump to English]*](#en)
-</p>
 
+[*[Jump to English]*](#en)
+
+</p>
 
 ## Analista di Politiche Pubbliche e Data Scientist {#it}
 
 ***Contattami per verificare come posso collaborare al tuo progetto***
 
-La mia esperienza (e passione) è all'incrocio tra Economia, Politiche Pubbliche e _Data Science_. Ho una vastissima esperienza nella raccolta-analisi-presentazione di dati acquisita lavorando in ambiti molto diversi ---dalla consulenza privata, alle banche multilaterali di sviluppo, alle ONG. Di questi tempi, il mio software preferito per la statistica (e molto altro) è `r fontawesome::fa("r-project", fill = "#5F85A7")`, ma ho familiarità con altri linguaggi di programmazione (`SQL`, `SAS`, `Stata`).
+La mia esperienza (e passione) è all'incrocio tra Economia, Politiche Pubbliche e *Data Science*. Ho una vastissima esperienza nella raccolta-analisi-presentazione di dati acquisita lavorando in ambiti molto diversi ---dalla consulenza privata, alle banche multilaterali di sviluppo, alle ONG. Di questi tempi, il mio software preferito per la statistica (e molto altro) è `r fontawesome::fa("r-project", fill = "#5F85A7")`, ma ho familiarità con altri linguaggi di programmazione (`SQL`, `SAS`, `Stata`).
 
 Potrei assistere in progetti come [*questi*](http://luisamimmi.org/Consulting_ITA.html)
 
 ### Chi sono
 
-Di formazione, sono un economista con un solido _background_ in statistica ed econometria. In oltre 15 anni di esperienza, ho acquisito una significativa esperienza pratica nella progettazione e implementazione di strumenti diagnostici, analisi avanzate e visualizzazioni di dati applicati alle politiche pubbliche e allo sviluppo economico.
+Di formazione, sono un economista con un solido *background* in statistica ed econometria. In oltre 15 anni di esperienza, ho acquisito una significativa esperienza pratica nella progettazione e implementazione di strumenti diagnostici, analisi avanzate e visualizzazioni di dati applicati alle politiche pubbliche e allo sviluppo economico.
 
-Sono una persona curiosa (e anche un po' _nerd_ 🤓) che continua a imparare e a sperimentare strumenti e tecniche di _data science_ che consentono di analizzare empiricamente aspetti complessi di politica pubblica. Mi affido prevalentemente a software _open source_ e cerco, per quanto possibile, di rendere il mio lavoro analitico automatizzato, aperto, collaborativo e riproducibile.
+Sono una persona curiosa (e anche un po' *nerd* 🤓) che continua a imparare e a sperimentare strumenti e tecniche di *data science* che consentono di analizzare empiricamente aspetti complessi di politica pubblica. Mi affido prevalentemente a software *open source* e cerco, per quanto possibile, di rendere il mio lavoro analitico automatizzato, aperto, collaborativo e riproducibile.
 
-Qui ci sono maggiori dettagli sul mio percorso professionale: <a href="https://raw.githubusercontent.com/Lulliter/cv/master/02_CV_Rmarkdown_ITA/Luisa-M-Mimmi_CV_ITA.pdf"> <img src="images/it.png"/> CV-4pg (ITA) </a>
-
+Qui ci sono maggiori dettagli sul mio percorso professionale: <a href="https://raw.githubusercontent.com/Lulliter/cv/master/02_CV_Rmarkdown_ITA/Luisa-M-Mimmi_CV_ITA.pdf"> <img src="images/it.png"/> CV (ITA) </a>
 
 ------------------------------------------------------------------------
+
 <p style="font-size:10pt">
+
 [*[Torna all'italiano]*](#it)
+
 </p>
 
 ## Independent Policy Analyst and consulting Data Scientist {#en}
@@ -79,8 +81,4 @@ I am an economist by training with a solid background in statistics and economet
 
 As a life-long learner (and massive nerd! 🤓), I especially enjoy discovering new data science tools and techniques that can help tackling complex policy issues in a data-driven manner. I rely on open source software and I strive ---to the extent possible--- to make my own analytical work automated, open, collaborative and reproducible.
 
-Here are more details about my professional journey: <a href="https://raw.githubusercontent.com/Lulliter/cv/master/01_CV_Rmarkdown/Luisa-M-Mimmi_CV.pdf"> <img src="images/gb.png"/> CV-4pg (ENG) </a> 
-<!-- <a href="https://raw.githubusercontent.com/Lulliter/cv/master/03_CV_vitae/twentysecondsRES.pdf"> -->
-<!--   <img src="images/icons8-great-britain-40.png" alt=""> Résumé-1pg (ENG)  -->
-<!-- </a> -->
-
+Here are more details about my professional journey: <a href="https://raw.githubusercontent.com/Lulliter/cv/master/01_CV_Rmarkdown/Luisa-M-Mimmi_CV.pdf"> <img src="images/gb.png"/> CV (ENG) </a> <!-- <a href="https://raw.githubusercontent.com/Lulliter/cv/master/03_CV_vitae/twentysecondsRES.pdf"> --> <!--   <img src="images/icons8-great-britain-40.png" alt=""> Résumé-1pg (ENG)  --> <!-- </a> -->
