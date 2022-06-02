@@ -21,7 +21,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Lato:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Lato&display=swap');
 
+:root {
+/*👉  --font-body:   inter,-apple-system,BlinkMacSystemFont,roboto,segoe ui,Helvetica,Arial,sans-serif;
+  --font-header: Rubik,Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  --font-mono:   SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace;👈*/
 
+  /* color scheme save on https://coolors.co as "moorea" */
+  --color-background:   #F5EFED; /* beige rosato */
+  --color-primary:      #2383a8; /* blu chiaro (icone) #5F85A7 */
+  --color-primary-dark: #0E0E52; /* nero */
+  --color-secondary:    #a88a23; /* supergold */ /* #6E928B; verdognolo */
+  --color-tertiary:     #e06c85; /* rosa */
+  --color-text:         #161A1D; /* nero */
+  --color-white:        #FFFFFF;
+}
 
 /* ============================================= */
 
@@ -94,27 +107,44 @@ d-appendix {
 
 
 /* ================== LINKS ==================== */
- /* unvisited link */
-/*a:link {
-/*  color: #3552a8; /* blue */
-/*}
-/* visited link */
-/*a:visited {
-/*  color: #97304A; /* Scarlet Apple */
-/*}
-/* mouse over link */
-/*a:hover {
-/*  color: #A88B35; /* gold */
-/*}
-/* selected link */
-/*a:active {
-/*  color: #3552a8; /* blue + scuro */
-/*}
-/*
+/*👉➡ unvisited link ⬅
+a:link {
+  color: #3552a8; ➡ blue ⬅
+}
+➡ visited link ⬅
+a:visited {
+  color: #97304A; ➡ Scarlet Apple ⬅
+}
+➡ mouse over link ⬅
+a:hover {
+  color: #A88B35; ➡ gold ⬅
+}
+➡ selected link ⬅
+a:active {
+  color: #3552a8; ➡ blue + scuro ⬅
+}👈*/
+
+/*  --- Custom inline code  --- */
+/* https://distillery.rbind.io/posts/2021-05-25-custom-syntax-highlighting-for-distill-part-1-modifying-the-default-theme/ */
+.custom-inline {
+  color: #db526f;
+  font-weight: 700
+}
+
+/* Buttons on home page */
+.btn-outline-dark {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border: 0px;
+}
+
+.btn-outline-dark:hover {
+  background-color: var(--color-secondary);
+}
 
 
-/*  --- COME ALLINEARE LE IMMAGINI ---
-SOURCE: https://stackoverflow.com/questions/255170/markdown-and-image-alignment */
+/*  --- COME ALLINEARE LE IMMAGINI --- */
+/* SOURCE: https://stackoverflow.com/questions/255170/markdown-and-image-alignment */
 img[alt$=">"] {
   float: right;
 }

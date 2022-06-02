@@ -5,15 +5,15 @@ description: |
 image: "images/Lula_unipv_crop2.jpeg"
 links:
 #  - label: '<i class="fas fa-envelope"></i> Email'  # with
-  - label: '<i class="fas fa-envelope"></i>'
+  - label: '<i class="fas fa-envelope"></i> Email'
     url: "mailto:lmm76@georgetown.edu"
-  - label: '<i class="fab fa-linkedin-in"></i>'
+  - label: '<i class="fab fa-linkedin-in"></i> LinkedIn'
     url: "https://www.linkedin.com/in/luisa-m-mimmi"  
-  - label: '<i class="fab fa-twitter"></i>'
+  - label: '<i class="fab fa-twitter"></i> Twitter'
     url: "https://twitter.com/Lulliter"
-  - label: '<i class="fab fa-github"></i>'
+  - label: '<i class="fab fa-github"></i> GitHub'
     url: "https://github.com/Lulliter"
-  - label: '<i class="ai ai-google-scholar"></i>' # added a line in jnitta.css for Academicons
+  - label: '<i class="ai ai-google-scholar"></i> Google Scholar' # added a line in jnitta.css for Academicons
     url: "https://scholar.google.com/citations?user=OBYla5gAAAAJ&hl=en&oi=ao"  
 site: distill::distill_website    
 output: 
