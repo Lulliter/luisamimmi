@@ -5,7 +5,7 @@ description: |
   luisamimmi.org
 output_dir: "docs"
 exclude: []
-google_analytics: "G-M3G4YGXT58" # change
+google_analytics: "G-GPHN9BYP85"  
 navbar:
   source_url: https://github.com/Lulliter/luisamimmi  # link to the source code for your website
   search: false

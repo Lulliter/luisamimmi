@@ -55,7 +55,7 @@ Potrei assistere in progetti come [*questi*](http://luisamimmi.org/Consulting_IT
 
 Di formazione, sono un economista con un solido *background* in statistica ed econometria. In oltre 15 anni di esperienza, ho acquisito una significativa esperienza pratica nella progettazione e implementazione di strumenti diagnostici, analisi avanzate e visualizzazioni di dati applicati alle politiche pubbliche e allo sviluppo economico.
 
-Sono una persona curiosa (e anche un po' *nerd* 🤓) che continua a imparare e a sperimentare strumenti e tecniche di *data science* che consentono di analizzare empiricamente aspetti complessi di politica pubblica. Mi affido prevalentemente a software *open source* e cerco, per quanto possibile, di rendere il mio lavoro analitico automatizzato, aperto, collaborativo e riproducibile.
+Sono una persona curiosa (e anche un po' *nerd*) che continua a imparare e a sperimentare strumenti e tecniche di *data science* che consentono di analizzare empiricamente aspetti complessi di politica pubblica. Mi affido prevalentemente a software *open source* e cerco, per quanto possibile, di rendere il mio lavoro analitico automatizzato, aperto, collaborativo e riproducibile.
 
 Qui ci sono maggiori dettagli sul mio percorso professionale: <a href="https://raw.githubusercontent.com/Lulliter/cv/master/02_CV_Rmarkdown_ITA/Luisa-M-Mimmi_CV_ITA.pdf"> <img src="images/it.png"/> CV (ITA) </a>
 
@@ -79,6 +79,6 @@ I could help you with projects like [*these*](http://luisamimmi.org/Consulting_E
 
 I am an economist by training with a solid background in statistics and econometrics. Through over 15 years of experience, I acquired a hands-on expertise in designing and implementing diagnostic tools, advanced analytics and data visualizations applied to public policy and economic development.
 
-As a life-long learner (and massive nerd! 🤓), I especially enjoy discovering new data science tools and techniques that can help tackling complex policy issues in a data-driven manner. I rely on open source software and I strive ---to the extent possible--- to make my own analytical work automated, open, collaborative and reproducible.
+As a life-long learner (and massive nerd!), I especially enjoy discovering new data science tools and techniques that can help tackling complex policy issues in a data-driven manner. I rely on open source software and I strive ---to the extent possible--- to make my own analytical work automated, open, collaborative and reproducible.
 
 Here are more details about my professional journey: <a href="https://raw.githubusercontent.com/Lulliter/cv/master/01_CV_Rmarkdown/Luisa-M-Mimmi_CV.pdf"> <img src="images/gb.png"/> CV (ENG) </a> <!-- <a href="https://raw.githubusercontent.com/Lulliter/cv/master/03_CV_vitae/twentysecondsRES.pdf"> --> <!--   <img src="images/icons8-great-britain-40.png" alt=""> Résumé-1pg (ENG)  --> <!-- </a> -->
