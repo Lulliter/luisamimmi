@@ -4,7 +4,7 @@ theme: theme.css
 description: |
   luisamimmi.org
 output_dir: "docs"
-exclude: []
+exclude: [_news/*]
 google_analytics: "G-GPHN9BYP85"
 navbar:
   source_url: https://github.com/Lulliter/luisamimmi  # link to the source code for your website
