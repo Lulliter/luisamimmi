@@ -1,0 +1,21 @@
+[
+  {
+    "path": "news/2022-06-04-2022-06-03-test/",
+    "title": "TEST",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Luisa Mimmi",
+        "url": {}
+      }
+    ],
+    "date": "2022-06-04",
+    "categories": [
+      "ideas"
+    ],
+    "contents": "\nDistill is a publication format for scientific and technical writing,\nnative to the web.\nLearn more about using Distill at https://rstudio.github.io/distill.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2022-06-04T10:32:51+02:00",
+    "input_file": {}
+  }
+]

@@ -50,16 +50,17 @@ pre.numberSource code > span > a:first-child::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {   }
+  { color: #00769e; background-color: #f1f3f5; }
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
+code span { color: #00769e; } /* Normal */
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { } /* Attribute */
+code span.at { color: #657422; } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
-code span.cf { color: #007ba5; } /* ControlFlow */
+code span.cf { color: #00769e; } /* ControlFlow */
 code span.ch { color: #20794d; } /* Char */
 code span.cn { color: #8f5902; } /* Constant */
 code span.co { color: #5e5e5e; } /* Comment */
@@ -73,9 +74,9 @@ code span.fl { color: #ad0000; } /* Float */
 code span.fu { color: #4758ab; } /* Function */
 code span.im { } /* Import */
 code span.in { color: #5e5e5e; } /* Information */
-code span.kw { color: #007ba5; } /* Keyword */
+code span.kw { color: #00769e; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
-code span.ot { color: #007ba5; } /* Other */
+code span.ot { color: #00769e; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
 code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
@@ -769,10 +770,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     position: relative;
     margin-bottom: 2.5em;
     margin-top: 1.5em;
-  }
-
-  .figure img {
-    width: 100%;
   }
 
   .figure .caption {
@@ -1604,6 +1601,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
+        if ($(this).children()[0].nodeName == "D-FOOTNOTE") {
+          var fn = $(this).children()[0]
+          $(this).html(fn.shadowRoot.querySelector("sup"))
+          $(this).id = fn.id
+          fn.remove()
+        }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
           return "<p>" + $('#ref-' + ref).html() + "</p>";
@@ -1618,6 +1621,31 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
           placement: 'bottom-start'
         });
       });
+
+      // fix footnotes in tables (#411)
+      // replacing broken distill.pub feature
+      $('table d-footnote').each(function() {
+        // we replace internal showAtNode methode which is triggered when hovering a footnote
+        this.hoverBox.showAtNode = function(node) {
+          // ported from https://github.com/distillpub/template/pull/105/files
+          calcOffset = function(elem) {
+              let x = elem.offsetLeft;
+              let y = elem.offsetTop;
+              // Traverse upwards until an `absolute` element is found or `elem`
+              // becomes null.
+              while (elem = elem.offsetParent && elem.style.position != 'absolute') {
+                  x += elem.offsetLeft;
+                  y += elem.offsetTop;
+              }
+
+              return { left: x, top: y };
+          }
+          // https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetTop
+          const bbox = node.getBoundingClientRect();
+          const offset = calcOffset(node);
+          this.show([offset.left + bbox.width, offset.top + bbox.height]);
+        }
+      })
 
       // clear polling timer
       clearInterval(tid);
@@ -1717,6 +1745,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     // mark non-body figures created by knitr chunks as 100% width
     $('.layout-chunk').each(function(i, val) {
       var figures = $(this).find('img, .html-widget');
+      // ignore leaflet img layers (#106)
+      figures = figures.filter(':not(img[class*="leaflet"])')
       if ($(this).attr('data-layout') !== "l-body") {
         figures.css('width', '100%');
       } else {
@@ -1739,7 +1769,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     // get rid of index.html references in header
     if (window.location.protocol !== "file:") {
       $('.distill-site-header a[href]').each(function(i,val) {
-        $(this).attr('href', $(this).attr('href').replace("index.html", "./"));
+        $(this).attr('href', $(this).attr('href').replace(/^index[.]html/, "./"));
       });
     }
 
@@ -1999,6 +2029,50 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     background-color: var(--color-secondary);
   }
 
+  /*  --- COME AGGIUNGERE TIP BOXES --- */
+  /* SOURCE: https://desiree.rbind.io/post/2019/making-tip-boxes-with-bookdown-and-rmarkdown/ */
+  /* -----------div tips------------- */
+
+    div.fyi  {
+      background-image: url("images/icons/fyi.png");
+      padding: 1em;
+      margin: 1em 0;
+      padding-left: 100px;
+      background-size: 70px;
+      background-repeat: no-repeat;
+      background-position: 15px center;
+      min-height: 120px;
+      color: #1f5386;
+      background-color: #bed3ec;
+      border: solid 5px #dfedff;
+    }
+   div.note {
+      background-image: url("images/icons/Lightbulb.png");
+      padding: 1em;
+      margin: 1em 0;
+      padding-left: 100px;
+      background-size: 70px;
+      background-repeat: no-repeat;
+      background-position: 15px center;
+      min-height: 120px;
+      color: #a88a23;
+      background-color: #f4ebcc;
+      border: solid 5px #dfedff;
+    }
+
+   div.puzzle{
+    background-image: url("images/icons/Your-turn.png");
+    padding: 1em;
+    margin: 1em 0;
+    padding-left: 100px;
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    min-height: 120px;
+    color: #db526f;
+    background-color: #f4ccd4;
+    border: solid 5px #dfedff;
+  }
 
   /*  --- COME ALLINEARE LE IMMAGINI --- */
   /* SOURCE: https://stackoverflow.com/questions/255170/markdown-and-image-alignment */
@@ -2225,7 +2299,7 @@ Consulenze | Consulting
 <a href="Consulting_ENG.html">English</a>
 </div>
 </div>
-<a href="Portfolio.html">Portfolio</a>
+<a href="portfolio.html">Portfolio</a>
 <a href="https://github.com/Lulliter/luisamimmi" aria-label="Link to source">
 <i class="fab fa-github" aria-hidden="true"></i>
 </a>
@@ -2313,13 +2387,14 @@ class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"><
 <!--<br><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"> -->
 <!-- </a><br />Unless otherwise specified, the content of this website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
  -->
-<p class="copyright">
+<!-- <p class="copyright">
         <a href="http://creativecommons.org/licenses/by-sa/4.0/"
             title="Creative Commons Attribution-ShareAlike 4.0 International license"><i class="fab fa-creative-commons"></i>
         <i class="fab fa-creative-commons-by" title="Attribution"></i>
         <i class="fab fa-creative-commons-share" title="Share alike"></i></a>
         <span class="cc-year">&bull; 2022 &bull;</span>
-    </p>
+    </p> -->
+<!-- Luisa M. Mimmi © 2022 Original text and figures are licensed under [Creative Commons Attribution-NonCommercial CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). -->
 </div>
 <!--/radix_placeholder_navigation_after_body-->
 
