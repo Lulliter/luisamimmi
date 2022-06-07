@@ -8,15 +8,5 @@
 </description>
     <generator>Distill</generator>
     <lastBuildDate>Tue, 07 Jun 2022 00:00:00 +0000</lastBuildDate>
-    <item>
-      <title>How I created an automated CV updating workflow with R</title>
-      <link>https://www.luisamimmi.org/portfolio/2022-06-03-cv-r-pagedown</link>
-      <description>Notes on how I made an automated resumé with the {pagedown} and {datadrivencv} packages in R.</description>
-      <category>R</category>
-      <category>DRY</category>
-      <guid>https://www.luisamimmi.org/portfolio/2022-06-03-cv-r-pagedown</guid>
-      <pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate>
-      <media:content url="https://www.luisamimmi.org/portfolio/2022-06-03-cv-r-pagedown/CV_white_logo_dark_background.jpg" medium="image" type="image/jpeg"/>
-    </item>
   </channel>
 </rss>

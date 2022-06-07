@@ -94,11 +94,13 @@ d-appendix {
 }
 
 .distill-site-footer {
+  --position:			fixed;
   --text-color:       rgba(255, 255, 255, 0.8);
   --text-size:        15px;
   --hover-color:      rgb(168,138,35); /*  rgb(219,188,82); gold */ /* white; */
   --bkgd-color:       #071f46; /* #0F2E3D; */
 }
+
 
 /* ========================================================================= */
 /*-- Additional custom styles --*/
@@ -107,7 +109,7 @@ d-appendix {
 
 
 /* ================== LINKS ==================== */
-/* OKKIO --> qs mi cambia anche i link su vav bar .... */
+/* OKKIO --> qs mi cambia anche i link su vav bar  e non so come cambiarlo .... */
 /* unvisited link */
 /*👉a:link {
   ➡ color: #3552a8;  blue ⬅

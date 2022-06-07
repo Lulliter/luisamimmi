@@ -2,12 +2,16 @@
 title: "How I created an automated CV updating workflow with R"
 description: |
   Notes on how I made an automated resumé with the {pagedown} and {datadrivencv} packages in R.
-# author:
-#   - name: Luisa Mimmi
-# date: 2022-06-04
+author:
+  - name: Luisa Mimmi
+date: 2022-06-04
 output:
   distill::distill_article:
     self_contained: false
+    toc: true
+    toc_depth: 3
+    toc_float: true
+draft: true
 preview: CV_white_logo_dark_background.jpg
 categories: 
   - R

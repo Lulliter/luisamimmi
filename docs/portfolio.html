@@ -1981,11 +1981,13 @@ code span.wa { color: #bf0303; } /* Warning */
   }
 
   .distill-site-footer {
+    --position:			fixed;
     --text-color:       rgba(255, 255, 255, 0.8);
     --text-size:        15px;
     --hover-color:      rgb(168,138,35); /*  rgb(219,188,82); gold */ /* white; */
     --bkgd-color:       #071f46; /* #0F2E3D; */
   }
+
 
   /* ========================================================================= */
   /*-- Additional custom styles --*/
@@ -1994,7 +1996,7 @@ code span.wa { color: #bf0303; } /* Warning */
 
 
   /* ================== LINKS ==================== */
-  /* OKKIO --> qs mi cambia anche i link su vav bar .... */
+  /* OKKIO --> qs mi cambia anche i link su vav bar  e non so come cambiarlo .... */
   /* unvisited link */
   /*👉a:link {
     ➡ color: #3552a8;  blue ⬅
@@ -2479,45 +2481,9 @@ function init_posts_list() {
 
 
 
-<div class="posts-container posts-with-sidebar posts-apply-limit l-screen-inset">
+<div class="posts-container posts-apply-limit l-page">
 <div class="posts-list">
 <h1 class="posts-list-caption" data-caption="Illustrative projects I have completed">Illustrative projects I have completed</h1>
-<a href="portfolio/2022-06-03-cv-r-pagedown/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["R","DRY"]}</script>
-<div class="metadata">
-<div class="publishedDate">June 7, 2022</div>
-</div>
-<div class="thumbnail">
-<img src="portfolio/2022-06-03-cv-r-pagedown/CV_white_logo_dark_background.jpg"/>
-</div>
-<div class="description">
-<h2>How I created an automated CV updating workflow with R</h2>
-<div class="dt-tags">
-<div class="dt-tag">R</div>
-<div class="dt-tag">DRY</div>
-</div>
-<p>Notes on how I made an automated resumé with the {pagedown} and {datadrivencv} packages in R.</p>
-</div>
-</a>
-</div>
-<div class="posts-sidebar">
-<div class="sidebar-section categories">
-<h3>Categories</h3>
-<ul>
-<li>
-<a href="#category:Articles">Articles</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:DRY">DRY</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:R">R</a>
-<span class="category-count">(1)</span>
-</li>
-</ul>
-</div>
 </div>
 <div class="posts-more">
 <a href="#">More articles &raquo;</a>
