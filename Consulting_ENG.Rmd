@@ -9,6 +9,11 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
+<p style="font-size:10pt">
+
+*[Italian version](https://luisamimmi.org/Consulting_ITA.html)* 
+
+</p>
 
 ### Data collection & Analysis \| Statistics \| Econometrics
 

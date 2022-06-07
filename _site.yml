@@ -36,6 +36,8 @@ collections:
     feed_iems_max: 20 # default
   # news:
   #   categories: true
-output: distill::distill_article
+output:
+  distill::distill_article:
+    highlight: kate
 
 

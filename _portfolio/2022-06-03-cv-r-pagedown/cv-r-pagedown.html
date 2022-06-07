@@ -7,7 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
   <meta name="generator" content="distill" />
-  <link rel="alternate" type="application/rss+xml" href="https://www.luisamimmi.org/portfolio.xml" />
 
   <style type="text/css">
   /* Hide doc at startup (prevent jankiness while JS renders/transforms) */
@@ -47,420 +46,80 @@ pre.numberSource code > span > a:first-child::before
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
     padding: 0 4px; width: 4em;
-    background-color: #ffffff;
-    color: #a0a0a0;
+    color: #aaaaaa;
   }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #a0a0a0;  padding-left: 4px; }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  { color: #1f1c1b; background-color: #ffffff; }
+  { color: #00769e; background-color: #f1f3f5; }
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-code span { color: #1f1c1b; } /* Normal */
-code span.al { color: #bf0303; background-color: #f7e6e6; font-weight: bold; } /* Alert */
-code span.an { color: #ca60ca; } /* Annotation */
-code span.at { color: #0057ae; } /* Attribute */
-code span.bn { color: #b08000; } /* BaseN */
-code span.bu { color: #644a9b; font-weight: bold; } /* BuiltIn */
-code span.cf { color: #1f1c1b; font-weight: bold; } /* ControlFlow */
-code span.ch { color: #924c9d; } /* Char */
-code span.cn { color: #aa5500; } /* Constant */
-code span.co { color: #898887; } /* Comment */
-code span.cv { color: #0095ff; } /* CommentVar */
-code span.do { color: #607880; } /* Documentation */
-code span.dt { color: #0057ae; } /* DataType */
-code span.dv { color: #b08000; } /* DecVal */
-code span.er { color: #bf0303; text-decoration: underline; } /* Error */
-code span.ex { color: #0095ff; font-weight: bold; } /* Extension */
-code span.fl { color: #b08000; } /* Float */
-code span.fu { color: #644a9b; } /* Function */
-code span.im { color: #ff5500; } /* Import */
-code span.in { color: #b08000; } /* Information */
-code span.kw { color: #1f1c1b; font-weight: bold; } /* Keyword */
-code span.op { color: #1f1c1b; } /* Operator */
-code span.ot { color: #006e28; } /* Other */
-code span.pp { color: #006e28; } /* Preprocessor */
-code span.re { color: #0057ae; background-color: #e0e9f8; } /* RegionMarker */
-code span.sc { color: #3daee9; } /* SpecialChar */
-code span.ss { color: #ff5500; } /* SpecialString */
-code span.st { color: #bf0303; } /* String */
-code span.va { color: #0057ae; } /* Variable */
-code span.vs { color: #bf0303; } /* VerbatimString */
-code span.wa { color: #bf0303; } /* Warning */
+code span { color: #00769e; } /* Normal */
+code span.al { color: #ad0000; } /* Alert */
+code span.an { color: #5e5e5e; } /* Annotation */
+code span.at { color: #657422; } /* Attribute */
+code span.bn { color: #ad0000; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #00769e; } /* ControlFlow */
+code span.ch { color: #20794d; } /* Char */
+code span.cn { color: #8f5902; } /* Constant */
+code span.co { color: #5e5e5e; } /* Comment */
+code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+code span.dt { color: #ad0000; } /* DataType */
+code span.dv { color: #ad0000; } /* DecVal */
+code span.er { color: #ad0000; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #ad0000; } /* Float */
+code span.fu { color: #4758ab; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #5e5e5e; } /* Information */
+code span.kw { color: #00769e; } /* Keyword */
+code span.op { color: #5e5e5e; } /* Operator */
+code span.ot { color: #00769e; } /* Other */
+code span.pp { color: #ad0000; } /* Preprocessor */
+code span.sc { color: #5e5e5e; } /* SpecialChar */
+code span.ss { color: #20794d; } /* SpecialString */
+code span.st { color: #20794d; } /* String */
+code span.va { color: #111111; } /* Variable */
+code span.vs { color: #20794d; } /* VerbatimString */
+code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>www.luisamimmi.org: Illustrative projects I have completed</title>
+  <title>How I created an automated CV updating workflow with R</title>
+
+  <meta property="description" itemprop="description" content="Notes on how I made an automated resumé with the {pagedown} and {datadrivencv} packages in R."/>
 
 
-
+  <!--  https://schema.org/Article -->
+  <meta property="article:published" itemprop="datePublished" content="2022-06-07"/>
+  <meta property="article:created" itemprop="dateCreated" content="2022-06-07"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="www.luisamimmi.org: Illustrative projects I have completed"/>
+  <meta property="og:title" content="How I created an automated CV updating workflow with R"/>
   <meta property="og:type" content="article"/>
+  <meta property="og:description" content="Notes on how I made an automated resumé with the {pagedown} and {datadrivencv} packages in R."/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="www.luisamimmi.org"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="www.luisamimmi.org: Illustrative projects I have completed"/>
+  <meta property="twitter:title" content="How I created an automated CV updating workflow with R"/>
+  <meta property="twitter:description" content="Notes on how I made an automated resumé with the {pagedown} and {datadrivencv} packages in R."/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","listing"]}},"value":[{"type":"character","attributes":{},"value":["Illustrative projects I have completed"]},{"type":"character","attributes":{},"value":["portfolio"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","output","preview","categories","date"]}},"value":[{"type":"character","attributes":{},"value":["How I created an automated CV updating workflow with R"]},{"type":"character","attributes":{},"value":["Notes on how I made an automated resumé with the {pagedown} and {datadrivencv} packages in R.\n"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["CV_white_logo_dark_background.jpg"]},{"type":"character","attributes":{},"value":["R","DRY"]},{"type":"character","attributes":{},"value":["06-07-2022"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
-  <!--radix_placeholder_navigation_in_header-->
-  <meta name="distill:offset" content=""/>
-
-  <script type="application/javascript">
-
-    window.headroom_prevent_pin = false;
-
-    window.document.addEventListener("DOMContentLoaded", function (event) {
-
-      // initialize headroom for banner
-      var header = $('header').get(0);
-      var headerHeight = header.offsetHeight;
-      var headroom = new Headroom(header, {
-        tolerance: 5,
-        onPin : function() {
-          if (window.headroom_prevent_pin) {
-            window.headroom_prevent_pin = false;
-            headroom.unpin();
-          }
-        }
-      });
-      headroom.init();
-      if(window.location.hash)
-        headroom.unpin();
-      $(header).addClass('headroom--transition');
-
-      // offset scroll location for banner on hash change
-      // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
-      window.addEventListener("hashchange", function(event) {
-        window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
-      });
-
-      // responsive menu
-      $('.distill-site-header').each(function(i, val) {
-        var topnav = $(this);
-        var toggle = topnav.find('.nav-toggle');
-        toggle.on('click', function() {
-          topnav.toggleClass('responsive');
-        });
-      });
-
-      // nav dropdowns
-      $('.nav-dropbtn').click(function(e) {
-        $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
-        $(this).parent().siblings('.nav-dropdown')
-           .children('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $("body").click(function(e){
-        $('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $(".nav-dropdown").click(function(e){
-        e.stopPropagation();
-      });
-    });
+  
+  <script type="text/json" id="radix-resource-manifest">
+  {"type":"character","attributes":{},"value":["2022-06-03-cv-r-pagedown_files/anchor-4.2.2/anchor.min.js","2022-06-03-cv-r-pagedown_files/bowser-1.9.3/bowser.min.js","2022-06-03-cv-r-pagedown_files/distill-2.2.21/template.v2.js","2022-06-03-cv-r-pagedown_files/header-attrs-2.14/header-attrs.js","2022-06-03-cv-r-pagedown_files/jquery-3.6.0/jquery-3.6.0.js","2022-06-03-cv-r-pagedown_files/jquery-3.6.0/jquery-3.6.0.min.js","2022-06-03-cv-r-pagedown_files/jquery-3.6.0/jquery-3.6.0.min.map","2022-06-03-cv-r-pagedown_files/popper-2.6.0/popper.min.js","2022-06-03-cv-r-pagedown_files/tippy-6.2.7/tippy-bundle.umd.min.js","2022-06-03-cv-r-pagedown_files/tippy-6.2.7/tippy-light-border.css","2022-06-03-cv-r-pagedown_files/tippy-6.2.7/tippy.css","2022-06-03-cv-r-pagedown_files/tippy-6.2.7/tippy.umd.min.js","2022-06-03-cv-r-pagedown_files/webcomponents-2.0.0/webcomponents.js","2022-06-03-cv-r-pagedown.html","2022-06-03-cv-r-rpagedown_files/anchor-4.2.2/anchor.min.js","2022-06-03-cv-r-rpagedown_files/bowser-1.9.3/bowser.min.js","2022-06-03-cv-r-rpagedown_files/distill-2.2.21/template.v2.js","2022-06-03-cv-r-rpagedown_files/figure-html5/figures-side-1.png","2022-06-03-cv-r-rpagedown_files/figure-html5/figures-side-2.png","2022-06-03-cv-r-rpagedown_files/header-attrs-2.14/header-attrs.js","2022-06-03-cv-r-rpagedown_files/jquery-3.6.0/jquery-3.6.0.js","2022-06-03-cv-r-rpagedown_files/jquery-3.6.0/jquery-3.6.0.min.js","2022-06-03-cv-r-rpagedown_files/jquery-3.6.0/jquery-3.6.0.min.map","2022-06-03-cv-r-rpagedown_files/popper-2.6.0/popper.min.js","2022-06-03-cv-r-rpagedown_files/tippy-6.2.7/tippy-bundle.umd.min.js","2022-06-03-cv-r-rpagedown_files/tippy-6.2.7/tippy-light-border.css","2022-06-03-cv-r-rpagedown_files/tippy-6.2.7/tippy.css","2022-06-03-cv-r-rpagedown_files/tippy-6.2.7/tippy.umd.min.js","2022-06-03-cv-r-rpagedown_files/webcomponents-2.0.0/webcomponents.js","2022-06-03-cv-r-rpagedown.html","After_CV_anon.pdf","After_CV_anon.png","Before_CV_anon.pdf","Before_CV_anon.png","Before_CV_Anon2.pdf","CV_white_logo_dark_background.jpg","fyi.png","Lightbulb.png","Live-code.png","my_workflow.jpeg","my_workflow.key","puzzle.png"]}
   </script>
-
-  <style type="text/css">
-
-  /* Theme (user-documented overrideables for nav appearance) */
-
-  .distill-site-nav {
-    color: rgba(255, 255, 255, 0.8);
-    background-color: #0F2E3D;
-    font-size: 15px;
-    font-weight: 300;
-  }
-
-  .distill-site-nav a {
-    color: inherit;
-    text-decoration: none;
-  }
-
-  .distill-site-nav a:hover {
-    color: white;
-  }
-
-  @media print {
-    .distill-site-nav {
-      display: none;
-    }
-  }
-
-  .distill-site-header {
-
-  }
-
-  .distill-site-footer {
-
-  }
-
-
-  /* Site Header */
-
-  .distill-site-header {
-    width: 100%;
-    box-sizing: border-box;
-    z-index: 3;
-  }
-
-  .distill-site-header .nav-left {
-    display: inline-block;
-    margin-left: 8px;
-  }
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header .nav-left {
-      margin-left: 0;
-    }
-  }
-
-
-  .distill-site-header .nav-right {
-    float: right;
-    margin-right: 8px;
-  }
-
-  .distill-site-header a,
-  .distill-site-header .title {
-    display: inline-block;
-    text-align: center;
-    padding: 14px 10px 14px 10px;
-  }
-
-  .distill-site-header .title {
-    font-size: 18px;
-    min-width: 150px;
-  }
-
-  .distill-site-header .logo {
-    padding: 0;
-  }
-
-  .distill-site-header .logo img {
-    display: none;
-    max-height: 20px;
-    width: auto;
-    margin-bottom: -4px;
-  }
-
-  .distill-site-header .nav-image img {
-    max-height: 18px;
-    width: auto;
-    display: inline-block;
-    margin-bottom: -3px;
-  }
-
-
-
-  @media screen and (min-width: 1000px) {
-    .distill-site-header .logo img {
-      display: inline-block;
-    }
-    .distill-site-header .nav-left {
-      margin-left: 20px;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 20px;
-    }
-    .distill-site-header .title {
-      padding-left: 12px;
-    }
-  }
-
-
-  .distill-site-header .nav-toggle {
-    display: none;
-  }
-
-  .nav-dropdown {
-    display: inline-block;
-    position: relative;
-  }
-
-  .nav-dropdown .nav-dropbtn {
-    border: none;
-    outline: none;
-    color: rgba(255, 255, 255, 0.8);
-    padding: 16px 10px;
-    background-color: transparent;
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
-    margin: 0;
-    margin-top: 1px;
-    z-index: 2;
-  }
-
-  .nav-dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 200px;
-    border: 1px solid rgba(0,0,0,0.15);
-    border-radius: 4px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
-    z-index: 1;
-    margin-top: 2px;
-    white-space: nowrap;
-    padding-top: 4px;
-    padding-bottom: 4px;
-  }
-
-  .nav-dropdown-content hr {
-    margin-top: 4px;
-    margin-bottom: 4px;
-    border: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  }
-
-  .nav-dropdown-active {
-    display: block;
-  }
-
-  .nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
-    color: black;
-    padding: 6px 24px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-
-  .nav-dropdown-content .nav-dropdown-header {
-    display: block;
-    padding: 5px 24px;
-    padding-bottom: 0;
-    text-transform: uppercase;
-    font-size: 14px;
-    color: #999999;
-    white-space: nowrap;
-  }
-
-  .nav-dropdown:hover .nav-dropbtn {
-    color: white;
-  }
-
-  .nav-dropdown-content a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-
-  .nav-right .nav-dropdown-content {
-    margin-left: -45%;
-    right: 0;
-  }
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header a, .distill-site-header .nav-dropdown  {display: none;}
-    .distill-site-header a.nav-toggle {
-      float: right;
-      display: block;
-    }
-    .distill-site-header .title {
-      margin-left: 0;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 0;
-    }
-    .distill-site-header {
-      overflow: hidden;
-    }
-    .nav-right .nav-dropdown-content {
-      margin-left: 0;
-    }
-  }
-
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header.responsive {position: relative; min-height: 500px; }
-    .distill-site-header.responsive a.nav-toggle {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .distill-site-header.responsive a,
-    .distill-site-header.responsive .nav-dropdown {
-      display: block;
-      text-align: left;
-    }
-    .distill-site-header.responsive .nav-left,
-    .distill-site-header.responsive .nav-right {
-      width: 100%;
-    }
-    .distill-site-header.responsive .nav-dropdown {float: none;}
-    .distill-site-header.responsive .nav-dropdown-content {position: relative;}
-    .distill-site-header.responsive .nav-dropdown .nav-dropbtn {
-      display: block;
-      width: 100%;
-      text-align: left;
-    }
-  }
-
-  /* Site Footer */
-
-  .distill-site-footer {
-    width: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
-    z-index: 3;
-    margin-top: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-  }
-
-  /* Headroom */
-
-  d-title {
-    padding-top: 6rem;
-  }
-
-  @media print {
-    d-title {
-      padding-top: 4rem;
-    }
-  }
-
-  .headroom {
-    z-index: 1000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-
-  .headroom--transition {
-    transition: all .4s ease-in-out;
-  }
-
-  .headroom--unpinned {
-    top: -100px;
-  }
-
-  .headroom--pinned {
-    top: 0;
-  }
-
-  /* adjust viewport for navbar height */
-  /* helps vertically center bootstrap (non-distill) content */
-  .min-vh-100 {
-    min-height: calc(100vh - 100px) !important;
-  }
-
-  </style>
-
-  <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
-  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
-  <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
+  <!--radix_placeholder_navigation_in_header-->
   <!--/radix_placeholder_navigation_in_header-->
   <!--radix_placeholder_distill-->
 
@@ -1807,735 +1466,173 @@ code span.wa { color: #bf0303; } /* Warning */
 
   </script>
 
-  <style type="text/css">
-  /* base variables */
-
-  /* Edit the CSS properties in this file to create a custom
-     Distill theme. Only edit values in the right column
-     for each row; values shown are the CSS defaults.
-     To return any property to the default,
-     you may set its value to: unset
-     All rows must end with a semi-colon.                      */
-
-  /* Optional: embed custom fonts here with `@import`          */
-  /* This must remain at the top of this file.                 */
-
-
-
-  html {
-    /*-- Main font sizes --*/
-    --title-size:      50px;
-    --body-size:       1.06rem;
-    --code-size:       14px;
-    --aside-size:      12px;
-    --fig-cap-size:    13px;
-    /*-- Main font colors --*/
-    --title-color:     #000000;
-    --header-color:    rgba(0, 0, 0, 0.8);
-    --body-color:      rgba(0, 0, 0, 0.8);
-    --aside-color:     rgba(0, 0, 0, 0.6);
-    --fig-cap-color:   rgba(0, 0, 0, 0.6);
-    /*-- Specify custom fonts ~~~ must be imported above   --*/
-    --heading-font:    sans-serif;
-    --mono-font:       monospace;
-    --body-font:       sans-serif;
-    --navbar-font:     sans-serif;  /* websites + blogs only */
-  }
-
-  /*-- ARTICLE METADATA --*/
-  d-byline {
-    --heading-size:    0.6rem;
-    --heading-color:   rgba(0, 0, 0, 0.5);
-    --body-size:       0.8rem;
-    --body-color:      rgba(0, 0, 0, 0.8);
-  }
-
-  /*-- ARTICLE TABLE OF CONTENTS --*/
-  .d-contents {
-    --heading-size:    18px;
-    --contents-size:   13px;
-  }
-
-  /*-- ARTICLE APPENDIX --*/
-  d-appendix {
-    --heading-size:    15px;
-    --heading-color:   rgba(0, 0, 0, 0.65);
-    --text-size:       0.8em;
-    --text-color:      rgba(0, 0, 0, 0.5);
-  }
-
-  /*-- WEBSITE HEADER + FOOTER --*/
-  /* These properties only apply to Distill sites and blogs  */
-
-  .distill-site-header {
-    --title-size:       18px;
-    --text-color:       rgba(255, 255, 255, 0.8);
-    --text-size:        15px;
-    --hover-color:      white;
-    --bkgd-color:       #0F2E3D;
-  }
-
-  .distill-site-footer {
-    --text-color:       rgba(255, 255, 255, 0.8);
-    --text-size:        15px;
-    --hover-color:      white;
-    --bkgd-color:       #0F2E3D;
-  }
-
-  /*-- Additional custom styles --*/
-  /* Add any additional CSS rules below                      */
-  </style>
-  <style type="text/css">/* --- CUSTOMIZE CSS  --- */
-  /* https://ucsb-meds.github.io/customizing-websites-css/#1 */
-
-  /* --- START WITH  distill::create_theme(name = "theme", edit = TRUE) --- */
-
-  /* base variables */
-
-  /* Edit the CSS properties in this file to create a custom
-     Distill theme. Only edit values in the right column
-     for each row; values shown are the CSS defaults.
-     To return any property to the default,
-     you may set its value to: unset
-     All rows must end with a semi-colon.                      */
-
-  /* Optional: embed custom fonts here with `@import`          */
-  /* This must remain at the top of this file.                 */
-
-  /* --- 2 USE Academicons (Googl Scholar)--- */
-  /* @import url('https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css'); */
-  @import url('https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css');
-  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Lato:wght@400;700&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Lato&display=swap');
-
-  :root {
-  /*👉  --font-body:   inter,-apple-system,BlinkMacSystemFont,roboto,segoe ui,Helvetica,Arial,sans-serif;
-    --font-header: Rubik,Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    --font-mono:   SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace;👈*/
-
-    /* color scheme save on https://coolors.co as "moorea" */
-    --color-background:   #F5EFED; /* beige rosato */
-    --color-primary:      #2383a8; /* blu chiaro (icone) #5F85A7 */
-    --color-primary-dark: #0E0E52; /* nero */
-    --color-secondary:    #a88a23; /* supergold */ /* #6E928B; verdognolo */
-    --color-tertiary:     #e06c85; /* rosa */
-    --color-text:         #161A1D; /* nero */
-    --color-white:        #FFFFFF;
-  }
-
-  /* ============================================= */
-
-  html {
-    /*-- Main font sizes --*/
-    --title-size:      50px; /* 50px */
-    --body-size:       1.06rem;
-    --code-size:       14px;
-    --aside-size:      12px;
-    --fig-cap-size:    13px;
-    /*-- Main font colors --*/
-    --title-color:     #0b3474; /* #000000; */
-    --header-color:    #0b3474; /* rgba(0, 0, 0, 0.8); */
-    --body-color:      #0b3474; /* rgba(0, 0, 0, 0.8); */
-    --aside-color:     #a21048; /* rgba(0, 0, 0, 0.6); */
-    --fig-cap-color:   rgba(0, 0, 0, 0.6); /* 50px */
-    /*-- Specify custom fonts ~~~ must be imported above   --*/
-    --heading-font:    Lato;  /* sans-serif; */
-    --mono-font:       monospace;
-    --body-font:       Fira;  /* sans-serif; */
-    --navbar-font:     Lato;  /* sans-serif; */
-  }
-
-  /*-- ARTICLE METADATA --*/
-  d-byline {
-    --heading-size:    0.6rem;
-    --heading-color:   rgba(0, 0, 0, 0.5);
-    --body-size:       0.8rem;
-    --body-color:      rgba(0, 0, 0, 0.8);
-  }
-
-  /*-- ARTICLE TABLE OF CONTENTS --*/
-  .d-contents {
-    --heading-size:    18px;
-    --contents-size:   13px;
-    --heading-color:   #db526f; /* Rosy Cheeks (Lula)  */
-  }
-
-  /*-- ARTICLE APPENDIX --*/
-  d-appendix {
-    --heading-size:    15px;
-    --heading-color:   rgba(0, 0, 0, 0.65);
-    --text-size:       0.8em;
-    --text-color:      rgba(0, 0, 0, 0.5);
-  }
-
-  /*-- WEBSITE HEADER + FOOTER --*/
-  /* These properties only apply to Distill sites and blogs  */
-
-  .distill-site-header {
-    --title-size:       22px; /* 18px;*/
-    --text-color:       rgba(255, 255, 255, 0.8);
-    --text-size:        22px; /* 15px;*/
-    --font-weight:		bold;
-    --hover-color:      rgb(168,138,35); /*  rgb(219,188,82); gold */ /* white; */
-    --bkgd-color:       #071f46; /* #0F2E3D; */
-  }
-
-  .distill-site-footer {
-    --text-color:       rgba(255, 255, 255, 0.8);
-    --text-size:        15px;
-    --hover-color:      rgb(168,138,35); /*  rgb(219,188,82); gold */ /* white; */
-    --bkgd-color:       #071f46; /* #0F2E3D; */
-  }
-
-  /* ========================================================================= */
-  /*-- Additional custom styles --*/
-  /* Add any additional CSS rules below                      */
-
-
-
-  /* ================== LINKS ==================== */
-  /* OKKIO --> qs mi cambia anche i link su vav bar .... */
-  /* unvisited link */
-  /*👉a:link {
-    ➡ color: #3552a8;  blue ⬅
-    color: #33a5bf; ➡ Valley of Glaciers⬅
-    border-bottom: 0px;
-    text-decoration: none;
-  }👈*/
-
-  /* mouse over link, focus selector, act#2383a8ive link*/
-  /*👉a:hover, a:focus, a:active {
-    color: #a88a23; ➡ supergold ⬅
-    font-weight: 500;
-    border-color: #a88a23; ➡ supergold ⬅
-  }👈*/
-  /* visited link */
-  /* a:visited { */
-  /*   color: #97304A; /* Scarlet Apple */
-  /* } */
-
-
-  d-article a:link {
-    /* color: #3552a8;  blue */
-    color:  #33a5bf; /* Valley of Glaciers*/
-    border-bottom: 0px;
-    text-decoration: none;
-  }
-
-  /* mouse over link, focus selector, active link*/
-  d-article a:hover, a:focus, a:active {
-    color: #a88a23; /* supergold */
-    font-weight: 500;
-    border-color: #a88a23; /* supergold */
-  }
-
-  /* ---- PRESERVE original link su vav bar .... */
-  .navbar-light .navbar-nav .nav-link {
-    color: white;
-   /* background-color: #003399; /* dark blue */
-    text-decoration: none;
-   }
-
-
-  /*  --- Custom inline code  --- */
-  /* https://distillery.rbind.io/posts/2021-05-25-custom-syntax-highlighting-for-distill-part-1-modifying-the-default-theme/ */
-  .custom-inline {
-    color: #db526f;
-    font-weight: 700
-  }
-
-  /* Buttons on home page */
-  .btn-outline-dark {
-    background-color: var(--color-primary);
-    color: var(--color-white);
-    border: 0px;
-  }
-
-  .btn-outline-dark:hover {
-    background-color: var(--color-secondary);
-  }
-
-  /*  --- COME AGGIUNGERE TIP BOXES --- */
-  /* SOURCE: https://desiree.rbind.io/post/2019/making-tip-boxes-with-bookdown-and-rmarkdown/ */
-  /* -----------div tips------------- */
-
-    div.fyi  {
-      background-image: url("images/icons/fyi.png");
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 1em;
-      margin: 1em 0;
-      padding-left: 100px;
-      background-size: 70px;
-      background-repeat: no-repeat;
-      background-position: 15px center;
-      min-height: 120px;
-      color: #0b3474; /*#1f5386;*/
-      background-color: #b6c2d5;/* 70% #bed3ec;*/
-      border: solid 5px #e7ebf1;/* 90% #dfedff;*/
-    }
-   div.note {
-      background-image: url("images/icons/Lightbulb.png");
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      /*👉text-align: center; THIS IS HORIZONTAL ALIGN 👈*/
-      padding: 1em;
-      margin: 1em 0;
-      padding-left: 100px;
-      background-size: 70px;
-      background-repeat: no-repeat;
-      background-position: 15px center;
-      min-height: 120px;
-      color: #ad841f;
-      background-color: #e6dabc;
-      border: solid 5px #f7f3e9;
-    }
-
-   div.puzzle{
-    background-image: url("images/icons/Your-turn.png");
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1em;
-    margin: 1em 0;
-    padding-left: 100px;
-    background-size: 70px;
-    background-repeat: no-repeat;
-    background-position: 15px center;
-    min-height: 120px;
-    color: #db526f;
-    background-color: #f4cbd4;
-    border: solid 5px #fbeef1;
-  }
-
-  /*  --- COME ALLINEARE LE IMMAGINI --- */
-  /* SOURCE: https://stackoverflow.com/questions/255170/markdown-and-image-alignment */
-  img[alt$=">"] {
-    float: right;
-  }
-
-  img[alt$="<"] {
-    float: left;
-  }
-
-  img[alt$="><"] {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin: auto;
-    float: none!important;
-  }
-  </style>
-  <style type="text/css">
-  /* base style */
-
-  /* FONT FAMILIES */
-
-  :root {
-    --heading-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
-    --mono-default: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-    --body-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
-  }
-
-  body,
-  .posts-list .post-preview p,
-  .posts-list .description p {
-    font-family: var(--body-font), var(--body-default);
-  }
-
-  h1, h2, h3, h4, h5, h6,
-  .posts-list .post-preview h2,
-  .posts-list .description h2 {
-    font-family: var(--heading-font), var(--heading-default);
-  }
-
-  d-article div.sourceCode code,
-  d-article pre code {
-    font-family: var(--mono-font), var(--mono-default);
-  }
-
-
-  /*-- TITLE --*/
-  d-title h1,
-  .posts-list > h1 {
-    color: var(--title-color, black);
-  }
-
-  d-title h1 {
-    font-size: var(--title-size, 50px);
-  }
-
-  /*-- HEADERS --*/
-  d-article h1,
-  d-article h2,
-  d-article h3,
-  d-article h4,
-  d-article h5,
-  d-article h6 {
-    color: var(--header-color, rgba(0, 0, 0, 0.8));
-  }
-
-  /*-- BODY --*/
-  d-article > p,  /* only text inside of <p> tags */
-  d-article > ul, /* lists */
-  d-article > ol {
-    color: var(--body-color, rgba(0, 0, 0, 0.8));
-    font-size: var(--body-size, 1.06rem);
-  }
-
-
-  /*-- CODE --*/
-  d-article div.sourceCode code,
-  d-article pre code {
-    font-size: var(--code-size, 14px);
-  }
-
-  /*-- ASIDE --*/
-  d-article aside {
-    font-size: var(--aside-size, 12px);
-    color: var(--aside-color, rgba(0, 0, 0, 0.6));
-  }
-
-  /*-- FIGURE CAPTIONS --*/
-  figure .caption,
-  figure figcaption,
-  .figure .caption {
-    font-size: var(--fig-cap-size, 13px);
-    color: var(--fig-cap-color, rgba(0, 0, 0, 0.6));
-  }
-
-  /*-- METADATA --*/
-  d-byline h3 {
-    font-size: var(--heading-size, 0.6rem);
-    color: var(--heading-color, rgba(0, 0, 0, 0.5));
-  }
-
-  d-byline {
-    font-size: var(--body-size, 0.8rem);
-    color: var(--body-color, rgba(0, 0, 0, 0.8));
-  }
-
-  d-byline a,
-  d-article d-byline a {
-    color: var(--body-color, rgba(0, 0, 0, 0.8));
-  }
-
-  /*-- TABLE OF CONTENTS --*/
-  .d-contents nav h3 {
-    font-size: var(--heading-size, 18px);
-  }
-
-  .d-contents nav a {
-    font-size: var(--contents-size, 13px);
-  }
-
-  /*-- APPENDIX --*/
-  d-appendix h3 {
-    font-size: var(--heading-size, 15px);
-    color: var(--heading-color, rgba(0, 0, 0, 0.65));
-  }
-
-  d-appendix {
-    font-size: var(--text-size, 0.8em);
-    color: var(--text-color, rgba(0, 0, 0, 0.5));
-  }
-
-  d-appendix d-footnote-list a.footnote-backlink {
-    color: var(--text-color, rgba(0, 0, 0, 0.5));
-  }
-
-  /*-- WEBSITE HEADER + FOOTER --*/
-  .distill-site-header .title {
-    font-size: var(--title-size, 18px);
-    font-family: var(--navbar-font), var(--heading-default);
-  }
-
-  .distill-site-header a,
-  .nav-dropdown .nav-dropbtn {
-    font-family: var(--navbar-font), var(--heading-default);
-  }
-
-  .nav-dropdown .nav-dropbtn {
-    color: var(--text-color, rgba(255, 255, 255, 0.8));
-    font-size: var(--text-size, 15px);
-  }
-
-  .distill-site-header a:hover,
-  .nav-dropdown:hover .nav-dropbtn {
-    color: var(--hover-color, white);
-  }
-
-  .distill-site-header {
-    font-size: var(--text-size, 15px);
-    color: var(--text-color, rgba(255, 255, 255, 0.8));
-    background-color: var(--bkgd-color, #0F2E3D);
-  }
-
-  .distill-site-footer {
-    font-size: var(--text-size, 15px);
-    color: var(--text-color, rgba(255, 255, 255, 0.8));
-    background-color: var(--bkgd-color, #0F2E3D);
-  }
-
-  .distill-site-footer a:hover {
-    color: var(--hover-color, white);
-  }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
-  <script src="site_libs/popper-2.6.0/popper.min.js"></script>
-  <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
-  <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
-  <script src="site_libs/tippy-6.2.7/tippy.umd.min.js"></script>
-  <script src="site_libs/anchor-4.2.2/anchor.min.js"></script>
-  <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
-  <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
-  <script src="site_libs/distill-2.2.21/template.v2.js"></script>
+  <script src="cv-r-pagedown_files/header-attrs-2.14/header-attrs.js"></script>
+  <script src="cv-r-pagedown_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+  <script src="cv-r-pagedown_files/popper-2.6.0/popper.min.js"></script>
+  <link href="cv-r-pagedown_files/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="cv-r-pagedown_files/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="cv-r-pagedown_files/tippy-6.2.7/tippy.umd.min.js"></script>
+  <script src="cv-r-pagedown_files/anchor-4.2.2/anchor.min.js"></script>
+  <script src="cv-r-pagedown_files/bowser-1.9.3/bowser.min.js"></script>
+  <script src="cv-r-pagedown_files/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="cv-r-pagedown_files/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
-  <script type="text/javascript" cookie-consent="tracking" async src="https://www.googletagmanager.com/gtag/js?id=G-GPHN9BYP85"></script>
-  <script type="text/javascript" cookie-consent="tracking">
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-GPHN9BYP85');
-  </script>
   <!--/radix_placeholder_site_in_header-->
 
 
 </head>
 
-<body class="layout-listing">
+<body>
 
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Illustrative projects I have completed","authors":[]}
+{"title":"How I created an automated CV updating workflow with R","description":"Notes on how I made an automated resumé with the {pagedown} and {datadrivencv} packages in R.","authors":[],"publishedDate":"2022-06-07T00:00:00.000+02:00"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
 <!--radix_placeholder_navigation_before_body-->
-<header class="header header--fixed" role="banner">
-<nav class="distill-site-nav distill-site-header">
-<div class="nav-left">
-<a href="index.html" class="title">www.luisamimmi.org</a>
-</div>
-<div class="nav-right">
-<a href="index.html" aria-label="Home">
-<i class="fas fa-home" aria-hidden="true"></i>
-</a>
-<div class="nav-dropdown">
-<button class="nav-dropbtn">
-Consulenze | Consulting
- 
-<span class="down-arrow">&#x25BE;</span>
-</button>
-<div class="nav-dropdown-content">
-<a href="Consulting_ITA.html">Italiano</a>
-<a href="Consulting_ENG.html">English</a>
-</div>
-</div>
-<a href="portfolio.html">Portfolio</a>
-<a href="https://github.com/Lulliter/luisamimmi" aria-label="Link to source">
-<i class="fab fa-github" aria-hidden="true"></i>
-</a>
-<a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
-</div>
-</nav>
-</header>
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
-<!--radix_placeholder_article_listing-->
 
-
-<script type="application/javascript">
-
-function init_posts_list() {
-
-  function load_image(img) {
-    var src = $(img).attr('data-src');
-    if (src) {
-      $(img).attr('src', src);
-      $(img).on("load", function() {
-        img.removeAttribute('data-src');
-      });
-    }
-  }
-
-  function set_posts_visible(posts, visible) {
-    if (visible) {
-
-      // show bottom border by default
-      $(posts).removeClass('post-preview-last');
-
-      // apply limits if need be
-      var max_posts = 25;
-      var apply_limits = $('.posts-container').hasClass('posts-apply-limit');
-      if (apply_limits && posts.length > max_posts) {
-        posts = $(posts).slice(0, max_posts);
-      } else {
-        $('.posts-more a').addClass('hidden');
-      }
-
-      // apply last style
-      $(posts.slice(-1)[0]).addClass('post-preview-last');
-
-      $(posts).removeClass('hidden');
-      $(posts).find('img[data-src]').each(function(i, img) {
-        load_image(img);
-      });
-    } else {
-      $(posts).addClass('hidden');
-    }
-  }
-
-  function apply_hash_filter() {
-
-    // clear active state
-    $('.categories .active').removeClass('active');
-
-    // mark all posts invisible to start
-    set_posts_visible($('.posts-list').children('a'), false);
-
-    // if we have a hash filter
-    if (window.location.hash && window.location.hash.startsWith("#category:")) {
-
-      // mark posts that match the category visible
-      var page_category = window.location.hash.replace(/^#category:/, "");
-      page_category = decodeURIComponent(page_category)
-      var posts = $('.post-metadata').map(function(idx, script) {
-        var metadata = $.parseJSON($(script).html());
-        var post = null;
-        $.each(metadata.categories, function(idx, category) {
-          category = category.replace(/ /g,"_");
-          if ((page_category || '').toLowerCase() === "articles" || category === page_category) {
-            post = $(script).parent().get();
-            return false;
-          }
-        });
-        return post;
-      });
-      set_posts_visible(posts, true);
-
-      // mark the hash active
-      $('.categories li>a[href="' + decodeURIComponent(window.location.hash) + '"]').addClass('active');
-
-      // update the list_caption
-      var list_caption = $('.posts-list-caption');
-      var caption = (page_category || '').toLowerCase() === "articles"
-        ? list_caption.attr('data-caption')
-        : ('Category: ' + page_category.replace(/_/g," "));
-      list_caption.text(caption);
-
-    } else {
-
-      // no hash filter, make all posts visible (subject to max display)
-      set_posts_visible($('.posts-list').children(), true);
-
-      // reset list caption
-      var list_caption = $('.posts-list-caption');
-      list_caption.text(list_caption.attr('data-caption'));
-
-
-    }
-  }
-
-  // more articles
-  function apply_post_limits(apply) {
-    if (apply) {
-      $('.posts-container').addClass('posts-apply-limit');
-      $('.posts-more a').removeClass('hidden');
-    } else {
-      $('.posts-container').removeClass('posts-apply-limit');
-      $('.posts-more a').addClass('hidden');
-    }
-  }
-
-  // click handling for tags
-  $('.dt-tag').click(function(ev) {
-    window.location.hash = '#category:' + $(this).text().replace(/ /g, "_");
-    return false;
-  })
-
-  // hash filter handling
-  apply_hash_filter();
-  $(window).on('hashchange',function() {
-    apply_post_limits(true);
-    apply_hash_filter();
-  });
-
-  // more articles link
-  $('.posts-more a').click(function(e) {
-    e.preventDefault();
-    apply_post_limits(false);
-    apply_hash_filter();
-    return false;
-  });
-
-}
-
-</script>
-
-
-
-<div class="posts-container posts-with-sidebar posts-apply-limit l-screen-inset">
-<div class="posts-list">
-<h1 class="posts-list-caption" data-caption="Illustrative projects I have completed">Illustrative projects I have completed</h1>
-<a href="portfolio/2022-06-03-cv-r-pagedown/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["R","DRY"]}</script>
-<div class="metadata">
-<div class="publishedDate">June 7, 2022</div>
-</div>
-<div class="thumbnail">
-<img src="portfolio/2022-06-03-cv-r-pagedown/CV_white_logo_dark_background.jpg"/>
-</div>
-<div class="description">
-<h2>How I created an automated CV updating workflow with R</h2>
+<div class="d-title">
+<h1>How I created an automated CV updating workflow with R</h1>
+<!--radix_placeholder_categories-->
 <div class="dt-tags">
 <div class="dt-tag">R</div>
 <div class="dt-tag">DRY</div>
 </div>
-<p>Notes on how I made an automated resumé with the {pagedown} and {datadrivencv} packages in R.</p>
-</div>
-</a>
-</div>
-<div class="posts-sidebar">
-<div class="sidebar-section categories">
-<h3>Categories</h3>
-<ul>
-<li>
-<a href="#category:Articles">Articles</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:DRY">DRY</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:R">R</a>
-<span class="category-count">(1)</span>
-</li>
-</ul>
-</div>
-</div>
-<div class="posts-more">
-<a href="#">More articles &raquo;</a>
-</div>
-</div>
-<!--/radix_placeholder_article_listing-->
-
-<div class="d-title">
-<h1>Illustrative projects I have completed</h1>
-<!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-
+<p><p>Notes on how I made an automated resumé with the {pagedown} and
+{datadrivencv} packages in R.</p></p>
 </div>
 
 
 <div class="d-article">
+<div class="layout-chunk" data-layout="l-body">
+
+</div>
+<div class="layout-chunk" data-layout="l-body">
+
+</div>
+<h1 id="the-clients-request">The client’s request</h1>
+<p>A friend asked my help to translate a résumé from Italian to
+English.<a href="#fn1" class="footnote-ref" id="fnref1"
+role="doc-noteref"><sup>1</sup></a></p>
+<p>Figure <a href="#fig:fig1">1</a> shows the Italian version which was given to me
+as an input —formatted via one of those online sites that render your
+content based on a few given graphic options. Great…except every time he
+needs to update/revise such résumé, he will have to re-type the text on
+the app from scratch 🙁.<br />
+</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:fig1"></span>
+<img src="Before_CV_anon.png" alt="The &quot;Before&quot; version (_sensitive data have been covered in black_)" width="100%" />
+<p class="caption">
+Figure 1: The “Before” version (<em>sensitive data have been covered in
+black</em>)
+</p>
+</div>
+</div>
+<h3 id="a-time-consuming-alternative">A time-consuming alternative</h3>
+<p>Probably, we have all tried the obvious alternative: doing your own
+formatting in a word processor like <strong><em>MS Word</em>.</strong>
+Here, one retains ownership on the process, but at the cost of spending
+more time dealing with graphic details. In fact, this will also require
+re-formatting every time the content changes (pagination, font sizes,
+interline spaces, margins, etc.). Plus, we are not all born designers,
+so we might end up with a not-so-professional looking output 🥴.</p>
+<h1 id="my-proposal">My proposal</h1>
+<p>Having gone myself through this utterly tedious process more times
+than I wish to admit, I wanted to explore a CV-making process that would
+allow me to <strong>set up the template once and then make all
+subsequent changes in an automated way</strong> (i.e. without worrying
+about adjusting the format anymore).</p>
+<p>The
+<svg aria-hidden="true" role="img" viewBox="0 0 581 512" style="height:1em;width:1.13em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#5F85A7;overflow:visible;position:relative;"><path d="M581 226.6C581 119.1 450.9 32 290.5 32S0 119.1 0 226.6C0 322.4 103.3 402 239.4 418.1V480h99.1v-61.5c24.3-2.7 47.6-7.4 69.4-13.9L448 480h112l-67.4-113.7c54.5-35.4 88.4-84.9 88.4-139.7zm-466.8 14.5c0-73.5 98.9-133 220.8-133s211.9 40.7 211.9 133c0 50.1-26.5 85-70.3 106.4-2.4-1.6-4.7-2.9-6.4-3.7-10.2-5.2-27.8-10.5-27.8-10.5s86.6-6.4 86.6-92.7-90.6-87.9-90.6-87.9h-199V361c-74.1-21.5-125.2-67.1-125.2-119.9zm225.1 38.3v-55.6c57.8 0 87.8-6.8 87.8 27.3 0 36.5-38.2 28.3-87.8 28.3zm-.9 72.5H365c10.8 0 18.9 11.7 24 19.2-16.1 1.9-33 2.8-50.6 2.9v-22.1z"/></svg>
+ecosystem offers several ways to achieve this, but in this case I
+decided to try one that builds on two R packages <a
+href="https://pagedown.rbind.io/"><code>pagedown</code></a> and <a
+href="http://nickstrayer.me/datadrivencv/"><code>datadrivencv</code></a>—the
+latter created by <a href="https://nickstrayer.me/">Nick Strayer</a>, a
+talented Visual Data Scientist. The above R packages also came with
+pre-installed graphical options that I tweaked lightly, again relying on
+the resources made available by another open source contributor:
+scientist/developer <a href="https://www.wjakethompson.com/">Jake
+Thompson</a>.<a href="#fn2" class="footnote-ref" id="fnref2"
+role="doc-noteref"><sup>2</sup></a></p>
+<p>This is what the workflow looks like (Figure <a href="#fig:fig2">2</a> )</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:fig2"></span>
+<img src="my_workflow.jpeg" alt="Workflow (Free icons downloaded from [Flaticon](https://www.flaticon.com/free-icons))" width="100%" />
+<p class="caption">
+Figure 2: Workflow (Free icons downloaded from <a
+href="https://www.flaticon.com/free-icons">Flaticon</a>)
+</p>
+</div>
+</div>
+<h1 id="the-final-product">The final product</h1>
+<p>The resulting revised résumé is shown in Figure <a href="#fig:fig3">3</a>. In my
+opinion, this format is clean and professional, without looking too
+boring. I particularly like the graphical way to illustrate skills,
+which is very intuitive and gives a comparative sense of what each
+person focuses on.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:fig3"></span>
+<img src="After_CV_anon.png" alt="The &quot;After&quot; version (_sensitive data have been covered in black_)" width="100%" />
+<p class="caption">
+Figure 3: The “After” version (<em>sensitive data have been covered in
+black</em>)
+</p>
+</div>
+</div>
+<p>Please note, I had been asked for a generic résumé (i.e. not aimed at
+responding to a specific job posting), so I did not put to much emphasis
+on the content, although I used my knowledge of the US job market (in
+which I was both job candidate and recruiter at different times) to
+“localize” it a bit. However, now that the project is set up (in a
+shareable directory containing all the files and code), it will be
+extremely easy and quick to make subsequent content changes. Indeed, one
+of the best features of this packages is that <strong>the R program that
+constructs and renders the final CV/résumé can be fed from
+plain</strong> <strong><em>MS Excel</em></strong>
+<strong>sheets</strong>—a tool that most people are comfortable
+with.</p>
+<div class="note" style="background-image: url(lightbulb.png)">
+<p>To update the CV/résumé, it will suffice to modify the <strong>input
+MS Excel file</strong>.</p>
+</div>
+<h3 id="some-closing-remarks">Some closing remarks</h3>
+<p>If you are thinking “Why bother?” or “Isn’t this too much work to
+update a CV?”, I think it is because you are among the lucky ones who
+haven’t had to apply to many jobs in their career. If, instead, you are
+in an earlier stage of your career or (like consultants) have a more
+dynamic job situation, I believe this is the winning strategy.</p>
+<p>More concretely, I invested half a day in setting this up (it was my
+1st time using these R packages and I wanted to customize a bit the
+template). But from now on, unless I get bored of the graphical template
+and want to tweak it, any future update will be a matter of minutes. All
+I will have to do is simply change a few cells in the input <em>MS
+Excel</em> file, <code>execute</code> and <em>voilà</em>.</p>
 <div class="sourceCode" id="cb1"><pre
 class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<section class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><p>A <strong>résumé</strong> is a
+synthetic type of CV, commonly used in the US for business job
+interviews, which ideally fits in 1 page.<a href="#fnref1"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p>Having limited experience with
+<strong>HTML and CSS</strong> (the tools of web designers), I tend to
+rely on experts’ templates and then gradually (&amp; minimally) tweak
+individual features according to my taste.<a href="#fnref2"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
@@ -2550,22 +1647,7 @@ class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"><
 <div class="appendix-bottom"></div>
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
-<div class="distill-site-nav distill-site-footer">
-<!--Luisa M. Mimmi © 2022  -->
-<!--<br><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"> -->
-<!-- </a><br />Unless otherwise specified, the content of this website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
- -->
-<!-- <p class="copyright">
-        <a href="http://creativecommons.org/licenses/by-sa/4.0/"
-            title="Creative Commons Attribution-ShareAlike 4.0 International license"><i class="fab fa-creative-commons"></i>
-        <i class="fab fa-creative-commons-by" title="Attribution"></i>
-        <i class="fab fa-creative-commons-share" title="Share alike"></i></a>
-        <span class="cc-year">&bull; 2022 &bull;</span>
-    </p> -->
-<!-- Luisa M. Mimmi © 2022 Original text and figures are licensed under [Creative Commons Attribution-NonCommercial CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). -->
-</div>
 <!--/radix_placeholder_navigation_after_body-->
-
 
 </body>
 

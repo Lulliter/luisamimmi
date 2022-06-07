@@ -10,6 +10,11 @@ knitr::opts_chunk$set(echo = FALSE)
 
 <!-- <i class="fa fa-refresh" style="color: #a21048"></i> Work in progress -->
 
+<p style="font-size:10pt">
+
+*[English version](https://luisamimmi.org/Consulting_ENG.html)* 
+
+</p>
 
 ### Raccolta e analisi di dati \| Statistica \| Econometria
 

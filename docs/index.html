@@ -565,22 +565,48 @@
 
 
           /* ================== LINKS ==================== */
-          /*👉➡ unvisited link ⬅
-          a:link {
-            color: #3552a8; ➡ blue ⬅
-          }
-          ➡ visited link ⬅
-          a:visited {
-            color: #97304A; ➡ Scarlet Apple ⬅
-          }
-          ➡ mouse over link ⬅
-          a:hover {
-            color: #A88B35; ➡ gold ⬅
-          }
-          ➡ selected link ⬅
-          a:active {
-            color: #3552a8; ➡ blue + scuro ⬅
+          /* OKKIO --> qs mi cambia anche i link su vav bar .... */
+          /* unvisited link */
+          /*👉a:link {
+            ➡ color: #3552a8;  blue ⬅
+            color: #33a5bf; ➡ Valley of Glaciers⬅
+            border-bottom: 0px;
+            text-decoration: none;
           }👈*/
+
+          /* mouse over link, focus selector, act#2383a8ive link*/
+          /*👉a:hover, a:focus, a:active {
+            color: #a88a23; ➡ supergold ⬅
+            font-weight: 500;
+            border-color: #a88a23; ➡ supergold ⬅
+          }👈*/
+          /* visited link */
+          /* a:visited { */
+          /*   color: #97304A; /* Scarlet Apple */
+          /* } */
+
+
+          d-article a:link {
+            /* color: #3552a8;  blue */
+            color:  #33a5bf; /* Valley of Glaciers*/
+            border-bottom: 0px;
+            text-decoration: none;
+          }
+
+          /* mouse over link, focus selector, active link*/
+          d-article a:hover, a:focus, a:active {
+            color: #a88a23; /* supergold */
+            font-weight: 500;
+            border-color: #a88a23; /* supergold */
+          }
+
+          /* ---- PRESERVE original link su vav bar .... */
+          .navbar-light .navbar-nav .nav-link {
+            color: white;
+           /* background-color: #003399; /* dark blue */
+            text-decoration: none;
+           }
+
 
           /*  --- Custom inline code  --- */
           /* https://distillery.rbind.io/posts/2021-05-25-custom-syntax-highlighting-for-distill-part-1-modifying-the-default-theme/ */
@@ -625,7 +651,7 @@
               display: flex;
               justify-content: center;
               align-items: center;
-              /*👉text-align: center; THIS IS HORIZONTAL ALIGN 👈*/ 
+              /*👉text-align: center; THIS IS HORIZONTAL ALIGN 👈*/
               padding: 1em;
               margin: 1em 0;
               padding-left: 100px;
