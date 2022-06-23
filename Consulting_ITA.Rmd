@@ -9,7 +9,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 Negli anni, ho avuto occasione di lavorare sull'intero ciclo di vita di un progetto di ricerca, con particolare riferimento agli ambiti delle scienze sociali e dello sviluppo economico.  
 
-### Raccolta e analisi di dati \| Statistica \| Econometria
+## Raccolta e analisi di dati \| Statistica \| Econometria
 
 ✔️ **Database relazionali**: ho disegnato e interagito con diversi database relationali imparando a gestire operazioni extract-transform-load (ETL)  \
 ✔️ **Webscraping** e recupero di dati da diverse fonti (APIs, applicazioni web, piattaforme di dati aperti, ecc.)\
@@ -18,28 +18,39 @@ Negli anni, ho avuto occasione di lavorare sull'intero ciclo di vita di un proge
 ✔️ Progettazione e svolgimento di **sondaggi (surveys)**\
 ✔️ **Statistica** descrittiva e inferenziale\
 ✔️ **Regressione** e analisi multivariata per identificare, in modo credibile, nessi causali tra i fenomeni\
-✔️ **Analisi computazionale dei testi** e NLP (Natural Language Processing) 🆕\
 ✔️ **Presentazione dei risultati** empirici in qualsiasi forma (articoli accademici o divulgativi, _report_, presentazioni, _dashboard_, siti web di progetto)\
-✔️ Creazione di **siti web** statici (blog personale, sito aziendale o di progetto) ---utilizzando `R{distill}`-▶️`GitHub Pages`-▶️`AWS` (per la registrazione di un dominio personalizzato)\ <br><br>
+✔️ Configurazione del **lavoro analitico in forma trasparente, automatizzata  e riproducibile** (usando `R/RStudio` e `git/GitHub`)\
 
+>Nel tempo, ho appreso gli incredibili vantaggi di archiviare e documentare correttamente ogni singola parte del processo analitico (dati grezzi, codice, dati derivati e analisi) in modo tale da facilitarne l'utilizzo futuro (proprio o di potenziali collaboratori): ovvero il ***controllo della versione*** (vedi [interessante articolo di Jenny Bryan](https://www.researchgate.net/publication/344990307_Excuse_me_do_you_have_a_moment_to_talk_about_version_control/fulltext/5f9fb3b5299bf1b53e59cad5/Excuse-me-do-you-have-a-moment- to-talk-about-version-control.pdf?_sg%5B0%5D=a1lfXtxrZ7BRfcB5gDFXpYUHYDRpZ7fe7vqfIr1p18_cRUlIRVLQWaF_hGh4a8GKKoBGESpz4VuK63FxqQH1hw.c7hLP-njJDk2obi2Ij69MDNL7mKxKNMUMUacM-qYO8DOul_1ojUD4DYlmH3KmmjAtx1TizFf34LzDl3kJ17sCg&_sg%5B1%5D=GhJcqrYp-gtN3fgnCxfxGj2fE2d4UlYvHPsJphhY27zyarq5LKCIsQNAAkTLG1IX0Nttlb-UERMBzCRq16CpOo8BgwLRE2a0qnhdU2G-D2DW.c7hLP-njJDk2obi2Ij69MDNL7mKxKNMUMUacM-qYO8DOul_1ojUD4DYlmH3KmmjAtx1TizFf34LzDl3kJ17sCg&_iepl=)).
 
-Nel tempo, ho appreso gli incredibili vantaggi di archiviare e documentare correttamente ogni singola parte del processo analitico (dati grezzi, codice, dati derivati ​​e analisi) in modo tale da facilitarne l'utilizzo futuro (proprio o di potenziali collaboratori): ovvero il ***controllo della versione*** (vedi [interessante articolo di Jenny Bryan](https://www.researchgate.net/publication/344990307_Excuse_me_do_you_have_a_moment_to_talk_about_version_control/fulltext/5f9fb3b5299bf1b53e59cad5/Excuse-me-do-you-have-a-moment- to-talk-about-version-control.pdf?_sg%5B0%5D=a1lfXtxrZ7BRfcB5gDFXpYUHYDRpZ7fe7vqfIr1p18_cRUlIRVLQWaF_hGh4a8GKKoBGESpz4VuK63FxqQH1hw.c7hLP-njJDk2obi2Ij69MDNL7mKxKNMUMUacM-qYO8DOul_1ojUD4DYlmH3KmmjAtx1TizFf34LzDl3kJ17sCg&_sg%5B1%5D=GhJcqrYp-gtN3fgnCxfxGj2fE2d4UlYvHPsJphhY27zyarq5LKCIsQNAAkTLG1IX0Nttlb-UERMBzCRq16CpOo8BgwLRE2a0qnhdU2G-D2DW.c7hLP-njJDk2obi2Ij69MDNL7mKxKNMUMUacM-qYO8DOul_1ojUD4DYlmH3KmmjAtx1TizFf34LzDl3kJ17sCg&_iepl=)). Sostengo e cerco di perseguire, almeno ove possibile, l'obiettivo di contribuire alla ricerca aperta, per questo mi piacerebbe molto contribuire alla:
-
-✔️ Configurazione del **lavoro analitico in forma trasparente, automatizzata  e riproducibile** (usando `R/RStudio` e `git/GitHub`)\ <br><br>
+ <br><br>
 
  ![](images/analytics_ss.png)<br><br>
 
-### Traduzione dall'Inglese \| Revisione \| Editing  
+## Temi specifici nell'ambito Data Science
 
-Sono madrelingua italiana 🇮🇹 ma ho pubblicato ampiamente in inglese 🇺🇸 --- anche su riviste scientifiche --- poiché ho vissuto/studiato/lavorato negli Stati Uniti per 14 anni. Conosco anche spagnolo 🇪🇸 e portoghese 🇧🇷.
+✔️ **Analisi computazionale dei testi** e NLP (Natural Language Processing) 🆕\
+✔️ **Analisi geospaziale**, statistica applicata ai dati georefernziati, mappe tematiche per aiutare a comprendere problematiche  _location-driven_\
+<!--	 
+		+ Geocoding packages: {ggmap, osmdata,tmaptools, tidygeocoder, sf, sp}
+		+ Geospatial Viz packages: {mapview, tigris, ggmap, osmplotr, tmap, cartography} 
+			+ Interactive (JavaScript): {leaflet, plotly}
+
+-->
+✔️ **Creazione di siti web** statici (blog personale, sito aziendale o di progetto) ---utilizzando `R{distill}` -▶️ `GitHub Pages` -▶️ `AWS` (per la registrazione di un dominio personalizzato)\
+
+
+## Traduzione dall'Inglese \| Revisione \| Editing  
+
+Sono madrelingua italiana 🇮🇹 ma ho pubblicato prevalentemente** in inglese 🇺🇸 --- anche su riviste scientifiche --- poiché ho vissuto/studiato/lavorato negli Stati Uniti per 14 anni. Conosco anche spagnolo 🇪🇸 e portoghese 🇧🇷.
 
 Posso quindi offrire aiuto anche nei seguenti ambiti (sfruttando in particolare la mia conoscenza approfondita della lingua inglese):
 
-✔️ Impostazione di un articolo o una relazione tecnica/commerciale\
-✔️ Redazione e/o correzione di bozze di relazioni tecniche, tesi e articoli accademici\
-✔️ Revisione di CV, lettere di presentazione o altri documenti per candidature di lavoro\
-✔️ Preparazione e/o revisione di domande di sussidi/grant\
-✔️ Ottimizzazione della preparazione di reportistica ricorrente tramite l'uso di linguaggi di _scripting_ (`SQL`, `R`, `Markdown`), strumenti di controllo versione e automazione (`git`, `make`)
+✔️ **Impostazione di un articolo** o una relazione tecnica/commerciale\
+✔️ **Redazione e/o correzione di bozze** di relazioni tecniche, tesi e articoli accademici\
+✔️ **Revisione di CV**, lettere di presentazione o altri documenti per candidature di lavoro\
+✔️ Preparazione e/o revisione di **domande di sussidi/grant**\
+✔️ Ottimizzazione della **preparazione di reportistica ricorrente** tramite l'uso di linguaggi di _scripting_ (`SQL`, `R`, `Markdown`), strumenti di controllo versione e automazione (`git`, `make`)
 
 
 
