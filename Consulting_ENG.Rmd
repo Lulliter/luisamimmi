@@ -62,7 +62,7 @@ Over the years, I have worked on the entire analytics project cycle for several 
 			+ Interactive (JavaScript): {leaflet, plotly}
 
 -->
-✔️ Creating **static websites** (personal blog, project site, etc.)---using `R{distill}` -▶️ `GitHub Pages`-▶️ `AWS` (for vanity domain registration)\ 
+✔️ Creating **Static Websites** (personal blog, project site, etc.)---using `R{distill}` -▶️ `GitHub Pages`-▶️ `AWS` (for vanity domain registration)\ 
 <!-- ✔️ **Time Series Analysis** and **Forecasting** and **Anomaly Detection**: -->
 <!-- 	+ Time Series Data Wrangling: timetk -->
 <!-- 	+ Time Series Visualization: timetk -->
