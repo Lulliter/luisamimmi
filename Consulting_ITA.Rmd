@@ -29,8 +29,8 @@ Negli anni, ho avuto occasione di lavorare sull'intero ciclo di vita di un proge
 
 ## Temi specifici nell'ambito Data Science
 
-✔️ **Analisi computazionale dei testi** e NLP (Natural Language Processing) 🆕\
-✔️ **Analisi geospaziale**, statistica applicata ai dati georefernziati, mappe tematiche per aiutare a comprendere problematiche  _location-driven_\
+✔️ **Analisi computazionale dei testi** e NLP (Natural Language Processing) per organizzare e analizzare dati di testo non strutturati (ad es. social media o documenti legali) e identificare nessi e messaggi significativi\
+✔️ **Analisi geospaziale**, statistica applicata ai dati georeferenziati, mappe tematiche per aiutare a comprendere problematiche  _location-driven_\
 <!--	 
 		+ Geocoding packages: {ggmap, osmdata,tmaptools, tidygeocoder, sf, sp}
 		+ Geospatial Viz packages: {mapview, tigris, ggmap, osmplotr, tmap, cartography} 

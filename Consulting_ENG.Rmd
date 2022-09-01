@@ -8,11 +8,11 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Over the years, I have worked on the entire analytics project cycle for several research projects within the economic development and social science fields. Below are the areas in which I have direct, hands-on expertise. 
+Over the years, I have worked on the entire analytic cycle for several research projects applied to the **public policy and economic development** domain fields. Below are the analytical tasks in which I have direct, hands-on expertise. 
 
 ## Data collection & analysis \| Statistics \| Econometrics
 
-✔️ **Relational databases**: I have designed and interacted with databases to perform extract-transform-load (ETL) tasks\
+✔️ Design of **relational databases** to store complex data efficiently in compliance with normalization rules and keeping the logical flow of an evaluation in mind. Interaction with different types of databases (for M&E, CRM, etc.) to perform extract-transform-load (ETL) tasks\
 <!--	 
 		+ Databases using R https://db.rstudio.com/
 		+ Learn packages such as: {dplyr, DBI, odbc, keyring, pool}
@@ -32,14 +32,14 @@ Over the years, I have worked on the entire analytics project cycle for several 
 		+ Flexdashboard
 		+ [Shiny Apps]
 -->
-✔️ Design and analysis of **surveys** (including sampling strategy)\
+✔️ Design and implementation of **surveys** (including sampling strategies and questionnaire instrument design)\
 <!--	    
 		+ Detect customer segments (using K-means)
 		+ Predict prices for new products (using Machine Learning)
 -->
-✔️ Descriptive & inferential **statistics**\
-✔️ **Regression** and multivariate analysis to identify (credible) causal links between phenomena\
-✔️ **Communicating analysis' results** in different forms (reports, journal articles, blog posts, slides, dashboards project websites)\
+✔️ Descriptive & inferential **statistics** for extrapolation of results to macro/population level, to estimate the net effect of intervention on a company, the economy and society\
+✔️ **Regression** and multivariate analysis to identify (credible) causal links between interventions and outcomes\
+✔️ **Communication of analysis' results/policy recommendation** in different forms suitable to target audience(s)---journal articles, reports, blog posts, slides, dashboards project websites\
 <!--	 
 		+ Learn packages such as: {RMArkdown, Shiny, Plumber APIs}
 -->
@@ -54,7 +54,7 @@ Over the years, I have worked on the entire analytics project cycle for several 
 
 ## Special Topics in Data Science
 
-✔️ **Text analysis** and NLP (Natural Language Processing) 🆕\
+✔️ **Text mining**/NLP (Natural Language Processing) to organize and analyze unstructured text data (e.g. social media or legal documents), and identify meaningful patterns and insights\
 ✔️ **Geospatial Analysis**, spatial statistics and geospatial visualization to better understand   location-driven issues\
 <!--	 
 		+ Geocoding packages: {ggmap, osmdata,tmaptools, tidygeocoder, sf, sp}
