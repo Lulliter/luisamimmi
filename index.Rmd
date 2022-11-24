@@ -25,16 +25,16 @@ output:
 knitr::include_graphics(here::here("images", "Lula_unipv_crop.jpeg"))
 ```
 
-```{=html}
+ 
 <!-- DA https://github.com/apalbright/thelittledataset/blob/master/content/_index.Rmarkdown
 NO perche si allarga !?!?! -->
-```
+ 
 <!-- <img src="./images/Lula_unipv_crop.jpeg" style="float: right; margin-right: 1px; margin-top: 1px" alt="" width="46%" height="46%" /> -->
 
-```{=html}
+ 
 <!-- DA https://stackoverflow.com/questions/255170/markdown-and-image-alignment
 NO perche non funziona !?!?! -->
-```
+ 
 <!-- ![image alt <](./images/Lula_unipv_crop.jpeg) -->
 
 <p style="font-size:10pt">

@@ -1,6 +1,6 @@
 name: "www.luisamimmi.org"
 title: "www.luisamimmi.org"
-theme: theme.css
+theme: mytheme.css
 description: |
   luisamimmi.org
 output_dir: "docs"

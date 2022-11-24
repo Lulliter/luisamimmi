@@ -10,4 +10,4 @@ This is my professional website meant to showcase the kind of consulting service
 
 ### TO DO
 
-+ Understand why footer moves up and down depending on page (probably should re-do theme.css from scratch)
++ Understand why footer moves up and down depending on page (probably should re-do mytheme.css from scratch)

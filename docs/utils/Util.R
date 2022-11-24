@@ -1,4 +1,5 @@
 # MAKE --------------------------------------------------------------------
+#-----------------------------------------------------------------
 
 library(rmake)
 rmakeSkeleton('.')
@@ -13,15 +14,15 @@ job <- list(
 	markdownRule('details.pdf', 'details.Rmd', 'dataset.rds')
 )
 makefile(job, "Makefile")
-This will create three build rules
+#This will create three build rules
 
 
-
+#-----------------------------------------------------------------
 # DISTILL -----------------------------------------------------------------
 # ----- https://rstudio.github.io/distill/blog.html#creating-a-collection
 
 
-distill::create_post("How I created an automated CV updating workflow with R{pagedown}", collection = "portfolio")
+distill::create_post("ERDF data viz", collection = "portfolio")
 
 distill::create_post(title = "How I created an automated CV updating workflow with R{pagedown}",
 							collection = "posts",

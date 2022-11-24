@@ -1,14 +1,24 @@
 ---
 title: "Illustrative projects I have completed"
-listing: portfolio
+#listing: portfolio
 ---
 
 
+ 
+<!-- distilltools::icon_link(icon = NULL,
+										text = NULL,
+										url = NULL,
+										style = "default",
+										class = "icon-link",
+										target = "_blank")  -->
+										
+										
++  **Exploratory Analysis of EU funds (ERDF, 2014-2020 cycle) spending (November 2022)**  
+`r distilltools::icon_link("github", text = "repo", "https://github.com/Lulliter/plan2implem") `
+`r distilltools::icon_link("link", text = "html", "https://lulliter.shinyapps.io/03_Analysis/") `
 
 
-
-
-
+--- 
 
 
 
