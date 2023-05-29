@@ -26,6 +26,12 @@ git status
 # ..... Add site `/docs` items changes to git Index.
 			# cd docs
 			# git add . #cd .. # (back to ./blog)
+		git add	images/LMMimmi_RES_ENG_sanitized.pdf
+       git add images/LMMimmi_RES_ITA_sanitized.pdf
+			git add	    docs/images/LMMimmi_RES_ENG_sanitized.pdf
+       	git add docs/images/LMMimmi_RES_ITA_sanitized.pdf
+
+
 # ....Create Std commit "message"....
 NOW=$(date +"%d-%b-%Y %R")
 # echo "$NOW"
@@ -34,7 +40,7 @@ msg="rebuilt on $NOW"
 # ... Commit Those changes.
 git commit -m "$msg"
 		# git commit -m "css footer attempt"
-		# git commit -m "revised CVs"
+		# git commit -m "revised CVs - static files in images/ ... PDF"
 		# git commit -m "small fix"
 		# git commit -m "add post r-lists"
 
