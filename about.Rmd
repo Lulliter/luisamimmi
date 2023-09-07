@@ -1,0 +1,87 @@
+---
+title: "Luisa Maria Mimmi"
+description: |
+  Independent policy analyst and consulting data scientist
+image: "images/Lula_unipv_crop2.jpeg"
+links:
+#  - label: '<i class="fas fa-envelope"></i> Email'  # with
+  - label: '<i class="fas fa-envelope"></i> Email'
+    url: "mailto:lmm76@georgetown.edu"
+  - label: '<i class="fab fa-linkedin-in"></i> LinkedIn'
+    url: "https://www.linkedin.com/in/luisa-m-mimmi"  
+  - label: '<i class="fab fa-twitter"></i> Twitter'
+    url: "https://twitter.com/Lulliter"
+  - label: '<i class="fab fa-github"></i> GitHub'
+    url: "https://github.com/Lulliter"
+  - label: '<i class="ai ai-google-scholar"></i> Google Scholar' # added a line in jnitta.css for Academicons
+    url: "https://scholar.google.com/citations?user=OBYla5gAAAAJ&hl=en&oi=ao"  
+site: distill::distill_website    
+output: 
+  postcards::trestles
+---
+
+```{r pic, eval=FALSE, echo=FALSE, fig.retina = 2, out.width= "50%" }
+# The {knitr} arguments out.width and out.height don’t change the dimensions of the png created. Instead, they control the size of the HTML container on the web-page.
+knitr::include_graphics(here::here("images", "Lula_unipv_crop.jpeg"))
+```
+
+ 
+<!-- DA https://github.com/apalbright/thelittledataset/blob/master/content/_index.Rmarkdown
+NO perche si allarga !?!?! -->
+ 
+<!-- <img src="./images/Lula_unipv_crop.jpeg" style="float: right; margin-right: 1px; margin-top: 1px" alt="" width="46%" height="46%" /> -->
+
+ 
+<!-- DA https://stackoverflow.com/questions/255170/markdown-and-image-alignment
+NO perche non funziona !?!?! -->
+ 
+<!-- ![image alt <](./images/Lula_unipv_crop.jpeg) -->
+
+<!-- <p style="font-size:10pt"> -->
+
+<!-- [*[Jump to English]*](#en) -->
+
+<!-- </p> -->
+
+## Analista di Politiche Pubbliche e Data Scientist {#it}
+
+<!-- ***Contattami per verificare come posso collaborare al tuo progetto*** -->
+
+La mia esperienza (e passione) è all'incrocio tra Economia, Politiche Pubbliche e *Data Science*. In 20 anni di esperienza, ho acquisito una vasta esperienza nella raccolta-analisi-presentazione di dati acquisita lavorando in ambiti molto diversi ---dalla consulenza privata, alle banche multilaterali di sviluppo, alle ONG. Utilizzo prevalentemente `r fontawesome::fa("r-project", fill = "#5F85A7")`, ma ho familiarità con altri linguaggi di programmazione/analisi di dati (`SQL`, `SAS`, `Stata`).
+
+<!-- Potrei assistere in progetti come [*questi*](http://luisamimmi.org/Consulting_ITA.html) -->
+
+<!-- ### Chi sono -->
+
+<!-- Di formazione, sono un economista con un solido *background* in statistica ed econometria. In oltre 15 anni di esperienza, ho acquisito una significativa esperienza pratica nella progettazione e implementazione di strumenti diagnostici, analisi avanzate e visualizzazioni di dati applicati alle politiche pubbliche e allo sviluppo economico. -->
+
+<!-- Sono una persona curiosa (e anche un po' *nerd*) che continua a imparare e a sperimentare strumenti e tecniche di *data science* che consentono di analizzare empiricamente aspetti complessi di politica pubblica. Mi affido prevalentemente a software *open source* e cerco, per quanto possibile, di rendere il mio lavoro analitico automatizzato, aperto, collaborativo e riproducibile. -->
+
+<!-- Qui ci sono maggiori dettagli sul mio percorso professionale: <a href="images/LMMimmi_RES_ITA_sanitized.pdf"> <img src="images/it.png"/> CV (ITA) </a> -->
+
+------------------------------------------------------------------------
+
+<!-- <p style="font-size:10pt"> -->
+
+<!-- [*[Torna all'italiano]*](#it) -->
+
+<!-- </p> -->
+
+## Independent Policy Analyst and consulting Data Scientist {#en}
+
+<!-- ***Get in touch if you have a project in mind. I'd love to discuss how I can help you.*** -->
+
+My expertise (and passion) is at the intersection of Economics, Public Policy and Data Science. Through almost 20 years of experience, I acquired an extensive hands-on experience in data collection-analysis-presentation acquired working in very different settings ---from private consulting to multilateral development banks, to NGOs. These days, my favorite software for statistics is `r fontawesome::fa("r-project", fill = "#5F85A7")`, but I'm familiar with other relevant programming languages (`SQL`,`SAS`, `Stata`).
+
+<!-- I could help you with projects like [*these*](http://luisamimmi.org/Consulting_ENG.html) -->
+
+<!-- ### My story -->
+
+<!-- I am an economist by training with a solid background in statistics and econometrics. Through over 15 years of experience, I acquired a hands-on expertise in designing and implementing diagnostic tools, advanced analytics and data visualizations applied to public policy and economic development. -->
+
+<!-- As a life-long learner (and massive nerd!), I especially enjoy discovering new data science tools and techniques that can help tackling complex policy issues in a data-driven manner. I rely on open source software and I strive ---to the extent possible--- to make my own analytical work automated, open, collaborative and reproducible. -->
+
+<!-- Here are more details about my professional journey: <a href="images/LMMimmi_RES_ENG_sanitized.pdf"> <img src="images/gb.png"/> CV (ENG) </a>  -->
+
+
+<!-- <a href="https://raw.githubusercontent.com/Lulliter/cv/master/03_CV_vitae/twentysecondsRES.pdf"> --> <!--   <img src="images/icons8-great-britain-40.png" alt=""> Résumé-1pg (ENG)  --> <!-- </a> -->
