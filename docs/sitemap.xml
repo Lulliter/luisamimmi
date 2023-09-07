@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
   <url>
+    <loc>https://www.luisamimmi.org/about.html</loc>
+    <lastmod>2023-09-07T13:07:47+02:00</lastmod>
+  </url>
+  <url>
     <loc>https://www.luisamimmi.org/Consulting_ENG.html</loc>
     <lastmod>2022-07-06T10:44:29+02:00</lastmod>
   </url>
@@ -10,10 +14,18 @@
   </url>
   <url>
     <loc>https://www.luisamimmi.org/</loc>
-    <lastmod>2023-05-29T14:35:33+02:00</lastmod>
+    <lastmod>2023-09-07T13:12:23+02:00</lastmod>
   </url>
   <url>
     <loc>https://www.luisamimmi.org/portfolio.html</loc>
     <lastmod>2022-11-24T16:56:49+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.luisamimmi.org/posts/2023-01-10-pnrr/</loc>
+    <lastmod>2023-09-07T12:28:29+02:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.luisamimmi.org/posts/2022-05-13-ener-recap/</loc>
+    <lastmod>2023-09-07T12:29:53+02:00</lastmod>
   </url>
 </urlset>

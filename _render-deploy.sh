@@ -31,6 +31,15 @@ git status
 			git add	    docs/images/LMMimmi_RES_ENG_sanitized.pdf
        	git add docs/images/LMMimmi_RES_ITA_sanitized.pdf
 
+git add  _posts/
+git add  about.Rmd
+git add  docs/about.html
+git add  docs/footer_theme.css
+git add  docs/index.xml
+git add  docs/mytheme.css
+git add  docs/posts/
+
+
 
 # ....Create Std commit "message"....
 NOW=$(date +"%d-%b-%Y %R")
@@ -40,7 +49,7 @@ msg="rebuilt on $NOW"
 # ... Commit Those changes.
 git commit -m "$msg"
 		# git commit -m "css footer attempt"
-		# git commit -m "revised CVs - static files in images/ ... PDF"
+		# git commit -m "revised to turn into rassegna stampa 🦊"
 		# git commit -m "small fix"
 		# git commit -m "add post r-lists"
 

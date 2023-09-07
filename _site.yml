@@ -10,26 +10,29 @@ navbar:
   source_url: https://github.com/Lulliter/luisamimmi  # link to the source code for your website
   search: false
   right:
-    - text: "Home"
+    - text: ""
       href: index.html
       icon: fas fa-home
-    # - text: "About"
-    #   href: about.html
-    - text: "Consulenze | Consulting"
-      icon:  fas fa-handshake-o
-      menu:
-        - text: "Italiano"
-          href: Consulting_ITA.html
-          # icon: fa-chevron-circle-right
-        - text: "English"
-          href: Consulting_ENG.html
-          # icon:  fa-chevron-circle-right
-    - text: "Portfolio"
-      href: portfolio.html
+    - text: "About"
+      href: about.html
+      #icon: fas fa-handshake
+    # - text: "Consulenze | Consulting"
+    #   icon:  fas fa-handshake-o
+    #   menu:
+    #     - text: "Italiano"
+    #       href: Consulting_ITA.html
+    #       # icon: fa-chevron-circle-right
+    #     - text: "English"
+    #       href: Consulting_ENG.html
+    #       # icon:  fa-chevron-circle-right
+    # - text: "Rassegna"
+    #   href: rassegna.html
+    # - text: "Portfolio"
+    #   href: portfolio.html
 # === METADATA values that help 2 index, cite, and share.
 base_url: https://www.luisamimmi.org
 collections:
-  portfolio:
+  posts:
     categories: true
     categories_metadata: true
     authors_metadata: false
