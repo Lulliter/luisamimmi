@@ -49,7 +49,7 @@ msg="rebuilt on $NOW"
 # ... Commit Those changes.
 git commit -m "$msg"
 		# git commit -m "css footer attempt"
-		# git commit -m "revised to turn into rassegna stampa 🦊"
+		# git commit -m "current hybrid site  on CV "
 		# git commit -m "small fix"
 		# git commit -m "add post r-lists"
 
