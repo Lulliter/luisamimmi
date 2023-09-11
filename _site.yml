@@ -11,7 +11,7 @@ navbar:
   search: false
   right:
     - text: ""
-      href: index.html
+      href: posts.html
       icon: fas fa-home
     - text: "About"
       href: about.html
@@ -27,8 +27,8 @@ navbar:
     #       # icon:  fa-chevron-circle-right
     # - text: "Rassegna"
     #   href: rassegna.html
-    # - text: "Portfolio"
-    #   href: portfolio.html
+    - text: "Portfolio"
+      href: portfolio.html
 # === METADATA values that help 2 index, cite, and share.
 base_url: https://www.luisamimmi.org
 collections:

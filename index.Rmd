@@ -1,5 +1,5 @@
 ---
-title: "A glitch in the matrix"
+title: "Blog"
 site: distill::distill_website
 listing: posts
 ---

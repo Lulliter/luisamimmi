@@ -1,7 +1,7 @@
 ---
 title: "PNRR"
 description: |
-  Review and progress staatus of Italy's PNRR plan
+  Review and progress status of Italy's PNRR plan
 # author:
 #   - name: Luisa M. Mimmi
 #     url: {}
