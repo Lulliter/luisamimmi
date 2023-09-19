@@ -10,21 +10,21 @@ navbar:
   source_url: https://github.com/Lulliter/luisamimmi  # link to the source code for your website
   search: false
   right:
-    - text: ""
-      href: posts.html
-      icon: fas fa-home
+    # - text: ""
+    #   href: index.html
+    #   icon: fas fa-handshake # fas fa-home
     - text: "About"
-      href: about.html
-      #icon: fas fa-handshake
-    # - text: "Consulenze | Consulting"
-    #   icon:  fas fa-handshake-o
-    #   menu:
-    #     - text: "Italiano"
-    #       href: Consulting_ITA.html
-    #       # icon: fa-chevron-circle-right
-    #     - text: "English"
-    #       href: Consulting_ENG.html
-    #       # icon:  fa-chevron-circle-right
+      href: index.html
+      # icon: fas fa-home
+    - text: "Consulenze | Consulting"
+      icon:  fas fa-handshake-o
+      menu:
+        - text: "Italiano"
+          href: Consulting_ITA.html
+          # icon: fa-chevron-circle-right
+        - text: "English"
+          href: Consulting_ENG.html
+          # icon:  fa-chevron-circle-right
     # - text: "Rassegna"
     #   href: rassegna.html
     - text: "Portfolio"

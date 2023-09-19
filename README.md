@@ -1,5 +1,8 @@
 luisamimmi.org
 
+> Websites made with [Distill for R Markdown](https://rstudio.github.io/distill/)
+
+
 ### What this is 
 This is my professional website meant to showcase the kind of consulting services I provide 
 
@@ -11,3 +14,7 @@ This is my professional website meant to showcase the kind of consulting service
 ### TO DO
 
 + Understand why footer moves up and down depending on page (probably should re-do mytheme.css from scratch)
++ [Deciding if this is still worth keeping up...]
+	- Distill issues
+	- overlapping with other websites
+	- **CHECK cv_ENG_ITA before deleting **

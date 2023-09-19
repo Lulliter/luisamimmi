@@ -47,9 +47,9 @@ Over the years, I have worked on the entire analytic cycle for several research 
 
 > Over time, I have learned the benefits of properly storing and documenting each and every piece of the analytical process (raw data, code, derived data and analysis) so that you (and potential collaborators) can easily go back to it when needed: a.k.a. ***version control*** (see an inspiring [article by Jenny Bryan](https://www.researchgate.net/publication/344990307_Excuse_me_do_you_have_a_moment_to_talk_about_version_control/fulltext/5f9fb3b5299bf1b53e59cad5/Excuse-me-do-you-have-a-moment-to-talk-about-version-control.pdf?_sg%5B0%5D=a1lfXtxrZ7BRfcB5gDFXpYUHYDRpZ7fe7vqfIr1p18_cRUlIRVLQWaF_hGh4a8GKKoBGESpz4VuK63FxqQH1hw.c7hLP-njJDk2obi2Ij69MDNL7mKxKNMUMUacM-qYO8DOul_1ojUD4DYlmH3KmmjAtx1TizFf34LzDl3kJ17sCg&_sg%5B1%5D=GhJcqrYp-gtN3fgnCxfxGj2fE2d4UlYvHPsJphhY27zyarq5LKCIsQNAAkTLG1IX0Nttlb-UERMBzCRq16CpOo8BgwLRE2a0qnhdU2G-D2DW.c7hLP-njJDk2obi2Ij69MDNL7mKxKNMUMUacM-qYO8DOul_1ojUD4DYlmH3KmmjAtx1TizFf34LzDl3kJ17sCg&_iepl=)).
 
-<br><br>
+<!-- <br><br> -->
 
- ![](images/analytics_ss.png)  <br><br>
+<!--  ![](images/analytics_ss.png)  <br><br> -->
 
 
 ## Special Topics in Data Science
