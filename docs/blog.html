@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Luisa Maria Mimmi - Luisa M. Mimmi</title>
+<title>Luisa Maria Mimmi - Posts</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,10 +25,13 @@ ul.task-list li input[type="checkbox"] {
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <link href="./images/icons8-git-96.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -36,8 +39,6 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -53,6 +54,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-talks .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-talks'] = new List('listing-talks', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-GPHN9BYP85"></script>
 
 <script type="text/javascript">
@@ -63,10 +93,39 @@ gtag('js', new Date());
 gtag('config', 'G-GPHN9BYP85', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-</head>
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
-<body class="nav-fixed fullcontent">
+<link rel="alternate" type="application/rss+xml" title="Luisa Maria Mimmi" href="blog.xml" data-external="1"></head>
+
+<body class="floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -83,12 +142,12 @@ gtag('config', 'G-GPHN9BYP85', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> <i class="bi bi-house-fill" role="img">
+    <a class="nav-link" href="./index.html"> <i class="bi bi-house-fill" role="img">
 </i> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> <i class="bi bi-archive-fill" role="img">
+    <a class="nav-link active" href="./blog.html" aria-current="page"> <i class="bi bi-archive-fill" role="img">
 </i> 
 <span class="menu-text">Blog</span></a>
   </li>  
@@ -105,54 +164,103 @@ gtag('config', 'G-GPHN9BYP85', { 'anonymize_ip': true});
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
+  
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ITA 🇮🇹">ITA 🇮🇹 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="spunti">spunti <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full column-body" id="quarto-document-content">
 
-
-
-
-<div class="quarto-about-jolla content">
- <header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Luisa M. Mimmi</h1>
+<h1 class="title">Posts</h1>
 </div>
-<div class="quarto-title-meta">
+
+
+
+<div class="quarto-title-meta column-body">
+
+    
+  
+    
   </div>
-</header><div id="hero-heading">
-<p>Hi there!</p>
-<p>I am Luisa, a Policy &amp; Data Analyst, <i class="fa-solid fa-mug-hot" aria-label="mug-hot"></i> coffee addict, and <i class="fa-brands fa-r-project" aria-label="r-project"></i> enthusiast.</p>
-<p>Since I am a self-taught programmer, I made this website to collect a bunch of <em>nerdy</em> instructions I keep forgetting.</p>
-<p>While this stuff is collected for personal use, I am glad if it can help anyone else ☺️</p>
-<p>You can learn about me and my work via the links below.</p>
-</div> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://github.com/Lulliter" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-  <a href="https://scholar.google.com/citations?user=OBYla5gAAAAJ&amp;hl=en&amp;oi=ao" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="ai  ai-googlescholar"></i> Google Scholar</span>
-  </a>
-  <a href="https://www.researchgate.net/profile/Luisa-Mimmi" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="fa-brands fa-researchgate" aria-label="researchgate"></i> Research Gate</span>
-  </a>
-  <a href="https://www.linkedin.com/in/luisa-m-mimmi/" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-</div>
+  
+
+
+</header>
+
+
+<div class="column-page">
+
 </div>
 
 
 
 
-
-</main> <!-- /main -->
+<div class="quarto-listing quarto-listing-container-default" id="listing-talks">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-talks-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-talks'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
+     </select>
+  </div>
+</div>
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="spunti,ITA 🇮🇹" data-listing-date-sort="1694988000000" data-listing-file-modified-sort="1714161488611" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="753">
+<div class="thumbnail">
+<p><a href="./posts/2023-09-18-natalita-e-fisco/index.html" class="no-external"></a></p><a href="./posts/2023-09-18-natalita-e-fisco/index.html" class="no-external">
+<p><img src="./posts/2023-09-18-natalita-e-fisco/stack.jpeg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2023-09-18-natalita-e-fisco/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2023-09-18-natalita-e-fisco/index.html" class="no-external">Natalità, famiglia e fisco</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2023-09-18-natalita-e-fisco/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('spunti'); return false;">
+spunti
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ITA 🇮🇹'); return false;">
+ITA 🇮🇹
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/2023-09-18-natalita-e-fisco/index.html" class="no-external">Spunti da un incontro al Meeting di Rimini 2023 </a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/2023-09-18-natalita-e-fisco/index.html" class="no-external">
+<div class="listing-date">
+Sep 18, 2023
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -173,6 +281,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
