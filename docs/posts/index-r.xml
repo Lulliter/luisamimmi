@@ -6,10 +6,10 @@
       version="2.0">
 <channel>
 <title>Luisa Maria Mimmi</title>
-<link>{{&lt; var website.site-url &gt;}}/blog.html#category=R</link>
-<atom:link href="{{&lt; var website.site-url &gt;}}/blog-r.xml" rel="self" type="application/rss+xml"/>
+<link>{{&lt; var website.site-url &gt;}}/posts/#category=R</link>
+<atom:link href="{{&lt; var website.site-url &gt;}}/posts/index-r.xml" rel="self" type="application/rss+xml"/>
 <description>Personal website and consulting page</description>
 <generator>quarto-1.4.550</generator>
-<lastBuildDate>Fri, 26 Apr 2024 20:11:45 GMT</lastBuildDate>
+<lastBuildDate>Fri, 26 Apr 2024 22:06:43 GMT</lastBuildDate>
 </channel>
 </rss>

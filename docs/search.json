@@ -1,31 +1,45 @@
 [
   {
-    "objectID": "zzz_old_distill/portfolio.html",
-    "href": "zzz_old_distill/portfolio.html",
-    "title": "Illustrative projects I have completed",
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
     "section": "",
-    "text": "Exploratory Analysis of EU funds (ERDF, 2014-2020 cycle) spending (November 2022)\nr distilltools::icon_link(\"github\", text = \"repo\", \"https://github.com/Lulliter/plan2implem\") r distilltools::icon_link(\"link\", text = \"html\", \"https://lulliter.shinyapps.io/03_Analysis/\")"
+    "text": "This page contains a brief overview of projects that I significantly shaped throughout the entire project life cycle. In academic terms, this mostly corresponds to first-author publications (single and shared). If you’re interested in a full list of projects I have been involved in, please check out my CV."
   },
   {
-    "objectID": "posts/2023-09-18-natalita-e-fisco/index.html",
-    "href": "posts/2023-09-18-natalita-e-fisco/index.html",
-    "title": "Natalità, famiglia e fisco",
-    "section": "",
-    "text": "Ridisegnare il fisco intorno alla famiglia\nL’edizione 2023 del Meeting di Rimini, intitolata “L’esistenza umana è un’amicizia inesauribile”, ha dato molto risalto ai temi della natalità e della famiglia, discussi in vari incontri e sotto varie angolature. Ho trovato particolarmente stimolante un webinar, proposto a margine del Meeting, dal titolo “Finalmente una pro-community tax?”. La tavola rotonda è partita da una considerazione/provocazione lanciata da Domenico Menorello (del network associativo “Ditelo sui tetti”): il vigente diritto tributario italiano è di fatto iper-individualista, ovvero non riconosce la famiglia come formazione sociale fondamentale per la vita (anche economica) della persona. Secondo Menorello, pare invece promettente che la Delega Fiscale (la neo-approvata legge che ha affidato al Governo la revisione del sistema tributario entro 2 anni) abbia menzionato tra i suoi principi ispiratori “la riduzione del carico fiscale, soprattutto al fine di sostenere le famiglie, in particolare quelle in cui sia presente una persona con disabilità”.\nVari altri relatori (tra cui il Presidente dell’Associazione Famiglie Numerose) hanno discusso alcune modalità concrete con cui il fisco potrebbe (e dovrebbe) effettivamente essere re-impostato alla luce di una necessaria politica familiare — come l’assegno unico o deduzioni del costo del lavoro per compensare aziende che impiegano lavoratrici con figli piccoli. A questo proposito è stato illuminante il contributo di Francesco Farri, professore di diritto tributario, che ha rilevato che “la famiglia si fa carico di sostenere in modo stabile una serie di bisogni fondamentali” (e.g. la cura di bambini, anziani e persone fragili, il supporto a giovani disoccupati, ecc.). Questo, sosteneva il docente, rappresenta un contributo sostanziale, benché “in natura”, al bene comune, nonché un risparmio per le finanze pubbliche. Per questo non si può non considerare numerosità e composizione della famiglia nel momento in cui si chiede alla stessa di contribuire alle spese dello stato tramite le imposte. Occorrerebbe però, anche nella UE che regola la contabilità pubblica, smettere di considerare le agevolazioni fiscali destinate a famiglie o ad enti del terzo settore come “spese fiscali” quando esse rappresentano, piuttosto, “entrate” sotto forma di servizi garantiti in modo sussidiario.i in modo sussidiario.\nUn altro aspetto incoraggiante di questo evento1, è stata la partecipazione pacata e costruttiva di interlocutori politici di diversi schieramenti a questa conversazione con tecnici e rappresentanti di formazioni sociali. Infatti anche il viceministro dell’economia Maurizio Leo (con delega al fisco) e i deputati Marco Osnato e Mauro Del Barba (Presidente e Segretario della Commissione Finanze) hanno offerto riflessioni e chiarimenti sulla riforma fiscale in allestimanto. Ritengo encomiabile e auspicabile lo sforzo per alimentare costantemente questo tipo di dialogo pragmatico e aperto perché il nostro paese definisca finalmente delle adeguate misure fiscali, previdenziali e giuslavoristiche incentrate sulla valorizzazione della famiglia, nonché della natalità e della maternità. Infatti, la stessa esistenza del paese e il benessere collettivo non possono prescindere da queste assolute priorità che trascendono schieramenti politici e ideologici.\n1 Il video è reperibile sul canale Youtube del Meeting\n\nNote\n\n\nFonti\nWEBINAR – FINALMENTE UNA PRO-COMMUNITY TAX? Gian Carlo Blangiardo, già Presidente ISTAT; Alfredo Caltabiano, Presidente Associazione Famiglie numerose; Mauro Del Barba, Segretario Commissione Finanze Camera deputati; Francesco Farri, Docente di Diritto tributario, Università di Genova, Centro Studi Livatino; Maurizio Leo, Viceministro con delega al fisco; Domenico Menorello, network associativo “Ditelo sui tetti”; Marco Osnato, Presidente Commissione Finanze Camera dei Deputati. Modera Maria Soave, giornalista, caposervizio TG1.\nDialoghi perché la riforma fiscale divenga volano di libertà per famiglie, comunità e relazioni di solidarietà."
+    "objectID": "projects/index.html#cmpe",
+    "href": "projects/index.html#cmpe",
+    "title": "Projects",
+    "section": "Consistency Model Posterior Estimation",
+    "text": "Consistency Model Posterior Estimation\n\nPreprint (arXiv)\nConsistency models for neural posterior estimation (CMPE) is a new free-form conditional sampler for scalable, fast, and amortized simulation-based inference with generative neural networks. CMPE combines the advantages of normalizing flows and flow matching methods into a single generative architecture: It essentially distills a continuous probability flow and enables rapid few-shot inference with an unconstrained architecture that can be tailored to the structure of the estimation problem."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Luisa M. Mimmi",
-    "section": "",
-    "text": "Hi there!\nI am Luisa, a Policy & Data Analyst,  coffee addict, and  enthusiast.\nSince I am a self-taught programmer, I made this website to collect a bunch of nerdy instructions I keep forgetting.\nWhile this stuff is collected for personal use, I am glad if it can help anyone else ☺️\nYou can learn about me and my work via the links below.\n \n  \n   \n  \n    \n     Github\n  \n  \n      Google Scholar\n  \n  \n      Research Gate\n  \n  \n    \n     LinkedIn"
+    "objectID": "projects/index.html#multinpe",
+    "href": "projects/index.html#multinpe",
+    "title": "Projects",
+    "section": "Deep Fusion for Multimodal Simulation-Based Inference",
+    "text": "Deep Fusion for Multimodal Simulation-Based Inference\n\nPreprint (arXiv)\nWe present multimodal neural posterior estimation (MultiNPE), a method to integrate heterogeneous data from different sources in simulation-based inference with neural networks. Inspired by advances in attention-based deep fusion learning, it empowers researchers to analyze data from different domains and infer the parameters of complex mathematical models with increased accuracy and better performance under partially missing data."
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Posts",
+    "objectID": "projects/index.html#data-efficient-amortized-bayesian-inference-via-self-consistency-losses",
+    "href": "projects/index.html#data-efficient-amortized-bayesian-inference-via-self-consistency-losses",
+    "title": "Projects",
+    "section": "Data-Efficient Amortized Bayesian Inference via Self-Consistency Losses",
+    "text": "Data-Efficient Amortized Bayesian Inference via Self-Consistency Losses\n\nShort Paper (NeurIPS UniReps 2023)\nWe propose a method to improve the efficiency and accuracy of amortized Bayesian inference by leveraging universal symmetries in the probabilistic joint model \\(p(\\theta,y)\\). In a nutshell, we invert Bayes’ theorem and estimate the marginal likelihood based on approximate representations of the joint model. Upon perfect approximation, the marginal likelihood is constant across all parameter values by definition. However, approximation error leads to undesirable variance in the marginal likelihood estimates across different parameter values. We formulate violations of this symmetry as a loss function to accelerate the learning dynamics of conditional neural density estimators."
+  },
+  {
+    "objectID": "projects/index.html#meta-uncertainty-BMC",
+    "href": "projects/index.html#meta-uncertainty-BMC",
+    "title": "Projects",
+    "section": "Meta-Uncertainty in Bayesian Model Comparison",
+    "text": "Meta-Uncertainty in Bayesian Model Comparison\n\nPaper (AISTATS 2023) | Code | Project website | Poster | Presentation (15min)\nMeta-Uncertainty represents a fully probabilistic framework for quantifying the uncertainty over Bayesian posterior model probabilities (PMPs) using meta-models. Meta-models integrate simulated and observed data into a predictive distribution for new PMPs and help reduce overconfidence and estimate the PMPs in future replication studies."
+  },
+  {
+    "objectID": "posts/2023-11-15-revisione-libro-il-sistema-invisibile/index.html",
+    "href": "posts/2023-11-15-revisione-libro-il-sistema-invisibile/index.html",
+    "title": "Revisione libro: Il Sistema invisibile, di Marcello Foa del 15 Novembre 2023",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\nNatalità, famiglia e fisco\n\n\n\n\n\n\nspunti\n\n\nITA 🇮🇹\n\n\n\nSpunti da un incontro al Meeting di Rimini 2023 \n\n\n\n\n\nSep 18, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Tu chiamalo se vuoi… complottismo (e invece ti apre gli occhi!)\n\n\nSpunti\n\nDa “4.4. Come disarticolare una società”\n\n\nVladimis Volkoff (Il montaggio) “Quando si tratta di mobilitare le masse in realta non si ha che uno scopo: immobilizzarle” (…) tante volte la nostra rabbia e’ stata indirizzata verso bersagli di facile presa, il politico corrotto che abusa dell’auto blu, mentre i veri sprechi e gli scandali rilevanti erano altri, come nel caso di Autostrade Italiane. Tante, troppe volte l’indignazione delle masse e’ stata indirizzata contro bersagli fittizzi o sproporzionati, che non hanno prodotto altro effetto che generare sfiducia socaile verso le autorita costituite, i partiti e le istituzioni (p. 104, 105)"
   },
   {
     "objectID": "me.html",
@@ -42,17 +56,31 @@
     "text": "Education\nUniversità degli Studi di Pavia | Pavia, Italy Master of Biostatistics and Epidemiology | 2018-2019\nUniversità degli Studi di Milano | Milano, Italy Ph.D. in Chemical Sciences | 2001 - 2003\nInstitut National de la Recherche Agronomique | Versailles-Grignon, France Visiting scholar | 2003 - 2003\nUniversità degli Studi di Pavia | Pavia, Italy BSc Degree in Chemistry | 1994 - 2000\nUniversiteit Leiden | Leiden, The Netherlands Erasmus exchange student (6 months) | 1999 - 1999"
   },
   {
-    "objectID": "zzz_old_distill/index.html#it",
-    "href": "zzz_old_distill/index.html#it",
-    "title": "Luisa Maria Mimmi",
-    "section": "Analista di Politiche Pubbliche e Data Scientist",
-    "text": "Analista di Politiche Pubbliche e Data Scientist\n\nLa mia esperienza (e passione) è all’incrocio tra Economia, Politiche Pubbliche e Data Science. In 20 anni di esperienza, ho acquisito una vasta esperienza nella raccolta-analisi-presentazione di dati acquisita lavorando in ambiti molto diversi —dalla consulenza privata, alle banche multilaterali di sviluppo, alle ONG. Utilizzo prevalentemente , ma ho familiarità con altri linguaggi di programmazione/analisi di dati (SQL, SAS, Stata)."
+    "objectID": "cv/index.html",
+    "href": "cv/index.html",
+    "title": "Curriculum vitae",
+    "section": "",
+    "text": "Download current CV"
   },
   {
-    "objectID": "zzz_old_distill/index.html#en",
-    "href": "zzz_old_distill/index.html#en",
-    "title": "Luisa Maria Mimmi",
-    "section": "Independent Policy Analyst and consulting Data Scientist",
-    "text": "Independent Policy Analyst and consulting Data Scientist\n\nMy expertise (and passion) is at the intersection of Economics, Public Policy and Data Science. Through almost 20 years of experience, I acquired an extensive hands-on experience in data collection-analysis-presentation acquired working in very different settings —from private consulting to multilateral development banks, to NGOs. These days, my favorite software for statistics is , but I’m familiar with other relevant programming languages (SQL,SAS, Stata)."
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Luisa M. Mimmi",
+    "section": "",
+    "text": "Hi there!\nI am Luisa, a Policy & Data Analyst,  coffee addict, and  enthusiast.\nSince I am a self-taught programmer, I made this website to collect a bunch of nerdy instructions I keep forgetting.\nWhile this stuff is collected for personal use, I am glad if it can help anyone else ☺️\nYou can learn about me and my work via the links below.\n \n  \n   \n  \n    \n     Github\n  \n  \n      Google Scholar\n  \n  \n      Research Gate\n  \n  \n      Orcid\n  \n  \n    \n     LinkedIn"
+  },
+  {
+    "objectID": "posts/2023-09-18-natalita-e-fisco/index.html",
+    "href": "posts/2023-09-18-natalita-e-fisco/index.html",
+    "title": "Natalità, famiglia e fisco",
+    "section": "",
+    "text": "Ridisegnare il fisco intorno alla famiglia\nL’edizione 2023 del Meeting di Rimini, intitolata “L’esistenza umana è un’amicizia inesauribile”, ha dato molto risalto ai temi della natalità e della famiglia, discussi in vari incontri e sotto varie angolature. Ho trovato particolarmente stimolante un webinar, proposto a margine del Meeting, dal titolo “Finalmente una pro-community tax?”. La tavola rotonda è partita da una considerazione/provocazione lanciata da Domenico Menorello (del network associativo “Ditelo sui tetti”): il vigente diritto tributario italiano è di fatto iper-individualista, ovvero non riconosce la famiglia come formazione sociale fondamentale per la vita (anche economica) della persona. Secondo Menorello, pare invece promettente che la Delega Fiscale (la neo-approvata legge che ha affidato al Governo la revisione del sistema tributario entro 2 anni) abbia menzionato tra i suoi principi ispiratori “la riduzione del carico fiscale, soprattutto al fine di sostenere le famiglie, in particolare quelle in cui sia presente una persona con disabilità”.\nVari altri relatori (tra cui il Presidente dell’Associazione Famiglie Numerose) hanno discusso alcune modalità concrete con cui il fisco potrebbe (e dovrebbe) effettivamente essere re-impostato alla luce di una necessaria politica familiare — come l’assegno unico o deduzioni del costo del lavoro per compensare aziende che impiegano lavoratrici con figli piccoli. A questo proposito è stato illuminante il contributo di Francesco Farri, professore di diritto tributario, che ha rilevato che “la famiglia si fa carico di sostenere in modo stabile una serie di bisogni fondamentali” (e.g. la cura di bambini, anziani e persone fragili, il supporto a giovani disoccupati, ecc.). Questo, sosteneva il docente, rappresenta un contributo sostanziale, benché “in natura”, al bene comune, nonché un risparmio per le finanze pubbliche. Per questo non si può non considerare numerosità e composizione della famiglia nel momento in cui si chiede alla stessa di contribuire alle spese dello stato tramite le imposte. Occorrerebbe però, anche nella UE che regola la contabilità pubblica, smettere di considerare le agevolazioni fiscali destinate a famiglie o ad enti del terzo settore come “spese fiscali” quando esse rappresentano, piuttosto, “entrate” sotto forma di servizi garantiti in modo sussidiario.i in modo sussidiario.\nUn altro aspetto incoraggiante di questo evento1, è stata la partecipazione pacata e costruttiva di interlocutori politici di diversi schieramenti a questa conversazione con tecnici e rappresentanti di formazioni sociali. Infatti anche il viceministro dell’economia Maurizio Leo (con delega al fisco) e i deputati Marco Osnato e Mauro Del Barba (Presidente e Segretario della Commissione Finanze) hanno offerto riflessioni e chiarimenti sulla riforma fiscale in allestimanto. Ritengo encomiabile e auspicabile lo sforzo per alimentare costantemente questo tipo di dialogo pragmatico e aperto perché il nostro paese definisca finalmente delle adeguate misure fiscali, previdenziali e giuslavoristiche incentrate sulla valorizzazione della famiglia, nonché della natalità e della maternità. Infatti, la stessa esistenza del paese e il benessere collettivo non possono prescindere da queste assolute priorità che trascendono schieramenti politici e ideologici.\n1 Il video è reperibile sul canale Youtube del Meeting\n\nNote\n\n\nFonti\nWEBINAR – FINALMENTE UNA PRO-COMMUNITY TAX? Gian Carlo Blangiardo, già Presidente ISTAT; Alfredo Caltabiano, Presidente Associazione Famiglie numerose; Mauro Del Barba, Segretario Commissione Finanze Camera deputati; Francesco Farri, Docente di Diritto tributario, Università di Genova, Centro Studi Livatino; Maurizio Leo, Viceministro con delega al fisco; Domenico Menorello, network associativo “Ditelo sui tetti”; Marco Osnato, Presidente Commissione Finanze Camera dei Deputati. Modera Maria Soave, giornalista, caposervizio TG1.\nDialoghi perché la riforma fiscale divenga volano di libertà per famiglie, comunità e relazioni di solidarietà."
+  },
+  {
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "A glitch in the matrix",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\nRevisione libro: Il Sistema invisibile, di Marcello Foa del 15 Novembre 2023\n\n\n\n\n\n\nspunti\n\n\nITA 🇮🇹\n\n\n\nlibri \n\n\n\n\n\nNov 15, 2023\n\n\nLuisa M. Mimmi\n\n\n\n\n\n\n\n\n\n\n\n\nNatalità, famiglia e fisco\n\n\n\n\n\n\nspunti\n\n\nITA 🇮🇹\n\n\n\nSpunti da un incontro al Meeting di Rimini 2023 \n\n\n\n\n\nSep 18, 2023\n\n\n\n\n\n\nNo matching items"
   }
 ]

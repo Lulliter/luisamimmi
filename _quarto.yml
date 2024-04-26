@@ -6,6 +6,7 @@ project:
   render:
     - "*.qmd"
     - "!secret/"
+    - "!zzz_old_distill/"
 
 execute:
   freeze: auto  # Re-render only when source changes
@@ -30,25 +31,25 @@ website:
     right: |
       Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)<br>
       [Source code at {{< fa brands github >}}](https://github.com/Lulliter/luisamimmi)
-    background: "#e7d8da" #"#e3eff7"
+    background: "#BDD5E1" #"#e7d8da" #"#e3eff7"
 
   navbar:
 #    logo: images/MITGEST_logo.jpeg
     pinned: true # non si muove quando scorro la pagina
-    background: "#b78a92" # "#72aed8" # "#0084e6" "#EE6A24"
+    background: "#3881a5" # "#23749b" # "#b78a92" # "#72aed8" # "#0084e6" "#EE6A24"
     right:
       - text: "Home"
         icon: house-fill # https://icons.getbootstrap.com/?q=home
         href: index.html
       - text: "Blog"
-        icon: archive-fill # https://icons.getbootstrap.com/?q=home
-        href: blog.html
+        icon: cup-hot-fill # archive-fill # https://icons.getbootstrap.com/?q=home
+        href: posts/index.qmd
       # - text: "Portfolio"
       #   icon: terminal-fill #  archive-fill # https://icons.getbootstrap.com/?q=home
       #   href: portfolio
-      - text: "About"
-        icon: person-circle #mortarboard-fill # https://icons.getbootstrap.com/?q=home
-        href: me.html
+      - text: "Projects"
+        icon: terminal-fill #mortarboard-fill # https://icons.getbootstrap.com/?q=home
+        href: projects/index.qmd
 
 format:
   html:

@@ -1,8 +1,9 @@
 ---
-title: "Posts"
+title: "A glitch in the matrix"
+subtitle: "...spunti per sollevare lo sguardo dalla simulazione" 
 listing:
-  - id: talks
-    contents: posts
+  - id: posts
+    contents: /**/*.qmd
     type: default
     # type: grid
     # fields: [image, date, title, subtitle]

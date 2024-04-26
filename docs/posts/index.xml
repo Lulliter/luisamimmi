@@ -6,16 +6,56 @@
       version="2.0">
 <channel>
 <title>Luisa Maria Mimmi</title>
-<link>{{&lt; var website.site-url &gt;}}/blog.html</link>
-<atom:link href="{{&lt; var website.site-url &gt;}}/blog.xml" rel="self" type="application/rss+xml"/>
+<link>{{&lt; var website.site-url &gt;}}/posts/</link>
+<atom:link href="{{&lt; var website.site-url &gt;}}/posts/index.xml" rel="self" type="application/rss+xml"/>
 <description>Personal website and consulting page</description>
 <generator>quarto-1.4.550</generator>
-<lastBuildDate>Sun, 17 Sep 2023 22:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 14 Nov 2023 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Revisione libro: Il Sistema invisibile, di Marcello Foa del 15 Novembre 2023</title>
+  <dc:creator>Luisa M. Mimmi</dc:creator>
+  <link>{{< var website.site-url >}}/posts/2023-11-15-revisione-libro-il-sistema-invisibile/</link>
+  <description><![CDATA[ 
+<div class="no-row-height column-margin column-container">
+  <div class="">
+    <img src="{{< var website.site-url >}}/posts/2023-11-15-revisione-libro-il-sistema-invisibile/libro.jpg" style="width:100%">
+  </div>
+</div>
+
+
+
+
+<section id="tu-chiamalo-se-vuoi-complottismo-e-invece-ti-apre-gli-occhi" class="level1">
+<h1>Tu chiamalo se vuoi… complottismo (e invece ti apre gli occhi!)</h1>
+</section>
+<section id="spunti" class="level1">
+<h1>Spunti</h1>
+<ul>
+<li>Da “4.4. Come disarticolare una società”</li>
+</ul>
+<blockquote class="blockquote">
+<p>Vladimis Volkoff (Il montaggio) “Quando si tratta di mobilitare le masse in realta non si ha che uno scopo: immobilizzarle” (…) tante volte la nostra rabbia e’ stata indirizzata verso bersagli di facile presa, il politico corrotto che abusa dell’auto blu, mentre i veri sprechi e gli scandali rilevanti erano altri, come nel caso di Autostrade Italiane. Tante, troppe volte l’indignazione delle masse e’ stata indirizzata contro bersagli fittizzi o sproporzionati, che non hanno prodotto altro effetto che generare sfiducia socaile verso le autorita costituite, i partiti e le istituzioni (p.&nbsp;104, 105)</p>
+</blockquote>
+
+
+</section>
+
+ ]]></description>
+  <category>spunti</category>
+  <category>ITA 🇮🇹</category>
+  <guid>{{< var website.site-url >}}/posts/2023-11-15-revisione-libro-il-sistema-invisibile/</guid>
+  <pubDate>Tue, 14 Nov 2023 23:00:00 GMT</pubDate>
+  <media:content url="{{&lt; var website.site-url &gt;}}/posts/2023-11-15-revisione-libro-il-sistema-invisibile/libro.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Natalità, famiglia e fisco</title>
   <link>{{< var website.site-url >}}/posts/2023-09-18-natalita-e-fisco/</link>
   <description><![CDATA[ 
-
+<div class="no-row-height column-margin column-container">
+  <div class="">
+    <img src="{{< var website.site-url >}}/posts/2023-09-18-natalita-e-fisco/meeting2023.jpg" style="width:100%">
+  </div>
+</div>
 
 
 
@@ -59,7 +99,7 @@
   <category>ITA 🇮🇹</category>
   <guid>{{< var website.site-url >}}/posts/2023-09-18-natalita-e-fisco/</guid>
   <pubDate>Sun, 17 Sep 2023 22:00:00 GMT</pubDate>
-  <media:content url="{{&lt; var website.site-url &gt;}}/posts/2023-09-18-natalita-e-fisco/stack.jpeg" medium="image" type="image/jpeg"/>
+  <media:content url="{{&lt; var website.site-url &gt;}}/posts/2023-09-18-natalita-e-fisco/meeting2023.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
