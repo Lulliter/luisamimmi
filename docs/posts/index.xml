@@ -16,11 +16,6 @@
   <dc:creator>Luisa M. Mimmi</dc:creator>
   <link>{{< var website.site-url >}}/posts/2023-11-15-revisione-libro-il-sistema-invisibile/</link>
   <description><![CDATA[ 
-<div class="no-row-height column-margin column-container">
-  <div class="">
-    <img src="{{< var website.site-url >}}/posts/2023-11-15-revisione-libro-il-sistema-invisibile/libro.jpg" style="width:100%">
-  </div>
-</div>
 
 
 
@@ -42,7 +37,7 @@
 
  ]]></description>
   <category>spunti</category>
-  <category>ITA 🇮🇹</category>
+  <category>🇮🇹</category>
   <guid>{{< var website.site-url >}}/posts/2023-11-15-revisione-libro-il-sistema-invisibile/</guid>
   <pubDate>Tue, 14 Nov 2023 23:00:00 GMT</pubDate>
   <media:content url="{{&lt; var website.site-url &gt;}}/posts/2023-11-15-revisione-libro-il-sistema-invisibile/libro.jpg" medium="image" type="image/jpeg"/>
@@ -51,11 +46,6 @@
   <title>Natalità, famiglia e fisco</title>
   <link>{{< var website.site-url >}}/posts/2023-09-18-natalita-e-fisco/</link>
   <description><![CDATA[ 
-<div class="no-row-height column-margin column-container">
-  <div class="">
-    <img src="{{< var website.site-url >}}/posts/2023-09-18-natalita-e-fisco/meeting2023.jpg" style="width:100%">
-  </div>
-</div>
 
 
 
@@ -69,7 +59,7 @@
 <p>L’edizione 2023 del Meeting di Rimini, intitolata “L’esistenza umana è un’amicizia inesauribile”, ha dato molto risalto ai temi della natalità e della famiglia, discussi in vari incontri e sotto varie angolature. Ho trovato particolarmente stimolante un <em>webinar</em>, proposto a margine del Meeting, dal titolo <em>“Finalmente una pro-community tax?”</em>. La tavola rotonda è partita da una considerazione/provocazione lanciata da <strong>Domenico Menorello</strong> (del network associativo “Ditelo sui tetti”): il vigente diritto tributario italiano è di fatto iper-individualista, ovvero non riconosce la famiglia come formazione sociale fondamentale per la vita (anche economica) della persona. Secondo Menorello, pare invece promettente che la Delega Fiscale (la neo-approvata legge che ha affidato al Governo la revisione del sistema tributario entro 2 anni) abbia menzionato tra i suoi principi ispiratori “la riduzione del carico fiscale, soprattutto al fine di sostenere le famiglie, in particolare quelle in cui sia presente una persona con disabilità”.</p>
 <p>Vari altri relatori (tra cui il Presidente dell’Associazione Famiglie Numerose) hanno discusso alcune modalità concrete con cui il fisco potrebbe (e dovrebbe) effettivamente essere re-impostato alla luce di una necessaria politica familiare — come l’assegno unico o deduzioni del costo del lavoro per compensare aziende che impiegano lavoratrici con figli piccoli. A questo proposito è stato illuminante il contributo di <strong>Francesco Farri</strong>, professore di diritto tributario, che ha rilevato che “la famiglia si fa carico di sostenere in modo stabile una serie di bisogni fondamentali” (e.g.&nbsp;la cura di bambini, anziani e persone fragili, il supporto a giovani disoccupati, ecc.). Questo, sosteneva il docente, rappresenta un contributo sostanziale, benché “in natura”, al bene comune, nonché un risparmio per le finanze pubbliche. Per questo non si può non considerare numerosità e composizione della famiglia nel momento in cui si chiede alla stessa di contribuire alle spese dello stato tramite le imposte. Occorrerebbe però, anche nella UE che regola la contabilità pubblica, smettere di considerare le agevolazioni fiscali destinate a famiglie o ad enti del terzo settore come “spese fiscali” quando esse rappresentano, piuttosto, “entrate” sotto forma di servizi garantiti in modo sussidiario.i in modo sussidiario.</p>
 <p>Un altro aspetto incoraggiante di questo evento<sup>1</sup>, è stata la partecipazione pacata e costruttiva di interlocutori politici di diversi schieramenti a questa conversazione con tecnici e rappresentanti di formazioni sociali. Infatti anche il viceministro dell’economia <strong>Maurizio Leo</strong> (con delega al fisco) e i deputati <strong>Marco Osnato</strong> e <strong>Mauro Del Barba</strong> (Presidente e Segretario della Commissione Finanze) hanno offerto riflessioni e chiarimenti sulla riforma fiscale in allestimanto. Ritengo encomiabile e auspicabile lo sforzo per alimentare costantemente questo tipo di dialogo pragmatico e aperto perché il nostro paese definisca finalmente delle adeguate misure fiscali, previdenziali e giuslavoristiche incentrate sulla valorizzazione della famiglia, nonché della natalità e della maternità. Infatti, la stessa esistenza del paese e il benessere collettivo non possono prescindere da queste assolute priorità che trascendono schieramenti politici e ideologici.</p>
-<div class="no-row-height column-margin column-container"><p><sup>1</sup>&nbsp;Il video è reperibile sul <a href="https://www.meetingrimini.org/eventi-totale/webinar-finalmente-una-pro-community-tax/">canale Youtube del Meeting</a></p></div></section>
+<div class="no-row-height column-margin column-container"><p><sup>1</sup>&nbsp;Il video è reperibile sul <a href="https://www.meetingrimini.org/eventi-totale/webinar-finalmente-una-pro-community-tax/">canale Youtube del Meeting di Rimini</a></p></div></section>
 <section id="note" class="level1">
 <h1>Note</h1>
 </section>
@@ -96,7 +86,7 @@
 
  ]]></description>
   <category>spunti</category>
-  <category>ITA 🇮🇹</category>
+  <category>🇮🇹</category>
   <guid>{{< var website.site-url >}}/posts/2023-09-18-natalita-e-fisco/</guid>
   <pubDate>Sun, 17 Sep 2023 22:00:00 GMT</pubDate>
   <media:content url="{{&lt; var website.site-url &gt;}}/posts/2023-09-18-natalita-e-fisco/meeting2023.jpg" medium="image" type="image/jpeg"/>

@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>{{< var website.site-url >}}/projects/index.html</loc>
+    <lastmod>2024-04-26T20:47:49.184Z</lastmod>
+  </url>
+  <url>
+    <loc>{{< var website.site-url >}}/posts/2023-11-15-revisione-libro-il-sistema-invisibile/index.html</loc>
+    <lastmod>2024-04-27T08:31:22.162Z</lastmod>
+  </url>
+  <url>
+    <loc>{{< var website.site-url >}}/me.html</loc>
+    <lastmod>2024-04-26T22:02:49.187Z</lastmod>
+  </url>
+  <url>
+    <loc>{{< var website.site-url >}}/cv/index.html</loc>
+    <lastmod>2024-04-15T19:21:41.000Z</lastmod>
+  </url>
+  <url>
     <loc>{{< var website.site-url >}}/index.html</loc>
     <lastmod>2024-04-26T22:04:26.597Z</lastmod>
+  </url>
+  <url>
+    <loc>{{< var website.site-url >}}/posts/2023-09-18-natalita-e-fisco/index.html</loc>
+    <lastmod>2024-04-27T08:31:24.105Z</lastmod>
+  </url>
+  <url>
+    <loc>{{< var website.site-url >}}/posts/index.html</loc>
+    <lastmod>2024-04-26T21:58:07.825Z</lastmod>
   </url>
 </urlset>

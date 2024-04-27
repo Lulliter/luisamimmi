@@ -10,6 +10,6 @@
 <atom:link href="{{&lt; var website.site-url &gt;}}/posts/index-r.xml" rel="self" type="application/rss+xml"/>
 <description>Personal website and consulting page</description>
 <generator>quarto-1.4.550</generator>
-<lastBuildDate>Fri, 26 Apr 2024 22:06:43 GMT</lastBuildDate>
+<lastBuildDate>Sat, 27 Apr 2024 08:51:29 GMT</lastBuildDate>
 </channel>
 </rss>

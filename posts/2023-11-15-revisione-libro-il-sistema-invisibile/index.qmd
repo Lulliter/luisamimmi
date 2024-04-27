@@ -5,18 +5,12 @@ description: |
   libri
 author: Luisa M. Mimmi
 date: 2023-11-15
-categories: [spunti, ITA 🇮🇹] # [Quarto, R, MEDS]
+categories: [spunti, 🇮🇹] # [Quarto, R, MEDS]
 image: libro.jpg
 draft: false
 toc: true
 lang: it
 number-sections: false
-format:
-  html:
-    fig-cap-location: bottom
-    include-before-body: ../../html/margin_image.html
-    # include-after-body: ../../html/blog_footer.html
-    comments: false
 ---
  
  

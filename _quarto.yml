@@ -15,7 +15,8 @@ website:
   title: "Luisa Maria Mimmi"
   description: "Personal website and consulting page"
   site-url: "{{< var website.site-url >}}" # "https://lulliter.github.io/nerd-help"
-  google-analytics: "G-GPHN9BYP85"
+  # Account Google Mktg "Lulliter github (UA-128632724)" collegato a luisamimmi.org
+  google-analytics: "UA-128632724"
   favicon: images/icons8-git-96.png
   search: false # no magnifier on navbar
   page-navigation: true
