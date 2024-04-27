@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Luisa Maria Mimmi - Projects</title>
+<title>Luisa Maria Mimmi - Miscellaneous Projects</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,7 +24,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<link href="../images/icons8-git-96.png" rel="icon" type="image/png">
+<link href="../images/favicon_init32.png" rel="icon" type="image/png">
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -67,35 +67,6 @@ ga('send', {
 });
 </script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -126,9 +97,8 @@ window.Quarto = {
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../projects/index.html" aria-current="page"> <i class="bi bi-terminal-fill" role="img">
-</i> 
-<span class="menu-text">Projects</span></a>
+    <a class="nav-link active" href="../projects/index.html" aria-current="page"> 
+<span class="menu-text"><i class="fa-brands fa-r-project" aria-label="r-project"></i> Projects</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -151,7 +121,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Projects</h1>
+<h1 class="title">Miscellaneous Projects</h1>
 </div>
 
 
@@ -168,37 +138,50 @@ window.Quarto = {
 </header>
 
 
-<p>This page contains a brief overview of projects that I significantly shaped throughout the entire project life cycle. In academic terms, this mostly corresponds to first-author publications (single and shared). If you’re interested in a full list of projects I have been involved in, please check out my <a href="../cv">CV</a>.</p>
-<hr>
-<section id="cmpe" class="level2">
-<h2 class="anchored" data-anchor-id="cmpe">Consistency Model Posterior Estimation</h2>
-<p><img src="../images/cmpe_banner.png" style="height: 100%; width: 100%; object-fit: contain" onclick="window.open('https://arxiv.org/abs/2312.05440', 'blank');"></p>
-<p><a href="https://arxiv.org/abs/2312.05440" target="_blank">Preprint (arXiv)</a></p>
-<p>Consistency models for neural posterior estimation (CMPE) is a new free-form conditional sampler for scalable, fast, and amortized simulation-based inference with generative neural networks. CMPE combines the advantages of normalizing flows and flow matching methods into a single generative architecture: It essentially distills a continuous probability flow and enables rapid few-shot inference with an unconstrained architecture that can be tailored to the structure of the estimation problem.</p>
-<hr>
+<div class="grid">
+<div class="g-col-12">
+<p>This page contains a collection of some miscellaneous projects (that may or may not be related to my research), mostly involving <i class="fa-brands fa-r-project" aria-label="r-project"></i> programming. You can also see more about my background and academic publications on my <a href="../cv"><strong>CV</strong></a>.<br><br></p>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section">2024</h2>
+<section id="introductory-workshop-on-rfor-biostatistics-2024" class="level3">
+<h3 class="anchored" data-anchor-id="introductory-workshop-on-rfor-biostatistics-2024">Introductory workshop on “Rfor Biostatistics (2024)</h3>
+<p><span style="color: #cc8400;">(<em>WORK IN PROGRESS…</em>)</span></p>
+<p><a href="https://R4biostats.com">Project website</a> | <a href="https://github.com/Lulliter/R4biostats">Code</a></p>
+<p>This website collects the materials for a four day workshop organized by <a href="https://www.mitgest.eu/">MITGEST Doctoral Network</a> in July 2024, hosted by the Radboud Center for Mitochondrial Medicine, Nijmegen, Netherlands. My sister is the instructor and I am collaborating with her in 2 ways: 1) I co-created the R practice sessions, and 2) I built the static website.</p>
+<p><img src="../images/banner_BIOSTATS.png" class="img-fluid"> <br><br></p>
 </section>
-<section id="multinpe" class="level2">
-<h2 class="anchored" data-anchor-id="multinpe">Deep Fusion for Multimodal Simulation-Based Inference</h2>
-<p><img src="../images/multi_npe_banner.png" style="height: 100%; width: 100%; object-fit: contain" onclick="window.open('https://arxiv.org/abs/2311.10671', 'blank');"></p>
-<p><a href="https://arxiv.org/abs/2311.10671" target="_blank">Preprint (arXiv)</a></p>
-<p>We present multimodal neural posterior estimation (MultiNPE), a method to integrate heterogeneous data from different sources in simulation-based inference with neural networks. Inspired by advances in attention-based deep fusion learning, it empowers researchers to analyze data from different domains and infer the parameters of complex mathematical models with increased accuracy and better performance under partially missing data.</p>
-<hr>
+<section id="idee-per-pavia-april-2024" class="level3">
+<h3 class="anchored" data-anchor-id="idee-per-pavia-april-2024">Idee per Pavia (April 2024)</h3>
+<p><a href="https://ideeperpavia.com/">Project website</a> | <a href="https://github.com/Lulliter/ideeperpavia">Code</a></p>
+<p>This is website created to disseminate a position paper prepared by a working group on behalf of the Catholic Church o my city (Pavia). The report offers proposals for discussion in view of the upcoming municipal elections of June 2024.</p>
+<p><img src="../images/banner_IDEE.png" class="img-fluid"> <br><br></p>
 </section>
-<section id="data-efficient-amortized-bayesian-inference-via-self-consistency-losses" class="level2">
-<h2 class="anchored" data-anchor-id="data-efficient-amortized-bayesian-inference-via-self-consistency-losses">Data-Efficient Amortized Bayesian Inference via Self-Consistency Losses</h2>
-<p><img src="../images/self_consistency_banner.png" style="height: 100%; width: 100%; object-fit: contain" onclick="window.open('https://openreview.net/forum?id=uoUOz427RD', 'blank');"></p>
-<p><a href="https://openreview.net/forum?id=uoUOz427RD" target="_blank">Short Paper (NeurIPS UniReps 2023)</a></p>
-<p>We propose a method to improve the efficiency and accuracy of amortized Bayesian inference by leveraging universal symmetries in the probabilistic joint model <span class="math inline">\(p(\theta,y)\)</span>. In a nutshell, we invert Bayes’ theorem and estimate the marginal likelihood based on approximate representations of the joint model. Upon perfect approximation, the marginal likelihood is constant across all parameter values by definition. However, approximation error leads to undesirable variance in the marginal likelihood estimates across different parameter values. We formulate violations of this symmetry as a loss function to accelerate the learning dynamics of conditional neural density estimators.</p>
+<section id="how-slogans-end-up-moving-billions-2022--" class="level3">
+<h3 class="anchored" data-anchor-id="how-slogans-end-up-moving-billions-2022--">How slogans end up moving billions (2022 - …)</h3>
+<p><span style="color: #cc8400;">(<em>WORK IN PROGRESS…</em>)</span></p>
+<p><a href="https://lulliter.github.io/slogan/">Project website</a> | <a href="https://github.com/Lulliter/slogan">Code</a></p>
+<p>This is an ongoing project I started to explore text analytics to answer a question that I find extremely interesting and compelling: <em>What is the impact of slogans (often involving words/phrases getting progressively detached from their original meaning) on policy decisions?</em> “Why” does a deviation between word and reality occur? And what are the consequences of such lessical approximation or reduction?<br><br></p>
 </section>
-<section id="meta-uncertainty-BMC" class="level2">
-<h2 class="anchored" data-anchor-id="meta-uncertainty-BMC">Meta-Uncertainty in Bayesian Model Comparison</h2>
-<p><img src="../images/meta_uncertainty_banner.png" style="height: 100%; width: 100%; object-fit: contain" onclick="window.open('https://arxiv.org/abs/2210.07278', 'blank');"></p>
-<p><a href="https://proceedings.mlr.press/v206/schmitt23a.html" target="_blank">Paper (AISTATS 2023)</a> | <a href="https://github.com/marvinschmitt/MetaUncertaintyPaper" target="_blank">Code</a> | <a href="https://meta-uncertainty.github.io/" target="_blank">Project website</a> | <a href="../assets/meta_uncertainty_poster_aistats.pdf" target="_blank">Poster</a> | <a href="https://www.youtube.com/watch?v=WIigoUaqy9c" target="_blank">Presentation (15min)</a><br></p>
-<p>Meta-Uncertainty represents a fully probabilistic framework for quantifying the uncertainty over Bayesian posterior model probabilities (PMPs) using meta-models. Meta-models integrate simulated and observed data into a predictive distribution for new PMPs and help reduce overconfidence and estimate the PMPs in future replication studies.</p>
-<hr>
+</section>
+<section id="section-1" class="level2">
+<h2 class="anchored" data-anchor-id="section-1">2023</h2>
+<!-- ### Static website for press review (December 2023) -->
+<!-- [Project website](https://lulliter.github.io/rassegna/) \| [Code](https://github.com/Lulliter/rassegna) -->
+<p><br><br></p>
+</section>
+<section id="section-2" class="level2">
+<h2 class="anchored" data-anchor-id="section-2">2022</h2>
+<section id="exploratory-analysis-of-eu-funds-erdf-2014-2020-cycle-spending-november-2022" class="level3">
+<h3 class="anchored" data-anchor-id="exploratory-analysis-of-eu-funds-erdf-2014-2020-cycle-spending-november-2022">Exploratory Analysis of EU funds (ERDF, 2014-2020 cycle) spending (November 2022)</h3>
+<p><a href="https://lulliter.shinyapps.io/03_Analysis/">Project website</a> | <a href="https://github.com/Lulliter/plan2implem">Code</a></p>
+<p>This is a quick exploration of some EU structural funds aimed at verifying how much we have been able to disburse (given amounts planned and deemed eligible) for the 2014-2020 funding cycle. Specifically data are taken from the <a href="https://dev.socrata.com/foundry/cohesiondata.ec.europa.eu/99js-gm52">ESIF 2014-2020 Finance Implementation Details</a> (99js-gm52) dataset, then I drill down to programs under the ERDF (European Regional Development Fund).</p>
+<p><img src="../images/banner_ERDF.png" class="img-fluid"> <br><br></p>
+</section>
+</section>
+</div>
+</div>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -592,7 +575,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p><i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> 2024 Luisa M. Mimmi <br> License <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> <i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> <i class="fa-brands fa-creative-commons-nc" aria-label="creative-commons-nc"></i> <i class="fa-brands fa-creative-commons-sa" aria-label="creative-commons-sa"></i> <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></p>
+<p><i class="fa-regular fa-copyright" aria-label="copyright"></i> Luisa M. Mimmi 2024</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;

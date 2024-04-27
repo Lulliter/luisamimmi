@@ -1,50 +1,58 @@
 ---
-title: Projects
+title: Miscellaneous Projects
 comments: false
 toc: false
 ---
 
-This page contains a brief overview of projects that I significantly shaped throughout the entire project life cycle.
-In academic terms, this mostly corresponds to first-author publications (single and shared).
-If you're interested in a full list of projects I have been involved in, please check out my [CV](../cv).
+::: grid
+::: g-col-12
+This page contains a collection of some miscellaneous projects (that may or may not be related to my research), mostly involving {{< fa brands r-project >}} programming.
+You can also see more about my background and academic publications on my [**CV**](../cv).<br><br>
 
-----
+## 2024
 
-## Consistency Model Posterior Estimation {#cmpe}
+### Introductory workshop on "Rfor Biostatistics (2024)
 
-<img src="/images/cmpe_banner.png" style="height: 100%; width: 100%; object-fit: contain" onclick="window.open('https://arxiv.org/abs/2312.05440', 'blank');"/>
+[(*WORK IN PROGRESS...*)]{style="color: #cc8400;"}
 
-<a href="https://arxiv.org/abs/2312.05440" target="_blank">Preprint (arXiv)</a>
+[Project website](https://R4biostats.com) \| [Code](https://github.com/Lulliter/R4biostats)
 
-Consistency models for neural posterior estimation (CMPE) is a new free-form conditional sampler for scalable, fast, and amortized simulation-based inference with generative neural networks. CMPE combines the advantages of normalizing flows and flow matching methods into a single generative architecture: It essentially distills a continuous probability flow and enables rapid few-shot inference with an unconstrained architecture that can be tailored to the structure of the estimation problem.
+This website collects the materials for a four day workshop organized by [MITGEST Doctoral Network](https://www.mitgest.eu/) in July 2024, hosted by the Radboud Center for Mitochondrial Medicine, Nijmegen, Netherlands. My sister is the instructor and I am collaborating with her in 2 ways: 1) I co-created the R practice sessions, and 2) I built the static website.
 
-----
+![](../images/banner_BIOSTATS.png) <br><br>
 
-## Deep Fusion for Multimodal Simulation-Based Inference {#multinpe}
+### Idee per Pavia (April 2024)
 
-<img src="/images/multi_npe_banner.png" style="height: 100%; width: 100%; object-fit: contain" onclick="window.open('https://arxiv.org/abs/2311.10671', 'blank');"/>
+[Project website](https://ideeperpavia.com/) \| [Code](https://github.com/Lulliter/ideeperpavia)
 
-<a href="https://arxiv.org/abs/2311.10671" target="_blank">Preprint (arXiv)</a>
+This is website created to disseminate a position paper prepared by a working group on behalf of the Catholic Church o my city (Pavia). The report offers proposals for discussion in view of the upcoming municipal elections of June 2024. 
 
-We present multimodal neural posterior estimation (MultiNPE), a method to integrate heterogeneous data from different sources in simulation-based inference with neural networks. Inspired by advances in attention-based deep fusion learning, it empowers researchers to analyze data from different domains and infer the parameters of complex mathematical models with increased accuracy and better performance under partially missing data.
+![](../images/banner_IDEE.png) <br><br>
 
-----
+### How slogans end up moving billions (2022 - ...)
 
-## Data-Efficient Amortized Bayesian Inference via Self-Consistency Losses
+[(*WORK IN PROGRESS...*)]{style="color: #cc8400;"}
 
-<img src="/images/self_consistency_banner.png" style="height: 100%; width: 100%; object-fit: contain" onclick="window.open('https://openreview.net/forum?id=uoUOz427RD', 'blank');"/>
+[Project website](https://lulliter.github.io/slogan/) \| [Code](https://github.com/Lulliter/slogan)
 
-<a href="https://openreview.net/forum?id=uoUOz427RD" target="_blank">Short Paper (NeurIPS UniReps 2023)</a>
+This is an ongoing project I started to explore text analytics to answer a question that I find extremely interesting and compelling: *What is the impact of slogans (often involving words/phrases getting progressively detached from their original meaning) on policy decisions?* "Why" does a deviation between word and reality occur? And what are the consequences of such lessical approximation or reduction?<br><br>
 
-We propose a method to improve the efficiency and accuracy of amortized Bayesian inference by leveraging universal symmetries in the probabilistic joint model $p(\theta,y)$. In a nutshell, we invert Bayes' theorem and estimate the marginal likelihood based on approximate representations of the joint model. Upon perfect approximation, the marginal likelihood is constant across all parameter values by definition. However, approximation error leads to undesirable variance in the marginal likelihood estimates across different parameter values. We formulate violations of this symmetry as a loss function to accelerate the learning dynamics of conditional neural density estimators.
+## 2023
 
-## Meta-Uncertainty in Bayesian Model Comparison{#meta-uncertainty-BMC}
+<!-- ### Static website for press review (December 2023) -->
 
-<img src="/images/meta_uncertainty_banner.png" style="height: 100%; width: 100%; object-fit: contain" onclick="window.open('https://arxiv.org/abs/2210.07278', 'blank');"/>
+<!-- [Project website](https://lulliter.github.io/rassegna/) \| [Code](https://github.com/Lulliter/rassegna) -->
 
-<a href="https://proceedings.mlr.press/v206/schmitt23a.html" target="_blank">Paper (AISTATS 2023)</a> | <a href="https://github.com/marvinschmitt/MetaUncertaintyPaper" target="_blank">Code</a> | <a href="https://meta-uncertainty.github.io/" target="_blank">Project website</a> | <a href="/assets/meta_uncertainty_poster_aistats.pdf" target="_blank">Poster</a> | <a href="https://www.youtube.com/watch?v=WIigoUaqy9c" target="_blank">Presentation (15min)</a><br>
+<br><br>
 
-Meta-Uncertainty represents a fully probabilistic framework for quantifying the uncertainty over Bayesian posterior model probabilities (PMPs) using meta-models. Meta-models integrate simulated and observed data into a predictive distribution for new PMPs and help reduce overconfidence and estimate the PMPs in future replication studies.
+## 2022
 
-----
+### Exploratory Analysis of EU funds (ERDF, 2014-2020 cycle) spending (November 2022)
 
+[Project website](https://lulliter.shinyapps.io/03_Analysis/) \| [Code](https://github.com/Lulliter/plan2implem)
+
+This is a quick exploration of some EU structural funds aimed at verifying how much we have been able to disburse (given amounts planned and deemed eligible) for the 2014-2020 funding cycle. Specifically data are taken from the [ESIF 2014-2020 Finance Implementation Details](https://dev.socrata.com/foundry/cohesiondata.ec.europa.eu/99js-gm52) (99js-gm52) dataset, then I drill down to programs under the ERDF (European Regional Development Fund).
+
+![](../images/banner_ERDF.png) <br><br>
+:::
+:::

@@ -17,18 +17,18 @@ website:
   site-url: "{{< var website.site-url >}}" # "https://lulliter.github.io/nerd-help"
   # Account Google Mktg "Lulliter github (UA-128632724)" collegato a luisamimmi.org
   google-analytics: "UA-128632724"
-  favicon: images/icons8-git-96.png
+  favicon: images/favicon_init32.png # https://favicon.io/favicon-generator/
   search: false # no magnifier on navbar
   page-navigation: true
 
   page-footer:
-    # left: |
-    #   {{< fa regular copyright >}} Luisa M. Mimmi 2024
     left: |
-      {{< fa brands creative-commons >}} 2024 Luisa M. Mimmi <br>
-      License {{< fa brands creative-commons >}}
-      {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-nc >}} {{< fa brands creative-commons-sa >}}
-      [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+      {{< fa regular copyright >}} Luisa M. Mimmi 2024
+# left: |
+#   {{< fa brands creative-commons >}} 2024 Luisa M. Mimmi <br>
+#   License {{< fa brands creative-commons >}}
+#   {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-nc >}} {{< fa brands creative-commons-sa >}}
+#   [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
     right: |
       Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)<br>
       [Source code at {{< fa brands github >}}](https://github.com/Lulliter/luisamimmi)
@@ -48,8 +48,8 @@ website:
       # - text: "Portfolio"
       #   icon: terminal-fill #  archive-fill # https://icons.getbootstrap.com/?q=home
       #   href: portfolio
-      - text: "Projects"
-        icon: terminal-fill #mortarboard-fill # https://icons.getbootstrap.com/?q=home
+      - text: "{{< fa brands r-project >}} Projects"
+#        icon: "{{< fa brands r-project >}}" # terminal-fill #mortarboard-fill # https://icons.getbootstrap.com/?q=home
         href: projects/index.qmd
 
 format:
@@ -61,14 +61,17 @@ format:
     fig-cap-location: margin
     reference-location: margin
     footnotes-hover: true
-    fontsize: 1em
+    fontsize: 1rem
     theme: theme/Lulas_theme.scss
     # css: theme/styles.css
     ##----- code highlighting style
     highlight-style: monokai # atom-one # github # dracula
     mainfont: "Lato"
     monofont: "Fira Mono"
-
-
+#  reduce / DELETE SIDEBAR SPACE
+    grid:
+      body-width: 2000px
+      sidebar-width: 100px # non mi serve perche non c'e'
+      margin-width: 300px
 
 
