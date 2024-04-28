@@ -27,26 +27,37 @@ about:
       href: https://github.com/Lulliter
 ---
 
+
+<!-- ESEMPI  -->
+
+<!-- + https://bensoltoff.com/about/  -->
+<!-- + https://albert-rapp.de/ -->
+<!-- https://tanyaviz.com/about/ -->
+
 ::: {#hero-heading}
 👋🏻 Hi there! 👋🏻
 
-[I am Luisa, a Policy & Data Analyst, {{< fa mug-hot >}} coffee addict, and {{< fa brands r-project >}} enthusiast.]{style="color:  #7f6b00; font-weight: bold;"}
+[I am Luisa, a Policy & Data Analyst, freelance consultant, and {{< fa brands r-project >}} enthusiast.]{style="color:  #7f6b00; font-weight: bold;"}
 
-My professional focus lies at the intersection of *Economics*, *Public Policy* and *Data Science*. In over 20 years of experience (both in Italy and in the US), I have worked on the entire analytic cycle (data collection-analysis-presentation) for several research projects applied to the **public policy and economic development** domain fields. 
+My professional focus lies at the intersection of *Economics*, *Public Policy* and *Data Science*. In over 20 years of experience (in Italy and in the US), I have worked on the entire analytic cycle (data collection-analysis-presentation) for several research projects applied to the field of **economic development** and the evaluation of public economic policies.   
 
-You can learn more about me and my prior work via the links below.
+You can learn more about my background and academic publications via the links below, or on my [**CV**](../cv).
 <!-- I gained extensive expertise in data collection-analysis-presentation, working in very different settings ---from private consulting to multilateral development banks, to NGOs and government. -->
 
 --- 
 
-As a **freelance consultant**, I currently support institutional clients (like the Italian Government), individual professionals and researchers in their quantitative analysis and informed decision-making by bringing an analytical foundation to projects, regardless of the sector, core business or size of the organization. I have also successfully delivered talks and workshops on statistics and reproducible quantitative research. 
+As a **freelance consultant**, I currently support institutional clients (like the Italian Government), academic researchers and individual professionals in their **statistics and data analysis endeavors**. 
+With my contribution I bring an analytical foundation to projects, and help making data-driven decision regardless of the sector, core business or size of the organization. I have also successfully delivered talks and workshops on statistics and reproducible quantitative research. 
 
 ---
 
-This website showcases some recent [**projects**](https://luisamimmi.org/projects/), mostly involving **R programming** for data analysis, and/or the creation of **static websites** for data and/or technical content dissemination (in English 🇺🇸 and Italian 🇮🇹). As a life-long learner, I enjoy studying new things and writing as a way of reflecting on interesting ideas or new skills I am learning. Hence this [**blog**](https://luisamimmi.org/blog/) page.   
+This website showcases some of my recent [**projects**](https://luisamimmi.org/projects/), mostly involving **R programming** for data analysis and/or the creation of **static websites** for data and/or technical content dissemination (in English 🇺🇸 and Italian 🇮🇹). 
 
-[Feel free to reach out if you think I can help you or your team with your statistics, data analysis, or R projects.]{style="color:  #7f6b00; font-weight: bold;"} 
+<!-- As a life-long learner, I enjoy studying new things and writing as a way of reflecting on interesting ideas or new skills I am learning. Hence this [**blog**](https://luisamimmi.org/blog/) page.    -->
+
+[Feel free to reach out if you think I can collaborate with you or your team with any statistics, data analysis, or R projects.]{style="color:  #7f6b00; font-weight: bold;"} 
 
 <!-- If you want to work with me as a collaborator, supervisor, instructor, or public speaker, drop me a message: -->
 
 :::
+

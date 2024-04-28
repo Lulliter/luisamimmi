@@ -6,36 +6,34 @@ toc: false
 
 ::: grid
 ::: g-col-12
-This page contains a collection of some miscellaneous projects (that may or may not be related to my research), mostly involving {{< fa brands r-project >}} programming.
-You can also see more about my background and academic publications on my [**CV**](../cv).<br><br>
+This page contains a collection of miscellaneous projects (that may or may not be related to my research), mostly involving {{< fa brands r-project >}} programming.
 
 ## 2024
 
-### Introductory workshop on "Rfor Biostatistics (2024)
+### Introductory workshop on *"R for Biostatistics"* (July 2024)
 
 [(*WORK IN PROGRESS...*)]{style="color: #cc8400;"}
 
 [Project website](https://R4biostats.com) \| [Code](https://github.com/Lulliter/R4biostats)
 
-This website collects the materials for a four day workshop organized by [MITGEST Doctoral Network](https://www.mitgest.eu/) in July 2024, hosted by the Radboud Center for Mitochondrial Medicine, Nijmegen, Netherlands. My sister is the instructor and I am collaborating with her in 2 ways: 1) I co-created the R practice sessions, and 2) I built the static website.
+This website collects the materials for a four day workshop organized by [MITGEST Doctoral Network](https://www.mitgest.eu/) in July 2024. The workshop is offered as part of a summer School for EU doctoral students in life sciences, hosted by the Radboud Center for Mitochondrial Medicine, in Nijmegen, Netherlands. My sister designed the workshop and its lectures, and I contributed to it by preparing the 4 R practice sessions, and by building the dedicated website.  
+<!-- ![](../images/banner_BIOSTATS.png) <br><br> -->
 
-![](../images/banner_BIOSTATS.png) <br><br>
+### Position paper on city governemnt *"Idee per Pavia"* (April 2024)
 
-### Idee per Pavia (April 2024)
-
-[Project website](https://ideeperpavia.com/) \| [Code](https://github.com/Lulliter/ideeperpavia)
+[Project website](https://ideeperpavia.com/) \| [Code](https://github.com/Lulliter/ideeperpavia) | (in Italian 🇮🇹)
 
 This is website created to disseminate a position paper prepared by a working group on behalf of the Catholic Church o my city (Pavia). The report offers proposals for discussion in view of the upcoming municipal elections of June 2024. 
 
-![](../images/banner_IDEE.png) <br><br>
+<!-- ![](../images/banner_IDEE.png) <br><br> -->
 
-### How slogans end up moving billions (2022 - ...)
+### Exploratory study on text analytics with R *"How slogans end up moving billions"* (2022 - ...)
 
 [(*WORK IN PROGRESS...*)]{style="color: #cc8400;"}
 
-[Project website](https://lulliter.github.io/slogan/) \| [Code](https://github.com/Lulliter/slogan)
+[Project website](https://lulliter.github.io/slogan/) \| [Code](https://github.com/Lulliter/slogan) 
 
-This is an ongoing project I started to explore text analytics to answer a question that I find extremely interesting and compelling: *What is the impact of slogans (often involving words/phrases getting progressively detached from their original meaning) on policy decisions?* "Why" does a deviation between word and reality occur? And what are the consequences of such lessical approximation or reduction?<br><br>
+This is an ongoing project I started to explore text analytics to answer a question that I find extremely interesting and compelling: *What is the impact of slogans on policy decisions?* My working hypothesis is that often slogans involves a progressive detachment of words/phrases from their original meaning, so *"Why" and "how" does such a deviation between words and reality occur?* <br><br>
 
 ## 2023
 
@@ -53,6 +51,12 @@ This is an ongoing project I started to explore text analytics to answer a quest
 
 This is a quick exploration of some EU structural funds aimed at verifying how much we have been able to disburse (given amounts planned and deemed eligible) for the 2014-2020 funding cycle. Specifically data are taken from the [ESIF 2014-2020 Finance Implementation Details](https://dev.socrata.com/foundry/cohesiondata.ec.europa.eu/99js-gm52) (99js-gm52) dataset, then I drill down to programs under the ERDF (European Regional Development Fund).
 
-![](../images/banner_ERDF.png) <br><br>
+<!-- ![](../images/banner_ERDF.png) <br><br> -->
+
+### [R notes]: Cluster analysis (October 2022)
+
+Here is a tutorial I wrote as I was learning how to implement cluster analysis in R. 
+
+[HTML page](https://lulliter.com/posts/2022-10-24-r-notes-cluster-analysis/) \| 
 :::
 :::

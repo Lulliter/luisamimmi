@@ -28,7 +28,7 @@ $darkred: #7f173d;
 $teal: #17717f;
 $cream: #FDFBF7;
 $lightgrey : #d3d3d3;
-$darkgray: #a9a9a9;
+$darkgray: #7a7a7a;
 
 $nav_head_bckg: #3881a5;   //    #b78a92	#72aed8
 $nav_foot_bckg: #BDD5E1;	//			  #e7d8da	#e3eff7
@@ -37,6 +37,9 @@ $theme_main_dark: #0a222e;
 $theme_main: #23749b;
 $theme_main_light: #BDD5E1;
 $theme_main_extralight:#f6f9fb;
+
+$theme_related1: #3b7697;
+$theme_related2: #3d8085;
 
 $theme_link: #9b2374;
 $theme_link_light: #e1bdd5;
@@ -100,14 +103,14 @@ $font-size-base: 0.9rem;
 
 
 h1, .h1 {
-  color: $teal;
+  color: $theme_related1;
   margin-top: 1.5rem;
   margin-bottom: 1rem;
   font-weight: 600;
 }
 
 h2, .h2 {
-  color: $theme_comp2;
+  color: $theme_related2;
   margin-top: 1.25rem;
   margin-bottom: 1rem;
   font-weight: 500;
@@ -122,6 +125,10 @@ body {
     user-select: none;
 }
 
+.column-margin{
+  color: $darkgray;
+  font-size: .825rem;
+}
 .nav-footer a {
   color: $theme_main;// #515c61;
 

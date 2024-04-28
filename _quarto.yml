@@ -7,6 +7,8 @@ project:
     - "*.qmd"
     - "!secret/"
     - "!zzz_old_distill/"
+    - "!posts/"
+    - "!writings/"
 
 execute:
   freeze: auto  # Re-render only when source changes
@@ -30,8 +32,7 @@ website:
 #   {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-nc >}} {{< fa brands creative-commons-sa >}}
 #   [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
     right: |
-      Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)<br>
-      [Source code at {{< fa brands github >}}](https://github.com/Lulliter/luisamimmi)
+      Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/) | [Source code at {{< fa brands github >}}](https://github.com/Lulliter/luisamimmi)
     background: "#BDD5E1" #"#e7d8da" #"#e3eff7"
 
   navbar:
@@ -42,12 +43,15 @@ website:
       - text: "Home"
         icon: house-fill # https://icons.getbootstrap.com/?q=home
         href: index.html
-      - text: "Blog"
-        icon: cup-hot-fill # archive-fill # https://icons.getbootstrap.com/?q=home
-        href: posts/index.qmd
+      # - text: "Blog"
+      #   icon: cup-hot-fill # archive-fill # https://icons.getbootstrap.com/?q=home
+      #   href: posts/index.qmd
       # - text: "Portfolio"
       #   icon: terminal-fill #  archive-fill # https://icons.getbootstrap.com/?q=home
       #   href: portfolio
+      # - text: "Writings"
+      #   icon: cup-hot-fill # archive-fill # https://icons.getbootstrap.com/?q=home
+      #   href: writings/index.qmd
       - text: "{{< fa brands r-project >}} Projects"
 #        icon: "{{< fa brands r-project >}}" # terminal-fill #mortarboard-fill # https://icons.getbootstrap.com/?q=home
         href: projects/index.qmd
@@ -71,7 +75,7 @@ format:
 #  reduce / DELETE SIDEBAR SPACE
     grid:
       body-width: 2000px
-      sidebar-width: 100px # non mi serve perche non c'e'
+      sidebar-width: 150px # non mi serve perche non c'e'
       margin-width: 300px
 
 
