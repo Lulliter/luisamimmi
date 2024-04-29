@@ -33,7 +33,7 @@ website:
 #   {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-nc >}} {{< fa brands creative-commons-sa >}}
 #   [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
     right: |
-      Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/) | [Source code at {{< fa brands github >}}](https://github.com/Lulliter/luisamimmi)
+      Made with {{< fa brands r-project >}} and [**Quarto**](https://quarto.org/) | [Source code at {{< fa brands github >}}](https://github.com/Lulliter/luisamimmi)
     background: "#BDD5E1" #"#e7d8da" #"#e3eff7"
 
   navbar:

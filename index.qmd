@@ -43,7 +43,7 @@ toc: false
 
 My professional focus lies at the intersection of *Economics*, *Public Policy* and *Data Science*. In over 20 years of experience (in Italy and in the US), I have worked on the entire analytic cycle (data collection-analysis-presentation) for several research projects within the fields of **economic development** and the evaluation of public economic policies.   
 
-You can learn more about my background and academic publications via the links below, the [**research**](../writings) page, or my [**CV**](../cv).
+You can learn more about my background and publications via the [**research**](../writings) page, my [**CV**](../cv), or the links below.
 <!-- I gained extensive expertise in data collection-analysis-presentation, working in very different settings ---from private consulting to multilateral development banks, to NGOs and government. -->
 
 --- 

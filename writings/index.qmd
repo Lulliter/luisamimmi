@@ -53,7 +53,7 @@ p_load(RefManageR,
 # - Load bibliography (exported from Zotero)
 bib_path <- here::here ("writings","Lula-MyPublications-Broad.bib")
 
-# - as list 
+# - as list  (NEEDED for functions later)
 mybib <- RefManageR::ReadBib(bib_path, check = FALSE )  #bibtex::do_read_bib(file = bib_path, encoding = "unknown", srcfile)
 
 # - as dataframe
@@ -254,9 +254,9 @@ mybib_df_acad %>%
 ```
 
 
-`r print_ref_buttons2("mimmi_predicting_2017")`<br> 
+<!-- `r print_ref_buttons2("mimmi_predicting_2017")`<br>  RIPETE PUBBLICAZIONE -->
 `r print_ref_buttons2("rodriguez_applying_2014")`<br>
-`r print_ref_buttons2("mimmi_assessing_2012")`<br>
+<!-- `r print_ref_buttons2("mimmi_assessing_2012")`<br> RIPETE PUBBLICAZIONE -->
 `r print_ref_buttons2("mimmi_should_2012")`<br>
 `r print_ref_buttons2("johannes_snapshot_2010")`<br>
 `r print_ref_buttons2("mimmi_youth_2009")`
@@ -283,6 +283,7 @@ mybib_df_acad %>%
 ```
 
 `r print_ref_buttons2("mimmi_natalita_2023")`<br> 
+`r print_ref_buttons2("mimmi_senza_2022")`<br> 
 `r print_ref_buttons2("mimmi_infrastructure_2021")`<br> 
 `r print_ref_buttons2("mimmi_technological_2019")`<br> 
 `r print_ref_buttons2("mimmi_predicting_2017-1")`<br> 
@@ -305,7 +306,5 @@ mybib_df_acad %>%
 <br> 
 
 <center>
-
-[See also [{{< ai google-scholar >}} Google Scholar Page](https://scholar.google.com/citations?hl=en&user=OBYla5gAAAAJ)  ]{style="color:#9b2374; font-weight:bold; background-color:#ebd3e3;"}
-
+See also [[{{< ai google-scholar >}} Google Scholar Page](https://scholar.google.com/citations?hl=en&user=OBYla5gAAAAJ)  ]{style="color:#9b2374; font-weight:bold; background-color:#ebd3e3;"} and [[{{< ai researchgate >}} ResearchGate Profile](https://www.researchgate.net/profile/Luisa-Mimmi)  ]{style="color:#9b2374; font-weight:bold; background-color:#ebd3e3;"}
 </center>

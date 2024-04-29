@@ -1,43 +1,48 @@
 ---
 title: Miscellaneous Projects
 comments: false
-toc: false
----
+toc: true
+toc-location: left
+toc-depth: 2
+--- 
 
-::: grid
-::: g-col-12
-This page contains a collection of miscellaneous projects (not necessarily related to my core research area), mostly involving {{< fa brands r-project >}} programming.
+ 
+This page contains a collection of miscellaneous projects (unrelated to my core research area), but mostly involving [{{< fa brands r-project >}}]{style="color: #3b7697;"} programming, and data analysis teaching (and learning 😉).
 
 ## 2024
 
 ### Introductory workshop on *"R for Biostatistics"* (July 2024)
 
-[(*WORK IN PROGRESS...*)]{style="color: #cc8400;"}
+[(***WORK IN PROGRESS...***)]{style="color: #cc8400;"}
 
 [Project website](https://R4biostats.com) \| [Code](https://github.com/Lulliter/R4biostats)
 
-This website collects the materials for a four day workshop organized by [MITGEST Doctoral Network](https://www.mitgest.eu/) in July 2024. The workshop is offered as part of a summer School for EU doctoral students in life sciences, hosted by the Radboud Center for Mitochondrial Medicine, in Nijmegen, Netherlands. My sister designed the workshop and its lectures, and I contributed to it by preparing the 4 R practice sessions, and by building the dedicated website.  
+This website collects the materials for a four day workshop organized by [MITGEST Doctoral Network](https://www.mitgest.eu/) in July 2024. The workshop is offered as part of a summer school for EU doctoral biology students, hosted by the Radboud Center for Mitochondrial Medicine, in Nijmegen, Netherlands. My sister ([M. Chiara Mimmi, Ph.D.](https://www.linkedin.com/in/maria-chiara-mimmi-b0aa9233/)), is in charge of the workshop, while I co-created the materials for the R practice sessions, plus the course website.  
 <!-- ![](../images/banner_BIOSTATS.png) <br><br> -->
 
 ### Position paper on city government *"Idee per Pavia"* (April 2024)
 
 [Project website](https://ideeperpavia.com/) \| [Code](https://github.com/Lulliter/ideeperpavia) | (in Italian 🇮🇹)
 
-This is website created to disseminate a position paper prepared by a working group on behalf of the Catholic Social Action Office of the Diocese of Pavia (my hometown). The report offers proposals for discussion in view of the upcoming municipal elections of June 2024. 
+This is webpage I created to disseminate a position paper that I co-authored with the members of the Catholic Social Action Office of the Diocese of Pavia (my hometown in Italy). The report is meant as a tool to promote open and constructive dialogue on several urban planning issues and proposals in view of the upcoming municipal elections of June 2024. 
 
 <!-- ![](../images/banner_IDEE.png) <br><br> -->
 
-
-
 ## 2023
+### *"Nerd help"* collection of programming tutorials  (2023)
+
+[(***WORK IN PROGRESS...***)]{style="color: #cc8400;"}
+
+[Project website](https://lulliter.github.io/nerd_help/me.html) \| [Code](https://github.com/Lulliter/nerd_help) 
+
+I am a self-taught programmer (`R`, `git`, `Quarto`, `css`, etc.), so I put together this collection of notes on how to go about some tasks as I figured them out. While intended for personal use, I am glad if these tutorials can  be of help for others.  <br><br>
 
 <!-- ### Static website for press review (December 2023) -->
-
 <!-- [Project website](https://lulliter.github.io/rassegna/) \| [Code](https://github.com/Lulliter/rassegna) -->
 
 ### Exploratory study on text analytics with R *"How slogans end up moving billions"* (2022 - ...)
 
-[(*WORK IN PROGRESS...*)]{style="color: #cc8400;"}
+[(***WORK IN PROGRESS...***)]{style="color: #cc8400;"}
 
 [Project website](https://lulliter.github.io/slogan/) \| [Code](https://github.com/Lulliter/slogan) 
 
@@ -49,7 +54,7 @@ This is an ongoing project I started to explore text analytics to answer a quest
 
 [Project website](https://lulliter.shinyapps.io/03_Analysis/) \| [Code](https://github.com/Lulliter/plan2implem)
 
-This is a quick exploration of some EU structural funds aimed at verifying how much we have been able to disburse (given amounts planned and deemed eligible) for the 2014-2020 funding cycle. Specifically data are taken from the [ESIF 2014-2020 Finance Implementation Details](https://dev.socrata.com/foundry/cohesiondata.ec.europa.eu/99js-gm52) (99js-gm52) dataset, then I drill down to programs under the ERDF (European Regional Development Fund).
+This is a quick exploration of some EU structural funds aimed at verifying how much Italy has been able to disburse (given amounts planned and deemed eligible) for the 2014-2020 funding cycle. Specifically data were taken from the [ESIF 2014-2020 Finance Implementation Details](https://dev.socrata.com/foundry/cohesiondata.ec.europa.eu/99js-gm52) (99js-gm52) dataset, then drilled down to programs under the ERDF (European Regional Development Fund). This was also an opportunity to learn some interective datavisualization tools in R (e.g. `reactable`).
 
 <!-- ![](../images/banner_ERDF.png) <br><br> -->
 
@@ -58,5 +63,4 @@ This is a quick exploration of some EU structural funds aimed at verifying how m
 Here is a tutorial I wrote as I was learning how to implement cluster analysis in R. 
 
 [HTML page](https://lulliter.com/posts/2022-10-24-r-notes-cluster-analysis/) \| 
-:::
-:::
+ 
