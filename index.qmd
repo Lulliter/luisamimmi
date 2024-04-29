@@ -25,6 +25,7 @@ about:
     - icon: github
       text: Github
       href: https://github.com/Lulliter
+toc: false
 ---
 
 
@@ -35,13 +36,14 @@ about:
 <!-- https://tanyaviz.com/about/ -->
 
 ::: {#hero-heading}
-👋🏻 Hi there! 👋🏻
+
+## 👋🏻 Hi there! 👋🏻
 
 [I am Luisa, a Policy & Data Analyst, freelance consultant, and {{< fa brands r-project >}} enthusiast.]{style="color:  #7f6b00; font-weight: bold;"}
 
-My professional focus lies at the intersection of *Economics*, *Public Policy* and *Data Science*. In over 20 years of experience (in Italy and in the US), I have worked on the entire analytic cycle (data collection-analysis-presentation) for several research projects applied to the field of **economic development** and the evaluation of public economic policies.   
+My professional focus lies at the intersection of *Economics*, *Public Policy* and *Data Science*. In over 20 years of experience (in Italy and in the US), I have worked on the entire analytic cycle (data collection-analysis-presentation) for several research projects within the fields of **economic development** and the evaluation of public economic policies.   
 
-You can learn more about my background and academic publications via the links below, or on my [**CV**](../cv).
+You can learn more about my background and academic publications via the links below, the [**research**](../writings) page, or my [**CV**](../cv).
 <!-- I gained extensive expertise in data collection-analysis-presentation, working in very different settings ---from private consulting to multilateral development banks, to NGOs and government. -->
 
 --- 

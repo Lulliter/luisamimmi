@@ -6,7 +6,7 @@ toc: false
 
 ::: grid
 ::: g-col-12
-This page contains a collection of miscellaneous projects (that may or may not be related to my research), mostly involving {{< fa brands r-project >}} programming.
+This page contains a collection of miscellaneous projects (not necessarily related to my core research area), mostly involving {{< fa brands r-project >}} programming.
 
 ## 2024
 
@@ -19,13 +19,21 @@ This page contains a collection of miscellaneous projects (that may or may not b
 This website collects the materials for a four day workshop organized by [MITGEST Doctoral Network](https://www.mitgest.eu/) in July 2024. The workshop is offered as part of a summer School for EU doctoral students in life sciences, hosted by the Radboud Center for Mitochondrial Medicine, in Nijmegen, Netherlands. My sister designed the workshop and its lectures, and I contributed to it by preparing the 4 R practice sessions, and by building the dedicated website.  
 <!-- ![](../images/banner_BIOSTATS.png) <br><br> -->
 
-### Position paper on city governemnt *"Idee per Pavia"* (April 2024)
+### Position paper on city government *"Idee per Pavia"* (April 2024)
 
 [Project website](https://ideeperpavia.com/) \| [Code](https://github.com/Lulliter/ideeperpavia) | (in Italian 🇮🇹)
 
-This is website created to disseminate a position paper prepared by a working group on behalf of the Catholic Church o my city (Pavia). The report offers proposals for discussion in view of the upcoming municipal elections of June 2024. 
+This is website created to disseminate a position paper prepared by a working group on behalf of the Catholic Social Action Office of the Diocese of Pavia (my hometown). The report offers proposals for discussion in view of the upcoming municipal elections of June 2024. 
 
 <!-- ![](../images/banner_IDEE.png) <br><br> -->
+
+
+
+## 2023
+
+<!-- ### Static website for press review (December 2023) -->
+
+<!-- [Project website](https://lulliter.github.io/rassegna/) \| [Code](https://github.com/Lulliter/rassegna) -->
 
 ### Exploratory study on text analytics with R *"How slogans end up moving billions"* (2022 - ...)
 
@@ -34,14 +42,6 @@ This is website created to disseminate a position paper prepared by a working gr
 [Project website](https://lulliter.github.io/slogan/) \| [Code](https://github.com/Lulliter/slogan) 
 
 This is an ongoing project I started to explore text analytics to answer a question that I find extremely interesting and compelling: *What is the impact of slogans on policy decisions?* My working hypothesis is that often slogans involves a progressive detachment of words/phrases from their original meaning, so *"Why" and "how" does such a deviation between words and reality occur?* <br><br>
-
-## 2023
-
-<!-- ### Static website for press review (December 2023) -->
-
-<!-- [Project website](https://lulliter.github.io/rassegna/) \| [Code](https://github.com/Lulliter/rassegna) -->
-
-<br><br>
 
 ## 2022
 
