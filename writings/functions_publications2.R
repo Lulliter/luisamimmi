@@ -73,7 +73,7 @@ blog_link <- function(key_select, bib_df = mybib_df_acad) {
 thesis_link <- function(key_select, bib_df = mybib_df_acad) {
 	thesis <- filter(bib_df, key == key_select) %>%  pull(archive  ) # which COL
 	if (anyNA(thesis)) return(NULL) #	if (is.na (doi)) return(NULL) #-> error when knit
-	paste0("[{{< ai archive >}}]{style=\"color: #A55C38;\"}", glue(" [Univ. repository]({thesis})"))
+	paste0("[{{< ai archive >}}]{style=\"color: #7f6b00;\"}", glue(" [Univ. repository]({thesis})"))
 }
 
 # 2e) - intermediate - FUN open-access  >>> unpublished BUTTON --------------------------

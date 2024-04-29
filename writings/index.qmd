@@ -5,6 +5,7 @@ execute:
   warning: false
 comments: false
 toc: true
+toc-location: left
 bibliography: Lula-MyPublications-Broad.bib
 ---
 
@@ -301,19 +302,10 @@ mybib_df_acad %>%
 [*Master of Public Policy*]<br>`r print_ref_buttons2("mimmi_demand-driven_2008")`<br>
 [*BSc equivalent of Economics & Business Administration*]<br>`r print_ref_buttons2("mimmi_linternazionalizzazione_2001")`
 
+<br> 
 
+<center>
 
-<!-- <aside> -->
+[See also [{{< ai google-scholar >}} Google Scholar Page](https://scholar.google.com/citations?hl=en&user=OBYla5gAAAAJ)  ]{style="color:#9b2374; font-weight:bold; background-color:#ebd3e3;"}
 
-<!-- ```{r Nitta2021-cover, echo = FALSE} -->
-
-<!-- knitr::include_graphics("images/jpr_cover.jpg") -->
-
-<!-- ``` -->
-
-<!-- </aside> -->
-
-<br><br> See also `r icon_link("google-scholar", "Google Scholar", "https://scholar.google.com/citations?hl=en&user=OBYla5gAAAAJ")`
-
-
-
+</center>
