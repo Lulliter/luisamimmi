@@ -7,7 +7,7 @@ toc-depth: 2
 --- 
 
  
-This page contains a collection of miscellaneous projects (unrelated to my core research area), but mostly involving [{{< fa brands r-project >}}]{style="color: #3b7697;"} programming, and data analysis teaching (and learning 😉).
+This page contains a collection of miscellaneous projects, but mostly involving [{{< fa brands r-project >}}]{style="color: #3b7697;"} programming, and data analysis teaching (and learning 😉).
 
 ## 2024
 

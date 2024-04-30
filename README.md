@@ -17,3 +17,8 @@ This is my professional website meant to showcase the kind of consulting service
 + writings
 	+ ? 
 	- figure out easy way to put links (icons )
+
+
+### INSPIRATION
+
++ [https://datanalyze.be/](https://datanalyze.be/)

@@ -19,7 +19,7 @@ website:
   description: "Personal website and consulting page"
   site-url: "{{< var website.site-url >}}" # "https://lulliter.github.io/nerd-help"
   # Account Google Mktg "Lulliter github (UA-128632724)" collegato a luisamimmi.org
-  google-analytics: "UA-128632724"
+  google-analytics: "G-JHQREDV79J"
   favicon: images/favicon_init32.png # https://favicon.io/favicon-generator/
   search: false # no magnifier on navbar
   page-navigation: true
@@ -50,7 +50,7 @@ website:
       # - text: "Portfolio"
       #   icon: terminal-fill #  archive-fill # https://icons.getbootstrap.com/?q=home
       #   href: portfolio
-      - text: "Research & writing"
+      - text: "Research"
         icon: cup-hot-fill # archive-fill # https://icons.getbootstrap.com/?q=home
         href: writings/index.qmd
       - text: "{{< fa brands r-project >}} Projects"

@@ -10,10 +10,11 @@ bibliography: Lula-MyPublications-Broad.bib
 ---
 
 <!-- # ESEMPI -->
+
 <!-- + (python!) https://ddimmery.com/research -->
 
 <!-- # [setup] -->
- 
+
 ```{r setup, include=FALSE}
 
 knitr::opts_chunk$set(echo = FALSE)
@@ -100,12 +101,13 @@ mybib_df2 <- cbind(mybib_df, mybib_meta)
 # rm(mybib, mybib_df, mybib_df_raw, mybib_meta)
 ```
 
-
 <!-- # [url] -->
 
 <!-- 2.A (pubs) Distribute **url** column to right columns (which will have the names of icons later) -->
+
 <!-- OKKIO: NEED TO FIX "EXTRA" IN ZOTERO TO MAKE IT WORK ...  -->
-```{r  distri_link_pubs}
+
+```{r }
 # ========== Distribute **url** column to right columns (which will have the names of icons later)
 # Column A [for this value of col C] <- (like)    Column B [for THE SAME value of col C]
 # P-Rev Articles [Official] --> url_pub
@@ -180,20 +182,48 @@ mybib_df2 <- mybib_df2 %>%
 
 # names of column like Academicons / FA 
 # added in `header.html`
-mybib_df_acad <- mybib_df2  
+mybib_df_acad <- mybib_df2
+```
 
+```{r  distri_link_pubs}
+## ---- adding some more transformations to obtain linke for the button 
 
-#names(mybib_df_acad)[names(mybib_df2) == "url_pub"] <- "elsevier"
+## --  OK urls distributed 
+# names(mybib_df_acad)[names(mybib_df2) == "url_pub"] <- "elsevier"
 names(mybib_df_acad)[names(mybib_df2) == "url_preprint"] <- "preprint"
-names(mybib_df_acad)[names(mybib_df2) == "url_pdf"] <- "pdf" # not used 
 names(mybib_df_acad)[names(mybib_df2) == "url_repo"] <- "github" # FA
 names(mybib_df_acad)[names(mybib_df2) == "url_rg"] <- "researchgate"
 names(mybib_df_acad)[names(mybib_df2) == "url_osf"] <- "osf"
 names(mybib_df_acad)[names(mybib_df2) == "url_other"] <- "open-access"
 names(mybib_df_acad)[names(mybib_df2) == "url_arch"] <- "archive" # FA
 names(mybib_df_acad)[names(mybib_df2) == "url_blog"] <- "rss" # FA
+names(mybib_df_acad)[names(mybib_df2) == "url_pdf"] <- "pdf" # not used
 ```
 
+
+```{r }
+
+# SPECIAL DISTINCTION BETWEEN PERSONAL AND NON PERSONAL BLOGS 
+## --  path engineering for the button `download PDF doc`  
+mybib_df_acad <-  mybib_df_acad %>%
+	mutate(file_dir = fs::path_dir(file ),
+			 # this one sometimes has >1 doc path separated by ";"
+			 file_zot_code = fs::path_rel(file, start = "/Users/luisamimmi/Documents/02_Reference/Zotero/storage/" ),
+			 # this is just the clean "name.pdf" that I need
+			 file_name = fs::path_file(file_zot_code )
+	) %>% 
+	# PERS BLOG 
+	mutate (persblog_PDF = case_when(
+			 str_detect (type , "Personal Blog" )  ~ file_name,
+			 .default =  NA_character_) ) %>% 
+	# NON PERSONAL BLOG 
+	mutate (rss_profess = case_when(
+			 !str_detect (type , "Personal Blog" )  ~ rss,
+			 .default =  NA_character_) )  
+	
+
+
+```
 
 ```{r }
 # delete all in env EXCEPT for c(... )
@@ -201,7 +231,9 @@ rm(list=setdiff(ls(), c( "mybib_df2", "mybib", "mybib_df_acad")))
 ```
 
 <!-- # [function] -->
+
 <!-- 3  Functions for formatting a citation {now in R/functions_publications}-->
+
 ```{r}
 source(here::here("writings", "functions_publications2.R"))
 # 
@@ -209,29 +241,11 @@ source(here::here("writings", "functions_publications2.R"))
 
 ```
 
-
-
-
 ## PUBLICATIONS
 
-```{r}
-mybib_df_acad <- mybib_df_acad %>% 
-	mutate (file_pdf_path = NA_character_
-			  ) %>% 
-	mutate(file_pdf_path = case_when( 
-		key == "mimmi_natalita_2023" ~ "PDF/IlTicino_sett2023.pdf",
-		key == "mimmi_open_2016" ~ "PDF/Ramani_2016.pdf",
-		key == "mimmi_sussidiarieta_2009" ~ "PDF/AVSI_2009.pdf",
-		
-			.default = file_pdf_path
-		))
-
-
-
-```
- 
 
 ### Articles in Peer-reviewed Journals
+
 ```{r}
 #| include: false
 mybib_df_acad %>% 
@@ -239,13 +253,11 @@ mybib_df_acad %>%
 	select(key, type, category, category2)
 
 ```
-  
-`r print_ref_buttons2("mimmi_italy_2024")` <br>
-`r print_ref_buttons2("patel_predicting_2022")` <br>
-`r print_ref_buttons2("mimmi_informal_2014")` <br>
-`r print_ref_buttons2("mimmi_econometric_2010")`
+
+`r print_ref_buttons3("mimmi_italy_2024")` <br> `r print_ref_buttons3("patel_predicting_2022")` <br> `r print_ref_buttons3("mimmi_informal_2014")` <br> `r print_ref_buttons3("mimmi_econometric_2010")`
 
 ### Technical Reports and Other Publications
+
 ```{r}
 #| include: false
 mybib_df_acad %>% 
@@ -253,15 +265,12 @@ mybib_df_acad %>%
 	select(key, type, category, category2)
 ```
 
+<!-- `r print_ref_buttons3("mimmi_predicting_2017")`<br>  RIPETE PUBBLICAZIONE -->
 
-<!-- `r print_ref_buttons2("mimmi_predicting_2017")`<br>  RIPETE PUBBLICAZIONE -->
-`r print_ref_buttons2("rodriguez_applying_2014")`<br>
-<!-- `r print_ref_buttons2("mimmi_assessing_2012")`<br> RIPETE PUBBLICAZIONE -->
-`r print_ref_buttons2("mimmi_should_2012")`<br>
-`r print_ref_buttons2("johannes_snapshot_2010")`<br>
-`r print_ref_buttons2("mimmi_youth_2009")`
+`r print_ref_buttons3("rodriguez_applying_2014")`<br> <!-- `r print_ref_buttons3("mimmi_assessing_2012")`<br> RIPETE PUBBLICAZIONE --> `r print_ref_buttons3("mimmi_should_2012")`<br> `r print_ref_buttons3("johannes_snapshot_2010")`<br> `r print_ref_buttons3("mimmi_youth_2009")`
 
 ### Technical Reports and Other Publications\*
+
 ```{r}
 #| include: false
 mybib_df_acad %>% 
@@ -269,12 +278,10 @@ mybib_df_acad %>%
 	select(key, type, category, category2)
 ```
 
-[(\* *editorial role only*)]{style="color: #cc8400;"} <br><br> 
-`r print_ref_buttons2("oecd_building_2021")`<br> 
-`r print_ref_buttons2("world_bank_well_2021")`<br> 
-`r print_ref_buttons2("daigger_future_2019")`
+[(\* *editorial role only*)]{style="color: #cc8400;"} <br><br> `r print_ref_buttons3("oecd_building_2021")`<br> `r print_ref_buttons3("world_bank_well_2021")`<br> `r print_ref_buttons3("daigger_future_2019")`
 
 ### Misc. Divulgative Pieces
+
 ```{r}
 #| include: false
 mybib_df_acad %>% 
@@ -282,16 +289,10 @@ mybib_df_acad %>%
 	select(key, type, category, category2)
 ```
 
-`r print_ref_buttons2("mimmi_natalita_2023")`<br> 
-`r print_ref_buttons2("mimmi_senza_2022")`<br> 
-`r print_ref_buttons2("mimmi_infrastructure_2021")`<br> 
-`r print_ref_buttons2("mimmi_technological_2019")`<br> 
-`r print_ref_buttons2("mimmi_predicting_2017-1")`<br> 
-`r print_ref_buttons2("mimmi_open_2016")`<br> 
-`r print_ref_buttons2("mimmi_sussidiarieta_2009")`
-
+`r print_ref_buttons3("mimmi_natalita_2023")`<br> `r print_ref_buttons3("mimmi_senza_2022")`<br> `r print_ref_buttons3("mimmi_infrastructure_2021")`<br> `r print_ref_buttons3("mimmi_technological_2019")`<br> `r print_ref_buttons3("mimmi_predicting_2017-1")`<br> `r print_ref_buttons3("mimmi_open_2016")`<br> `r print_ref_buttons3("mimmi_sussidiarieta_2009")`
 
 ### Theses
+
 ```{r}
 #| include: false
 mybib_df_acad %>% 
@@ -299,12 +300,8 @@ mybib_df_acad %>%
 	select(key, type, category, category2)
 ```
 
+\[*Master of Public Policy*\]<br>`r print_ref_buttons3("mimmi_demand-driven_2008")`<br> \[*BSc equivalent of Economics & Business Administration*\]<br>`r print_ref_buttons3("mimmi_linternazionalizzazione_2001")`
 
-[*Master of Public Policy*]<br>`r print_ref_buttons2("mimmi_demand-driven_2008")`<br>
-[*BSc equivalent of Economics & Business Administration*]<br>`r print_ref_buttons2("mimmi_linternazionalizzazione_2001")`
+<br>
 
-<br> 
-
-<center>
-See also [[{{< ai google-scholar >}} Google Scholar Page](https://scholar.google.com/citations?hl=en&user=OBYla5gAAAAJ)  ]{style="color:#9b2374; font-weight:bold; background-color:#ebd3e3;"} and [[{{< ai researchgate >}} ResearchGate Profile](https://www.researchgate.net/profile/Luisa-Mimmi)  ]{style="color:#9b2374; font-weight:bold; background-color:#ebd3e3;"}
-</center>
+<center>See also [[{{< ai google-scholar >}} Google Scholar Page](https://scholar.google.com/citations?hl=en&user=OBYla5gAAAAJ)]{style="color:#9b2374; font-weight:bold; background-color:#ebd3e3;"} and [[{{< ai researchgate >}} ResearchGate Profile](https://www.researchgate.net/profile/Luisa-Mimmi)]{style="color:#9b2374; font-weight:bold; background-color:#ebd3e3;"}</center>
