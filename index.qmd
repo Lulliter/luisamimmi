@@ -2,7 +2,7 @@
 title: ""
 about:
   id: hero-heading #about-block 
-  template: jolla
+  template: trestles # jolla
   image: images/LulaSalvador2015.png
   links:
     # - icon: file-pdf
@@ -19,8 +19,8 @@ about:
       href: https://scholar.google.com/citations?user=OBYla5gAAAAJ&hl=en&oi=ao
     - text: "{{< ai researchgate >}} Research Gate" # fa brands researchgate
       href: https://www.researchgate.net/profile/Luisa-Mimmi
-    - text: "{{< ai orcid >}} Orcid"
-      href: https://orcid.org/0000-0002-2244-8282
+    # - text: "{{< ai orcid >}} Orcid"
+    #   href: https://orcid.org/0000-0002-2244-8282
 
     - icon: github
       text: Github
@@ -37,24 +37,18 @@ toc: false
 
 ::: {#hero-heading}
 
-## 👋🏻 Hi there! 👋🏻
+## Welcome to my website!  
 
-[I am Luisa, a Policy & Data Analyst, freelance consultant, and {{< fa brands r-project >}} enthusiast.]{style="color:  #7f6b00; font-weight: bold;"}
+[I am a Policy & Data Analyst, freelance consultant, and {{< fa brands r-project >}} enthusiast.]{style="color:  #7f6b00; font-weight: bold;"}
 
-My professional focus lies at the intersection of *Economics*, *Public Policy* and *Statistics*. In over 20 years of experience (in Italy and in the US), I have worked on the entire analytic cycle (data collection-analysis-presentation) for several research projects within the fields of **economic development and the impact evaluation of public economic policies**.   
-
+I am an economist with extensive experience (in Italy 🇮🇹 and in the US 🇺🇸) in empirical research projects within the fields of **economic development and impact evaluation of public economic policies**. My research focus is at the intersection of *public policy* and *statistics*. 
+<!-- As a life-long learner, I enjoy studying new things and writing as a way of reflecting on interesting ideas or new skills I am learning. Hence this [**blog**](https://luisamimmi.org/blog/) page.    -->
 You can learn more about my background and publications via the [**research**](../writings) page, my [**CV**](../cv), or the links below.
 <!-- I gained extensive expertise in data collection-analysis-presentation, working in very different settings ---from private consulting to multilateral development banks, to NGOs and government. -->
 
---- 
+As a **freelance consultant**, I currently support institutional clients, academic researchers and individual professionals in their **statistics and data analysis endeavors**. I bring an analytical foundation to projects, and help making data-driven decision regardless of the sector or size of the organization. I also love teaching and I have successfully delivered lectures and workshops on statistics, data analysis and visualization. 
 
-I love {{< fa brands r-project >}} and the culture of collaborative, reproducible and open research ecosystem that this programming language promotes. This website showcases some of my recent [**projects**](https://luisamimmi.org/projects/), mostly involving **R programming** for analyzing, modelling and visualizing data. I also link some **static websites** I created as tools for organizing and disseminating various data and/or technical content (in English 🇺🇸 and Italian 🇮🇹). 
-
-<!-- As a life-long learner, I enjoy studying new things and writing as a way of reflecting on interesting ideas or new skills I am learning. Hence this [**blog**](https://luisamimmi.org/blog/) page.    -->
-
----
-
-As a **freelance consultant**, I currently support institutional clients, academic researchers and individual professionals in their **statistics and data analysis endeavors**. I bring an analytical foundation to projects, and help making data-driven decision regardless of the sector or size of the organization. I have also successfully delivered lectures and workshops on statistics, data analysis and visualization. 
+Here are some illustrative [**projects**](https://luisamimmi.org/projects/).
 
 [Feel free to reach out to explore potential collaboration with any statistics, data analysis, or R endeavors.]{style="color:  #7f6b00; font-weight: bold;"} 
 

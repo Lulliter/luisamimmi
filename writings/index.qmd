@@ -11,7 +11,7 @@ bibliography: Lula-MyPublications-Broad.bib
 
 <!-- # ESEMPI -->
 
-<!-- + (python!) https://ddimmery.com/research -->
+<!-- -->
 
 <!-- # [setup] -->
 
@@ -148,16 +148,16 @@ mybib_df2$url_other[which(mybib_df2$key %in% rest) ] <- mybib_df2$url[which(mybi
 # mybib_df2$bibtex <- as.character(NA)
 mybib_df2$image <- as.logical(NA)
 
-# ========== Restrict options `category2`
-mybib_df2$category2[mybib_df2$type == "Peer-reviewed" ] <- "peer-reviewed" # 1 
-mybib_df2$category2[mybib_df2$type == "Working Paper" ] <- "working"       # 2 
+# ========== Restrict options type >>>> `category2`
+mybib_df2$category2[mybib_df2$type == "Peer-reviewed" ] <- "peer-reviewed" # 4 
+mybib_df2$category2[mybib_df2$type == "Working Paper" ] <- "working"       # 4 
 mybib_df2$category2[mybib_df2$type == "Policy Brief" ] <- "working"
-mybib_df2$category2[mybib_df2$type == "Discussion Paper" ] <- "other"        
-mybib_df2$category2[mybib_df2$type == "G20 Background Report" ] <- "other"
-mybib_df2$category2[mybib_df2$type == "Conference proceedings" ] <- "other"
-mybib_df2$category2[mybib_df2$type == "World Bank Blog" ] <- "media"  # 3 
-mybib_df2$category2[mybib_df2$type == "Personal Blog" ] <- "media"
-mybib_df2$category2[mybib_df2$type == "IDB blog" ] <- "media"
+mybib_df2$category2[mybib_df2$type == "Discussion Paper" ] <- "other"       # 1 (Daigger)
+mybib_df2$category2[mybib_df2$type == "G20 Background Report" ] <- "other" # 2 (OECD / WB)
+mybib_df2$category2[mybib_df2$type == "Conference proceedings" ] <- "other" # 3 ma non li ho considerati (non c'e' il mio nome ...)
+mybib_df2$category2[mybib_df2$type == "World Bank Blog" ] <- "media"  # 2 
+mybib_df2$category2[mybib_df2$type == "Personal Blog" ] <- "media"    # 4 
+mybib_df2$category2[mybib_df2$type == "IDB blog" ] <- "media"         # 1
 mybib_df2$category2[mybib_df2$type == "Thesis" ] <- "theses"   # 4 
 mybib_df2$category2[mybib_df2$type == "Invited Talk" ] <- "conference" # 5 
 mybib_df2$category2[mybib_df2$type == "Presentation" ] <- "conference"
@@ -186,7 +186,7 @@ mybib_df_acad <- mybib_df2
 ```
 
 ```{r  distri_link_pubs}
-## ---- adding some more transformations to obtain linke for the button 
+## ---- adding some more transformations to obtain link for the button 
 
 ## --  OK urls distributed 
 # names(mybib_df_acad)[names(mybib_df2) == "url_pub"] <- "elsevier"
@@ -235,7 +235,7 @@ rm(list=setdiff(ls(), c( "mybib_df2", "mybib", "mybib_df_acad")))
 <!-- 3  Functions for formatting a citation {now in R/functions_publications}-->
 
 ```{r}
-source(here::here("writings", "functions_publications2.R"))
+source(here::here("R","functions_publications2.R"))
 # 
 # print_ref_simple(key_select = "mimmi_youth_2009-1",  bib = mytalk)
 
@@ -254,7 +254,10 @@ mybib_df_acad %>%
 
 ```
 
-`r print_ref_buttons3("mimmi_italy_2024")` <br> `r print_ref_buttons3("patel_predicting_2022")` <br> `r print_ref_buttons3("mimmi_informal_2014")` <br> `r print_ref_buttons3("mimmi_econometric_2010")`
+`r print_ref_buttons3("mimmi_italy_2024")` <br> 
+`r print_ref_buttons3("patel_predicting_2022")` <br> 
+`r print_ref_buttons3("mimmi_informal_2014")` <br> 
+`r print_ref_buttons3("mimmi_econometric_2010")`
 
 ### Technical Reports and Other Publications
 
@@ -267,7 +270,10 @@ mybib_df_acad %>%
 
 <!-- `r print_ref_buttons3("mimmi_predicting_2017")`<br>  RIPETE PUBBLICAZIONE -->
 
-`r print_ref_buttons3("rodriguez_applying_2014")`<br> <!-- `r print_ref_buttons3("mimmi_assessing_2012")`<br> RIPETE PUBBLICAZIONE --> `r print_ref_buttons3("mimmi_should_2012")`<br> `r print_ref_buttons3("johannes_snapshot_2010")`<br> `r print_ref_buttons3("mimmi_youth_2009")`
+`r print_ref_buttons3("rodriguez_applying_2014")`<br> <!-- `r print_ref_buttons3("mimmi_assessing_2012")`<br> RIPETE PUBBLICAZIONE --> 
+`r print_ref_buttons3("mimmi_should_2012")`<br> 
+`r print_ref_buttons3("johannes_snapshot_2010")`<br> 
+`r print_ref_buttons3("mimmi_youth_2009")`
 
 ### Technical Reports and Other Publications\*
 
@@ -278,7 +284,10 @@ mybib_df_acad %>%
 	select(key, type, category, category2)
 ```
 
-[(\* *editorial role only*)]{style="color: #cc8400;"} <br><br> `r print_ref_buttons3("oecd_building_2021")`<br> `r print_ref_buttons3("world_bank_well_2021")`<br> `r print_ref_buttons3("daigger_future_2019")`
+[(\* *editorial role only*)]{style="color: #cc8400;"} <br><br> 
+`r print_ref_buttons3("oecd_building_2021")`<br> 
+`r print_ref_buttons3("world_bank_well_2021")`<br> 
+`r print_ref_buttons3("daigger_future_2019")`
 
 ### Misc. Divulgative Pieces
 
@@ -289,7 +298,13 @@ mybib_df_acad %>%
 	select(key, type, category, category2)
 ```
 
-`r print_ref_buttons3("mimmi_natalita_2023")`<br> `r print_ref_buttons3("mimmi_senza_2022")`<br> `r print_ref_buttons3("mimmi_infrastructure_2021")`<br> `r print_ref_buttons3("mimmi_technological_2019")`<br> `r print_ref_buttons3("mimmi_predicting_2017-1")`<br> `r print_ref_buttons3("mimmi_open_2016")`<br> `r print_ref_buttons3("mimmi_sussidiarieta_2009")`
+`r print_ref_buttons3("mimmi_natalita_2023")`<br> 
+`r print_ref_buttons3("mimmi_senza_2022")`<br> 
+`r print_ref_buttons3("mimmi_infrastructure_2021")`<br> 
+`r print_ref_buttons3("mimmi_technological_2019")`<br> 
+`r print_ref_buttons3("mimmi_predicting_2017-1")`<br> 
+`r print_ref_buttons3("mimmi_open_2016")`<br> 
+`r print_ref_buttons3("mimmi_sussidiarieta_2009")`
 
 ### Theses
 

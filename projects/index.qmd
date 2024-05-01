@@ -6,8 +6,9 @@ toc-location: left
 toc-depth: 2
 --- 
 
- 
-This page contains a collection of miscellaneous projects, but mostly involving [{{< fa brands r-project >}}]{style="color: #3b7697;"} programming, and data analysis teaching (and learning 😉).
+I love [{{< fa brands r-project >}}]{style="color: #3b7697;"} and the culture of collaborative, reproducible and open research that this programming ecosystem promotes.  
+
+The projects below include: software I developed for analyzing, modelling and visualizing data; workshop materials I have created/presented; and other technical content (not necessarily related to my core research area).
 
 ## 2024
 
@@ -62,5 +63,5 @@ This is a quick exploration of some EU structural funds aimed at verifying how m
 
 Here is a tutorial I wrote as I was learning how to implement cluster analysis in R. 
 
-[HTML page](https://lulliter.com/posts/2022-10-24-r-notes-cluster-analysis/) \| 
+[HTML page](https://rpubs.com/Lulliter/cluster-analysis) \| 
  
