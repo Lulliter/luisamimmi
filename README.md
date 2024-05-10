@@ -14,7 +14,10 @@ This is my professional website meant to showcase the kind of consulting service
 + posts
 	+ ? 
 	+ overlapping other sites
-
++ CV 	
+	
+### NOTES	
++ Publications have moved to [https://lulliter.github.io/publications/writings/](https://lulliter.github.io/publications/writings/), this is going to stay minimal and portfolio-centered
 
 ### ACKNOWLEDGEMENTS
 

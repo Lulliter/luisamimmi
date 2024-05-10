@@ -21,7 +21,6 @@ about:
       href: https://www.researchgate.net/profile/Luisa-Mimmi
     # - text: "{{< ai orcid >}} Orcid"
     #   href: https://orcid.org/0000-0002-2244-8282
-
     - icon: github
       text: Github
       href: https://github.com/Lulliter
@@ -41,16 +40,19 @@ toc: false
 
 [I am a Policy & Data Analyst, freelance consultant, and {{< fa brands r-project >}} enthusiast.]{style="color:  #7f6b00; font-weight: bold;"}
 
-I am an economist with extensive experience (in Italy 🇮🇹 and in the US 🇺🇸) in empirical research projects within the fields of **economic development and impact evaluation of public economic policies**. My research focus is at the intersection of *public policy* and *statistics*. 
+I have extensive experience (in Italy 🇮🇹 and in the US 🇺🇸) with empirical research projects in the fields of **economic development and impact evaluation of public economic policies**. My research interest is at the intersection of *public policy* and *statistics*. 
 <!-- As a life-long learner, I enjoy studying new things and writing as a way of reflecting on interesting ideas or new skills I am learning. Hence this [**blog**](https://luisamimmi.org/blog/) page.    -->
-You can learn more about my background and publications via the [**research**](../writings) page, my [**CV**](../cv), or the links below.
+You can learn more about my background and publications via my [**CV**](../cv), or the links below.
+
+<!-- the [**research**](../writings) page,  -->
 <!-- I gained extensive expertise in data collection-analysis-presentation, working in very different settings ---from private consulting to multilateral development banks, to NGOs and government. -->
 
-As a **freelance consultant**, I currently support institutional clients, academic researchers and individual professionals in their **statistics and data analysis endeavors**. I bring an analytical foundation to projects, and help making data-driven decision regardless of the sector or size of the organization. I also love teaching and I have successfully delivered lectures and workshops on statistics, data analysis and visualization. 
+As a **freelance consultant**, I currently support institutional clients, academic researchers and individual professionals in their **statistics and data analysis endeavors**. I bring an analytical foundation to projects, and help making data-driven decision regardless of the sector or size of the organization.  
+I especially enjoy teaching and have successfully delivered **lectures and workshops** on statistics, reproducible data analysis, and visualization. 
 
 Here are some illustrative [**projects**](https://luisamimmi.org/projects/).
 
-[Feel free to reach out to explore potential collaboration with any statistics, data analysis, or R endeavors.]{style="color:  #7f6b00; font-weight: bold;"} 
+[I am open to collaborate on projects involving data and statistical analysis, program evaluation, or R programming/training.]{style="color:  #7f6b00; font-weight: bold;"} 
 
 <!-- If you want to work with me as a collaborator, supervisor, instructor, or public speaker, drop me a message: -->
 

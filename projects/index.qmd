@@ -1,5 +1,5 @@
 ---
-title: Miscellaneous Projects
+title: Illustrative Projects
 comments: false
 toc: true
 toc-location: left
@@ -63,5 +63,5 @@ This is a quick exploration of some EU structural funds aimed at verifying how m
 
 Here is a tutorial I wrote as I was learning how to implement cluster analysis in R. 
 
-[HTML page](https://rpubs.com/Lulliter/cluster-analysis) \| 
+[HTML page](https://rpubs.com/Lulliter/cluster-analysis) 
  

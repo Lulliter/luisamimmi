@@ -1,24 +1,31 @@
 [
   {
-    "objectID": "writings/index.html#publications",
-    "href": "writings/index.html#publications",
-    "title": "Writing and Research",
-    "section": "PUBLICATIONS",
-    "text": "PUBLICATIONS\nArticles in Peer-reviewed Journals\nMimmi, L. M. (2024). “Italy in Front of the Challenge of Infrastructure Maintenance: Existing Issues and Promising Responses”. In: Public Works Management & Policy 29.2, pp. 160-182.  10.1177/1087724X231164648  Open version  Patel, A., C. Borja-Vega, L. M. Mimmi, T. Soukup, and J. Kolomaznik (2022). “Predicting Housing Deprivation from Space in the Slums of Dhaka”. In: Environment and Planning B: Urban Analytics and City Science.  10.1177/23998083221123589  Open version Mimmi, L. M. (2014). “From Informal to Authorized Electricity Service in Urban Slums: Findings from a Household Level Survey in Mumbai”. In: Energy for Sustainable Development 21, pp. 66-80. ISSN: 09730826.  10.1016/j.esd.2014.05.008  Open version Mimmi, L. M. and S. Ecer (2010). “An Econometric Study of Illegal Electricity Connections in the Urban Favelas of Belo Horizonte, Brazil”. In: Energy Policy 38.9, pp. 5081-5097. ISSN: 03014215.  10.1016/j.enpol.2010.04.037  Open version \nTechnical Reports and Other Publications\n\nRodriguez, D., M. Suardi, M. Ham, L. M. Mimmi, and A. Goksu (2014). Applying Results-Based Financing in Water Investments. Working Paper. World Bank.  Other publications Mimmi, L. M. (2012). Should We Re-Evaluate What to Evaluate (and How)? Policy Brief 83174. Washington, D.C: World Bank - GPOBA, p. 7.  Other publications  Johannes, L., L. M. Mimmi, and Y. Mumssen (2010). A Snapshot of the OBA Universe. Policy Brief. World Bank.  Other publications Mimmi, L. M. (2009). Youth Employment and Entrepreneurship Programs: A Review of Eight Best Practices. Working Paper. Washington, D.C.: Inter-American Development Bank.  Working Papers \nTechnical Reports and Other Publications*\n(* editorial role only)  OECD (2021). Building Resilience - New Strategies for Strengthening Infrastructure Resilience and Maintenance. G20 Background Report. Paris: OECD.  Other publications  World Bank (2021). Well Maintained: Economic Benefits from More Reliable Resilient Infrastructure. G20 Background Report. Washington, DC: World Bank.  Other publications  Daigger, G. T., N. Voutchkov, U. Lall, and W. Sarni (2019). The Future of Water: A Collection of Essays on ``Disruptive’’ Technologies That May Transform the Water Sector in the Next 10 Years. Discussion Paper. Washington, D.C.: Inter-American Development Bank.  10.18235/0001666  Other publications \nMisc. Divulgative Pieces\nMimmi, L. M. (2023). Natalità, famiglia e fisco. Il Ticino.  Download PDF Mimmi, L. M. (2022). Senza verità non c’è riconciliazione: un racconto dal New York Encounter. Il Ticino.  Download PDF Mimmi, L. M. (2021). Infrastructure Maintenance: Among G20 Top Priorities. Getting Infrastructure Finance Right.  Blog Post Mimmi, L. M. and F. Machado (2019). Technological Disruption: A Look into the Future Innovation in Water and Sanitation. Volvamos a la fuente.  Blog Post Mimmi, L. M., C. Borja-Vega, and A. Patel (2017). Predicting Slum Dwellers’ Deprivations from Space: A Pilot Study on Dhaka. The Water Blog.  Blog Post Mimmi, L. M. (2016). Open Spatial Data for Resilience in Tanzania: Lessons Learned from ‘Dar Ramani Huria’. A glitch in the matrix.  Download PDF Mimmi, L. M. (2009). Sussidiarieta’ e sviluppo: l’elettricita’ nelle favelas dell’America Latina. A glitch in the matrix.  Download PDF \nTheses\n[Master of Public Policy]Mimmi, L. M. (2008). “Demand-Driven Solutions to Illegal Electricity Connections: Preliminary Evaluation of the”Conviver” Program in the Urban Favelas of Belo Horizonte, Brazil”. Thesis. Washington, D.C: Georgetown University. 87 pp.  Univ. repository  [BSc equivalent of Economics & Business Administration]Mimmi, L. M. (2001). “L’internazionalizzazione delle piccole e medie imprese italiane nell’Area Euro-Mediterranea”. Thesis. Università degli Studi di Pavia. \n\n\nSee also  Google Scholar Page and  ResearchGate Profile"
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Illustrative Projects",
+    "section": "",
+    "text": "I love  and the culture of collaborative, reproducible and open research that this programming ecosystem promotes.\nThe projects below include: software I developed for analyzing, modelling and visualizing data; workshop materials I have created/presented; and other technical content (not necessarily related to my core research area)."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Luisa Maria Mimmi",
-    "section": "",
-    "text": "Email\n  \n  \n    \n     LinkedIn\n  \n  \n      Google Scholar\n  \n  \n      Research Gate\n  \n  \n    \n     Github\n  \n\n  \n  \n\n\nI am a Policy & Data Analyst, freelance consultant, and  enthusiast.\nI am an economist with extensive experience (in Italy 🇮🇹 and in the US 🇺🇸) in empirical research projects within the fields of economic development and impact evaluation of public economic policies. My research focus is at the intersection of public policy and statistics.  You can learn more about my background and publications via the research page, my CV, or the links below. \nAs a freelance consultant, I currently support institutional clients, academic researchers and individual professionals in their statistics and data analysis endeavors. I bring an analytical foundation to projects, and help making data-driven decision regardless of the sector or size of the organization. I also love teaching and I have successfully delivered lectures and workshops on statistics, data analysis and visualization.\nHere are some illustrative projects.\nFeel free to reach out to explore potential collaboration with any statistics, data analysis, or R endeavors."
+    "objectID": "projects/index.html#section",
+    "href": "projects/index.html#section",
+    "title": "Illustrative Projects",
+    "section": "2024",
+    "text": "2024\n\nIntroductory workshop on “R for Biostatistics” (July 2024)\n(WORK IN PROGRESS…)\nProject website | Code\nThis website collects the materials for a four day workshop organized by MITGEST Doctoral Network in July 2024. The workshop is offered as part of a summer school for EU doctoral biology students, hosted by the Radboud Center for Mitochondrial Medicine, in Nijmegen, Netherlands. My sister (M. Chiara Mimmi, Ph.D.), is in charge of the workshop, while I co-created the materials for the R practice sessions, plus the course website.\n\n\n\nPosition paper on city government “Idee per Pavia” (April 2024)\nProject website | Code | (in Italian 🇮🇹)\nThis is webpage I created to disseminate a position paper that I co-authored with the members of the Catholic Social Action Office of the Diocese of Pavia (my hometown in Italy). The report is meant as a tool to promote open and constructive dialogue on several urban planning issues and proposals in view of the upcoming municipal elections of June 2024."
   },
   {
-    "objectID": "index.html#welcome-to-my-website",
-    "href": "index.html#welcome-to-my-website",
-    "title": "Luisa Maria Mimmi",
-    "section": "",
-    "text": "I am a Policy & Data Analyst, freelance consultant, and  enthusiast.\nI am an economist with extensive experience (in Italy 🇮🇹 and in the US 🇺🇸) in empirical research projects within the fields of economic development and impact evaluation of public economic policies. My research focus is at the intersection of public policy and statistics.  You can learn more about my background and publications via the research page, my CV, or the links below. \nAs a freelance consultant, I currently support institutional clients, academic researchers and individual professionals in their statistics and data analysis endeavors. I bring an analytical foundation to projects, and help making data-driven decision regardless of the sector or size of the organization. I also love teaching and I have successfully delivered lectures and workshops on statistics, data analysis and visualization.\nHere are some illustrative projects.\nFeel free to reach out to explore potential collaboration with any statistics, data analysis, or R endeavors."
+    "objectID": "projects/index.html#section-1",
+    "href": "projects/index.html#section-1",
+    "title": "Illustrative Projects",
+    "section": "2023",
+    "text": "2023\n\n“Nerd help” collection of programming tutorials (2023)\n(WORK IN PROGRESS…)\nProject website | Code\nI am a self-taught programmer (R, git, Quarto, css, etc.), so I put together this collection of notes on how to go about some tasks as I figured them out. While intended for personal use, I am glad if these tutorials can be of help for others. \n\n\n\n\nExploratory study on text analytics with R “How slogans end up moving billions” (2022 - …)\n(WORK IN PROGRESS…)\nProject website | Code\nThis is an ongoing project I started to explore text analytics to answer a question that I find extremely interesting and compelling: What is the impact of slogans on policy decisions? My working hypothesis is that often slogans involves a progressive detachment of words/phrases from their original meaning, so “Why” and “how” does such a deviation between words and reality occur?"
+  },
+  {
+    "objectID": "projects/index.html#section-2",
+    "href": "projects/index.html#section-2",
+    "title": "Illustrative Projects",
+    "section": "2022",
+    "text": "2022\n\nExploratory Analysis of EU funds (ERDF, 2014-2020 cycle) spending (November 2022)\nProject website | Code\nThis is a quick exploration of some EU structural funds aimed at verifying how much Italy has been able to disburse (given amounts planned and deemed eligible) for the 2014-2020 funding cycle. Specifically data were taken from the ESIF 2014-2020 Finance Implementation Details (99js-gm52) dataset, then drilled down to programs under the ERDF (European Regional Development Fund). This was also an opportunity to learn some interective datavisualization tools in R (e.g. reactable).\n\n\n\n[R notes]: Cluster analysis (October 2022)\nHere is a tutorial I wrote as I was learning how to implement cluster analysis in R.\nHTML page"
   },
   {
     "objectID": "cv/index.html",
@@ -28,31 +35,17 @@
     "text": "Download CV in English"
   },
   {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "Miscellaneous Projects",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Luisa Maria Mimmi",
     "section": "",
-    "text": "I love  and the culture of collaborative, reproducible and open research that this programming ecosystem promotes.\nThe projects below include: software I developed for analyzing, modelling and visualizing data; workshop materials I have created/presented; and other technical content (not necessarily related to my core research area)."
+    "text": "Email\n  \n  \n    \n     LinkedIn\n  \n  \n      Google Scholar\n  \n  \n      Research Gate\n  \n  \n    \n     Github\n  \n\n  \n  \n\n\nI am a Policy & Data Analyst, freelance consultant, and  enthusiast.\nI have extensive experience (in Italy 🇮🇹 and in the US 🇺🇸) with empirical research projects in the fields of economic development and impact evaluation of public economic policies. My research interest is at the intersection of public policy and statistics.  You can learn more about my background and publications via my CV, or the links below.\n\n\nAs a freelance consultant, I currently support institutional clients, academic researchers and individual professionals in their statistics and data analysis endeavors. I bring an analytical foundation to projects, and help making data-driven decision regardless of the sector or size of the organization.\nI especially enjoy teaching and have successfully delivered lectures and workshops on statistics, reproducible data analysis, and visualization.\nHere are some illustrative projects.\nI am open to collaborate on projects involving data and statistical analysis, program evaluation, or R programming/training."
   },
   {
-    "objectID": "projects/index.html#section",
-    "href": "projects/index.html#section",
-    "title": "Miscellaneous Projects",
-    "section": "2024",
-    "text": "2024\n\nIntroductory workshop on “R for Biostatistics” (July 2024)\n(WORK IN PROGRESS…)\nProject website | Code\nThis website collects the materials for a four day workshop organized by MITGEST Doctoral Network in July 2024. The workshop is offered as part of a summer school for EU doctoral biology students, hosted by the Radboud Center for Mitochondrial Medicine, in Nijmegen, Netherlands. My sister (M. Chiara Mimmi, Ph.D.), is in charge of the workshop, while I co-created the materials for the R practice sessions, plus the course website.\n\n\n\nPosition paper on city government “Idee per Pavia” (April 2024)\nProject website | Code | (in Italian 🇮🇹)\nThis is webpage I created to disseminate a position paper that I co-authored with the members of the Catholic Social Action Office of the Diocese of Pavia (my hometown in Italy). The report is meant as a tool to promote open and constructive dialogue on several urban planning issues and proposals in view of the upcoming municipal elections of June 2024."
-  },
-  {
-    "objectID": "projects/index.html#section-1",
-    "href": "projects/index.html#section-1",
-    "title": "Miscellaneous Projects",
-    "section": "2023",
-    "text": "2023\n\n“Nerd help” collection of programming tutorials (2023)\n(WORK IN PROGRESS…)\nProject website | Code\nI am a self-taught programmer (R, git, Quarto, css, etc.), so I put together this collection of notes on how to go about some tasks as I figured them out. While intended for personal use, I am glad if these tutorials can be of help for others. \n\n\n\n\nExploratory study on text analytics with R “How slogans end up moving billions” (2022 - …)\n(WORK IN PROGRESS…)\nProject website | Code\nThis is an ongoing project I started to explore text analytics to answer a question that I find extremely interesting and compelling: What is the impact of slogans on policy decisions? My working hypothesis is that often slogans involves a progressive detachment of words/phrases from their original meaning, so “Why” and “how” does such a deviation between words and reality occur?"
-  },
-  {
-    "objectID": "projects/index.html#section-2",
-    "href": "projects/index.html#section-2",
-    "title": "Miscellaneous Projects",
-    "section": "2022",
-    "text": "2022\n\nExploratory Analysis of EU funds (ERDF, 2014-2020 cycle) spending (November 2022)\nProject website | Code\nThis is a quick exploration of some EU structural funds aimed at verifying how much Italy has been able to disburse (given amounts planned and deemed eligible) for the 2014-2020 funding cycle. Specifically data were taken from the ESIF 2014-2020 Finance Implementation Details (99js-gm52) dataset, then drilled down to programs under the ERDF (European Regional Development Fund). This was also an opportunity to learn some interective datavisualization tools in R (e.g. reactable).\n\n\n\n[R notes]: Cluster analysis (October 2022)\nHere is a tutorial I wrote as I was learning how to implement cluster analysis in R.\nHTML page |"
+    "objectID": "index.html#welcome-to-my-website",
+    "href": "index.html#welcome-to-my-website",
+    "title": "Luisa Maria Mimmi",
+    "section": "",
+    "text": "I am a Policy & Data Analyst, freelance consultant, and  enthusiast.\nI have extensive experience (in Italy 🇮🇹 and in the US 🇺🇸) with empirical research projects in the fields of economic development and impact evaluation of public economic policies. My research interest is at the intersection of public policy and statistics.  You can learn more about my background and publications via my CV, or the links below.\n\n\nAs a freelance consultant, I currently support institutional clients, academic researchers and individual professionals in their statistics and data analysis endeavors. I bring an analytical foundation to projects, and help making data-driven decision regardless of the sector or size of the organization.\nI especially enjoy teaching and have successfully delivered lectures and workshops on statistics, reproducible data analysis, and visualization.\nHere are some illustrative projects.\nI am open to collaborate on projects involving data and statistical analysis, program evaluation, or R programming/training."
   }
 ]
