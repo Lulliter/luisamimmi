@@ -8,13 +8,11 @@ toc-depth: 2
 
 I love [{{< fa brands r-project >}}]{style="color: #3b7697;"} and the culture of collaborative, reproducible and open research that this programming ecosystem promotes.  
 
-The projects below include: software I developed for analyzing, modelling and visualizing data; workshop materials I have created/presented; and other technical content (not necessarily related to my core research area).
+The projects below include: R code I wrote for analyzing, modelling and visualizing data; workshop materials I have created/presented; and other technical content (not strictly related to my core research area).
 
 ## 2024
 
 ### Introductory workshop on *"R for Biostatistics"* (July 2024)
-
-[(***WORK IN PROGRESS...***)]{style="color: #cc8400;"}
 
 [Project website](https://R4biostats.com) \| [Code](https://github.com/Lulliter/R4biostats)
 
@@ -41,13 +39,15 @@ I am a self-taught programmer (`R`, `git`, `Quarto`, `css`, etc.), so I put toge
 <!-- ### Static website for press review (December 2023) -->
 <!-- [Project website](https://lulliter.github.io/rassegna/) \| [Code](https://github.com/Lulliter/rassegna) -->
 
-### Exploratory study on text analytics with R *"How slogans end up moving billions"* (2022 - ...)
+<!-- ### Exploratory study on text analytics with R *"How slogans end up moving billions"* (2022 - ...) -->
 
-[(***WORK IN PROGRESS...***)]{style="color: #cc8400;"}
+<!-- [(***WORK IN PROGRESS...***)]{style="color: #cc8400;"} -->
 
-[Project website](https://lulliter.github.io/slogan/) \| [Code](https://github.com/Lulliter/slogan) 
+<!-- [Project website](https://lulliter.github.io/slogan/) \| [Code](https://github.com/Lulliter/slogan)  -->
 
-This is an ongoing project I started to explore text analytics to answer a question that I find extremely interesting and compelling: *What is the impact of slogans on policy decisions?* My working hypothesis is that often slogans involves a progressive detachment of words/phrases from their original meaning, so *"Why" and "how" does such a deviation between words and reality occur?* <br><br>
+<!-- This is an ongoing project I started to explore text analytics to answer a question that I find extremely interesting and compelling: *What is the impact of slogans on policy decisions?* My working hypothesis is that often slogans involves a progressive detachment of words/phrases from their original meaning, so *"Why" and "how" does such a deviation between words and reality occur?* <br><br> -->
+
+
 
 ## 2022
 
