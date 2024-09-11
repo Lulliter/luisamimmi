@@ -11,7 +11,6 @@ project:
     - "!writings/"
     - "!talks/"
 
-
 execute:
   freeze: auto  # Re-render only when source changes
 
