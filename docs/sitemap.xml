@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>{{< var website.site-url >}}/projects/index.html</loc>
-    <lastmod>2024-08-09T09:08:44.048Z</lastmod>
+    <lastmod>2024-08-09T09:10:05.261Z</lastmod>
   </url>
   <url>
     <loc>{{< var website.site-url >}}/cv/index.html</loc>
-    <lastmod>2024-04-28T21:09:04.143Z</lastmod>
+    <lastmod>2024-09-11T16:35:41.342Z</lastmod>
   </url>
   <url>
     <loc>{{< var website.site-url >}}/index.html</loc>
