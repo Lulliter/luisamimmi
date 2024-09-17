@@ -19,7 +19,7 @@ website:
   description: "Personal website and consulting page"
   site-url: "{{< var website.site-url >}}" # "https://lulliter.github.io/nerd-help"
   # Account Google Mktg "Lulliter github (UA-128632724)" collegato a luisamimmi.org
-  google-analytics: "G-JHQREDV79J"
+  google-analytics: "G-GPHN9BYP85"
   favicon: images/favicon_init32.png # https://favicon.io/favicon-generator/
   search: false # no magnifier on navbar
   page-navigation: true
