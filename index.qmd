@@ -27,7 +27,6 @@ about:
 toc: false
 ---
 
-
 <!-- ESEMPI  -->
 
 <!-- + https://bensoltoff.com/about/  -->
@@ -36,21 +35,20 @@ toc: false
 
 ::: {#hero-heading}
 
-## Welcome to my website!  
+## Welcome!  
 
 [I am a Policy & Data Analyst, freelance consultant, and {{< fa brands r-project >}} enthusiast.]{style="color:  #7f6b00; font-weight: bold;"}
 
-I have extensive experience (in Italy 🇮🇹 and in the US 🇺🇸) with empirical research projects in the fields of **economic development and impact evaluation of public economic policies**. My research interest is at the intersection of *public policy* and *statistics*. 
+My consulting services include **data and statistical analysis**, **quantitative program evaluation**, and **policy analysis**. I have extensively applied these skills across different sectors and contexts, working with *multilateral development banks*, central and local *government policy-making*, academic researchers, small firms and non-profit organisations (mostly in Italy 🇮🇹 and in the US 🇺🇸).  
+I also enjoy teaching and have successfully delivered **lectures and workshops** on statistics, reproducible data analysis and visualization.
+<!-- I bring an analytical foundation to projects, and help making data-driven decision regardless of the sector or size of the organization.   -->
 <!-- As a life-long learner, I enjoy studying new things and writing as a way of reflecting on interesting ideas or new skills I am learning. Hence this [**blog**](https://luisamimmi.org/blog/) page.    -->
-You can learn more about my background and publications via my [**CV**](../cv), or the links below.
+
+You can learn more about my background via my [**CV**](../cv) or peruse some illustrative [**projects**](https://luisamimmi.org/projects/), data tools and other learning experiments.
+
 
 <!-- the [**research**](../writings) page,  -->
 <!-- I gained extensive expertise in data collection-analysis-presentation, working in very different settings ---from private consulting to multilateral development banks, to NGOs and government. -->
-
-As a **freelance consultant**, I currently support institutional clients, academic researchers and individual professionals in their **statistics and data analysis endeavors**. I bring an analytical foundation to projects, and help making data-driven decision regardless of the sector or size of the organization.  
-I especially enjoy teaching and have successfully delivered **lectures and workshops** on statistics, reproducible data analysis, and visualization. 
-
-Here are some illustrative [**projects**](https://luisamimmi.org/projects/).
 
 [I am open to collaborate on projects involving data and statistical analysis, program evaluation, or R programming/training.]{style="color:  #7f6b00; font-weight: bold;"} 
 

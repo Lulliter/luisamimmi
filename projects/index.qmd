@@ -8,20 +8,29 @@ toc-depth: 2
 
 I love [{{< fa brands r-project >}}]{style="color: #3b7697;"} and the culture of collaborative, reproducible and open research that this programming ecosystem promotes.  
 
-The projects below include: R code I wrote for analyzing, modelling and visualizing data; workshop materials I have created/presented; and other technical content (not strictly related to my core research area).
+The projects below include: **R code** I wrote for analyzing, modelling and visualizing data; **workshop materials** I have created/presented; and **other content** (not necessarily related to my core research area).  
 
 ## 2024
 
+### Exploratory study on text analytics applied to World Bank documents (2022 - 2024)
+
+[(***WORK IN PROGRESS...***)]{style="color: #cc8400;"}
+
+[{{< fa up-right-from-square >}} Project website](https://lulliter.github.io/slogan/) \| [{{< fa brands github >}} Source Code](https://github.com/Lulliter/slogan)
+
+This is an ongoing project I started to explore text analytics to answer a question that I find extremely interesting and compelling: *What is the impact of slogans on policy decisions?* My working hypothesis is that often slogans involves a progressive detachment of words/phrases from their original meaning, but *"why" and "how" does such a deviation between words and reality occur?* <br><br>
+
+
 ### Introductory workshop on *"R for Biostatistics"* (July 2024)
 
-[Project website](https://R4biostats.com) \| [Code](https://github.com/Lulliter/R4biostats)
+[{{< fa up-right-from-square >}} Project website](https://R4biostats.com) \| [{{< fa brands github >}} Source Code](https://github.com/Lulliter/R4biostats)
 
 This website collects the materials for a four day workshop organized by [MITGEST Doctoral Network](https://www.mitgest.eu/) in July 2024. The workshop is offered as part of a summer school for EU doctoral biology students, hosted by the Radboud Center for Mitochondrial Medicine, in Nijmegen, Netherlands. My sister ([M. Chiara Mimmi, Ph.D.](https://www.linkedin.com/in/maria-chiara-mimmi-b0aa9233/)), is in charge of the workshop, while I co-created the materials for the R practice sessions, plus the course website.  
 <!-- ![](../images/banner_BIOSTATS.png) <br><br> -->
 
 ### Position paper on city government *"Idee per Pavia"* (April 2024)
 
-[Project website](https://ideeperpavia.com/) \| [Code](https://github.com/Lulliter/ideeperpavia) | (in Italian 🇮🇹)
+[{{< fa up-right-from-square >}} Project website](https://ideeperpavia.com/) \| [{{< fa brands github >}} Source Code](https://github.com/Lulliter/ideeperpavia) | (in Italian 🇮🇹)
 
 This is webpage I created to disseminate a position paper that I co-authored with the members of the Catholic Social Action Office of the Diocese of Pavia (my hometown in Italy). The report is meant as a tool to promote open and constructive dialogue on several urban planning issues and proposals in view of the upcoming municipal elections of June 2024. 
 
@@ -32,18 +41,18 @@ This is webpage I created to disseminate a position paper that I co-authored wit
 
 [(***WORK IN PROGRESS...***)]{style="color: #cc8400;"}
 
-[Project website](https://lulliter.github.io/nerd_help/me.html) \| [Code](https://github.com/Lulliter/nerd_help) 
+[{{< fa up-right-from-square >}} Project website](https://lulliter.github.io/nerd_help/me.html) \| [{{< fa brands github >}} Source Code](https://github.com/Lulliter/nerd_help) 
 
 I am a self-taught programmer (`R`, `git`, `Quarto`, `css`, etc.), so I put together this collection of notes on how to go about some tasks as I figured them out. While intended for personal use, I am glad if these tutorials can  be of help for others.  <br><br>
 
 <!-- ### Static website for press review (December 2023) -->
-<!-- [Project website](https://lulliter.github.io/rassegna/) \| [Code](https://github.com/Lulliter/rassegna) -->
+<!-- [{{< fa up-right-from-square >}} Project website](https://lulliter.github.io/rassegna/) \| [Source Code](https://github.com/Lulliter/rassegna) -->
 
 <!-- ### Exploratory study on text analytics with R *"How slogans end up moving billions"* (2022 - ...) -->
 
 <!-- [(***WORK IN PROGRESS...***)]{style="color: #cc8400;"} -->
 
-<!-- [Project website](https://lulliter.github.io/slogan/) \| [Code](https://github.com/Lulliter/slogan)  -->
+<!-- [{{< fa up-right-from-square >}} Project website](https://lulliter.github.io/slogan/) \| [Source Code](https://github.com/Lulliter/slogan)  -->
 
 <!-- This is an ongoing project I started to explore text analytics to answer a question that I find extremely interesting and compelling: *What is the impact of slogans on policy decisions?* My working hypothesis is that often slogans involves a progressive detachment of words/phrases from their original meaning, so *"Why" and "how" does such a deviation between words and reality occur?* <br><br> -->
 
@@ -51,7 +60,7 @@ I am a self-taught programmer (`R`, `git`, `Quarto`, `css`, etc.), so I put toge
 
 ### Exploratory Analysis of EU funds (ERDF, 2014-2020 cycle) spending (November 2022)
 
-[Project website](https://lulliter.shinyapps.io/03_Analysis/) \| [Code](https://github.com/Lulliter/plan2implem)
+[{{< fa up-right-from-square >}} Project website](https://lulliter.shinyapps.io/03_Analysis/) \| [{{< fa brands github >}} Source Code](https://github.com/Lulliter/plan2implem)
 
 This is a quick exploration of some EU structural funds aimed at verifying how much Italy has been able to disburse (given amounts planned and deemed eligible) for the 2014-2020 funding cycle. Specifically data were taken from the [ESIF 2014-2020 Finance Implementation Details](https://dev.socrata.com/foundry/cohesiondata.ec.europa.eu/99js-gm52) (99js-gm52) dataset, then drilled down to programs under the ERDF (European Regional Development Fund). This was also an opportunity to learn some interective datavisualization tools in R (e.g. `reactable`).
 
@@ -61,5 +70,5 @@ This is a quick exploration of some EU structural funds aimed at verifying how m
 
 Here is a tutorial I wrote as I was learning how to implement cluster analysis in R. 
 
-[HTML page](https://rpubs.com/Lulliter/cluster-analysis) 
+[{{< fa link >}} HTML page](https://rpubs.com/Lulliter/cluster-analysis) 
  
