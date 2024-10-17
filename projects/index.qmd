@@ -43,7 +43,7 @@ This is webpage I created to disseminate a position paper that I co-authored wit
 
 [{{< fa up-right-from-square >}} Project website](https://lulliter.github.io/nerd_help/me.html) \| [{{< fa brands github >}} Source Code](https://github.com/Lulliter/nerd_help) 
 
-I am a self-taught programmer (`R`, `git`, `Quarto`, `css`, etc.), so I put together this collection of notes on how to go about some tasks as I figured them out. While intended for personal use, I am glad if these tutorials can  be of help for others.  <br><br>
+I am a self-taught programmer (`R`, `git`, `Quarto`, `css`, etc.), so I put together this collection of notes on how to go about some tasks as I figured them out. While intended for personal use, I am glad if these tutorials can  be of help for others.  
 
 <!-- ### Static website for press review (December 2023) -->
 <!-- [{{< fa up-right-from-square >}} Project website](https://lulliter.github.io/rassegna/) \| [Source Code](https://github.com/Lulliter/rassegna) -->

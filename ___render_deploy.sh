@@ -63,7 +63,7 @@ git commit -m "added _variables.yml & cgd tools/01_git.qmd 🙌"
 git push origin master
 
 #=========================================== ALL IN ONE  ================================================#
-git add -u && git commit -a -m "Google analytics" && git push
+git add -u && git commit -a -m "quick" && git push
 
 #=========================================== FIle pubblico  ================================================#
 # https://quarto.org/docs/publishing/quarto-pub.html
