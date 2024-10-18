@@ -56,6 +56,12 @@ I am a self-taught programmer (`R`, `git`, `Quarto`, `css`, etc.), so I put toge
 
 <!-- This is an ongoing project I started to explore text analytics to answer a question that I find extremely interesting and compelling: *What is the impact of slogans on policy decisions?* My working hypothesis is that often slogans involves a progressive detachment of words/phrases from their original meaning, so *"Why" and "how" does such a deviation between words and reality occur?* <br><br> -->
 
+### Seminar on *"Reproducible Data analysis"* for the PNRR Unit staff at Cohesion Dept., Presidency of the Council of Ministers (July 2023)
+
+[{{< fa file >}} Presentation](Reproducibility.pdf) \| [{{< fa brands github >}} Source Code](https://github.com/Lulliter/Reproducibility) | (in Italian 🇮🇹)
+
+In this seminar I introduced the principles and practical approaches of reproducible data analysis, and suggested some feasible solutions geared to the needs of the office staff.  
+
 ## 2022
 
 ### Exploratory Analysis of EU funds (ERDF, 2014-2020 cycle) spending (November 2022)
