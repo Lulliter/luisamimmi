@@ -4,4 +4,12 @@
     <loc>{{< var website.site-url >}}/projects/index.html</loc>
     <lastmod>2024-10-18T08:52:24.892Z</lastmod>
   </url>
+  <url>
+    <loc>{{< var website.site-url >}}/cv/index.html</loc>
+    <lastmod>2024-09-11T16:35:41.342Z</lastmod>
+  </url>
+  <url>
+    <loc>{{< var website.site-url >}}/index.html</loc>
+    <lastmod>2024-10-01T21:35:04.427Z</lastmod>
+  </url>
 </urlset>
