@@ -58,7 +58,7 @@ I am a self-taught programmer (`R`, `git`, `Quarto`, `css`, etc.), so I put toge
 
 ### Seminar on *"Reproducible Data analysis"* for the PNRR Unit staff at Cohesion Dept., Presidency of the Council of Ministers (July 2023)
 
-[{{< fa file >}} Presentation](Reproducibility.pdf) \| [{{< fa brands github >}} Source Code](https://github.com/Lulliter/Reproducibility) | (in Italian 🇮🇹)
+[{{< fa file >}} Presentation](Reproducibility_Compressed.pdf) \| [{{< fa brands github >}} Source Code](https://github.com/Lulliter/Reproducibility) | (in Italian 🇮🇹)
 
 In this seminar I introduced the principles and practical approaches of reproducible data analysis, and suggested some feasible solutions geared to the needs of the office staff.  
 
