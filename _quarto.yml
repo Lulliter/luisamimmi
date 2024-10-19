@@ -8,7 +8,7 @@ project:
     - "!secret/"
     - "!zzz_old_distill/"
     - "!posts/"
-    - "!writings/"
+    # - "!writings/"
     - "!talks/"
 
 execute:
@@ -44,15 +44,15 @@ website:
       - text: "Home"
         icon: house-fill # https://icons.getbootstrap.com/?q=home
         href: index.html
+      - text: "Research"
+        icon: cup-hot-fill # archive-fill # https://icons.getbootstrap.com/?q=home
+        href: writings/index.qmd
       - text: "{{< fa brands r-project >}} Projects"
 #        icon: "{{< fa brands r-project >}}" # terminal-fill #mortarboard-fill # https://icons.getbootstrap.com/?q=home
         href: projects/index.qmd
       # - text: "Blog"
       #   icon: cup-hot-fill # archive-fill # https://icons.getbootstrap.com/?q=home
       #   href: posts/index.qmd
-      # - text: "Research"
-      #   icon: cup-hot-fill # archive-fill # https://icons.getbootstrap.com/?q=home
-      #   href: writings/index.qmd
 
 format:
   html:

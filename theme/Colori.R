@@ -1,6 +1,6 @@
 # Colori --------------------------------------------------------------------
 
- 
+
 
 pacificharbour_shades <- c( "#d4e6f3","#b8d6eb", "#9cc6e3", "#80b6db",  "#72aed8", "#5b8bac", "#39576c",  "#16222b")
 
@@ -53,15 +53,15 @@ rosso <- "#9b2339"
 # col2rgb( "#854442")
 
 
-# Color palettes -------------------------------------------------------------- 
+# Color palettes --------------------------------------------------------------
 
 #palette_g20 <- c("#455A8B", "#854442", "#285E60", "#BD8723", "#866445", "#A6A6A6")
 #mycolors_gradient <- c("#ccf6fa", "#80e8f3", "#33d9eb", "#00d0e6", "#0092a1")
 
 #                   fat gold  |Romaine Green| Blue ColaD |directoire Blue| Bourgeois  | Aztec Turquoise | Fulvous
 mycolors_contrast <- c("#9b2339", "#E7B800","#239b85", "#85239b", "#9b8523","#23399b", "#d8e600", "#0084e6","#399B23",  "#e60066" , "#00d8e6",  "#005ca1", "#e68000")
-#theme_col <-  c("#00d7e6", "#0065e6",  "#10069f")  
-three_col <- c("#d8e600", "#e68000",  "#e60c00")     
+#theme_col <-  c("#00d7e6", "#0065e6",  "#10069f")
+three_col <- c("#d8e600", "#e68000",  "#e60c00")
 two_col <- c( "#009E73","#E69F00")
 
 two_col_contrast <- c( "#399B23",  "#e60066" )
@@ -82,25 +82,25 @@ blu_contrast <- c(
   "#c6e7ff",
   "#013d68"
   )
-  
+
 # # -- Add custom fonts & make custom theme for ggplot2 -----
 # # -- da google
-# sysfonts::font_add_google(name = "Roboto Condensed", family =  "Condensed")
-# sysfonts::font_add(family = "Roboto Condensed", regular =  "~/Applications/Roboto_Condensed/RobotoCondensed#-Regular.ttf")
+ sysfonts::font_add_google(name = "Roboto Condensed", family =  "Condensed")
+ sysfonts::font_add(family = "Roboto Condensed", regular =  "~/Applications/Roboto_Condensed/RobotoCondensed#-Regular.ttf")
 # # -- da web
 # sysfonts::font_add(family = "Inconsolata", regular = "~/Applications/Inconsolata/static/Inconsolata_Expanded#.ttf")
 # sysfonts::font_families()
-# 
+#
 # # install.packages("extrafont")
 # library(extrafont)
 # # -- quali ho nel sistema
 # fonts()
 # # -- Import all the .ttf files from your system
- 
+
 # Themes -----------------------------------------------------------------------------------
 # #Define gppr_theme() function
-# 
-# theme_cohesion <- function(){ 
+#
+# theme_cohesion <- function(){
 #   font <- "Roboto"   #assign font family up front
 #   #theme_minimal() %+replace%    #replace elements we want to change
 #   theme(
@@ -109,7 +109,7 @@ blu_contrast <- c(
 #     axis.ticks = element_line(color = "grey85"),
 #     # inclinato
 #     axis.text.x = element_text(angle = 45, hjust = 1),# size = 9,
-#     # axis.text.y = element_text(size = 9, face = "bold"),  
+#     # axis.text.y = element_text(size = 9, face = "bold"),
 #     panel.grid.major = element_line(color = "grey95", size = 0.2),
 #     panel.grid.minor = element_line(color = "grey95", size = 0.2),
 #     #strip.text = element_text(face = "bold"),
@@ -122,12 +122,12 @@ blu_contrast <- c(
 #     legend.key = element_blank()
 #   )
 # }
-# 
+#
 # # ggplot theme
 # theme_edb <- function(base_size = 9, base_family = "Clear Sans Light") {
 #   update_geom_defaults("label", list(family = "Clear Sans Light"))
 #   update_geom_defaults("text", list(family = "Clear Sans Light"))
-#   ret <- theme_bw(base_size, base_family) + 
+#   ret <- theme_bw(base_size, base_family) +
 #     theme(panel.background = element_rect(fill = "#ffffff", colour = NA),
 #           axis.title.y = element_text(margin = margin(r = 10)),
 #           axis.title.x = element_text(margin = margin(t = 10)),
@@ -135,10 +135,10 @@ blu_contrast <- c(
 #           plot.subtitle = element_text(family = "Clear Sans Light"),
 #           plot.caption = element_text(family = "Clear Sans Light",
 #                                       size = rel(0.8), colour = "grey70"),
-#           panel.border = element_blank(), 
+#           panel.border = element_blank(),
 #           axis.line = element_blank(),
 #           axis.ticks = element_blank(),
-#           legend.position = "bottom", 
+#           legend.position = "bottom",
 #           legend.title = element_text(size = rel(0.8)),
 #           axis.title = element_text(size = rel(0.8), family = "Clear Sans", face = "bold"),
 #           strip.text = element_text(size = rel(1), family = "Clear Sans", face = "bold"),
@@ -146,7 +146,7 @@ blu_contrast <- c(
 #           panel.spacing.y = unit(1.5, "lines"),
 #           legend.key = element_blank(),
 #           legend.spacing = unit(0.2, "lines"))
-#   
+#
 #   ret
 # }
-# 
+#

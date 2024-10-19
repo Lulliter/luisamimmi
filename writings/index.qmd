@@ -241,8 +241,7 @@ source(here::here("R","functions_publications2.R"))
 
 ```
 
-## PUBLICATIONS
-
+Below is a list of my publications of various types.
 
 ### Articles in Peer-reviewed Journals
 
@@ -298,8 +297,8 @@ mybib_df_acad %>%
 	select(key, type, category, category2)
 ```
 
-`r print_ref_buttons3("mimmi_natalita_2023")`<br> 
-`r print_ref_buttons3("mimmi_senza_2022")`<br> 
+`r print_ref_buttons3("mimmi_natalita_2023")` <br> 
+`r print_ref_buttons3("mimmi_senza_2022")` <br> 
 `r print_ref_buttons3("mimmi_infrastructure_2021")`<br> 
 `r print_ref_buttons3("mimmi_technological_2019")`<br> 
 `r print_ref_buttons3("mimmi_predicting_2017-1")`<br> 
@@ -315,7 +314,8 @@ mybib_df_acad %>%
 	select(key, type, category, category2)
 ```
 
-\[*Master of Public Policy*\]<br>`r print_ref_buttons3("mimmi_demand-driven_2008")`<br> \[*BSc equivalent of Economics & Business Administration*\]<br>`r print_ref_buttons3("mimmi_linternazionalizzazione_2001")`
+\[*Master of Public Policy*\]<br>`r print_ref_buttons3("mimmi_demand-driven_2008")`<br> 
+\[*BSc equivalent of Economics & Business Administration*\]<br>`r print_ref_buttons3("mimmi_linternazionalizzazione_2001")`
 
 <br>
 

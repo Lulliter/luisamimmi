@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>{{< var website.site-url >}}/projects/index.html</loc>
-    <lastmod>2024-10-18T08:52:24.892Z</lastmod>
+    <loc>{{< var website.site-url >}}/writings/index.html</loc>
+    <lastmod>2024-10-19T14:35:23.263Z</lastmod>
+  </url>
+  <url>
+    <loc>{{< var website.site-url >}}/index.html</loc>
+    <lastmod>2024-10-19T14:30:25.919Z</lastmod>
   </url>
   <url>
     <loc>{{< var website.site-url >}}/cv/index.html</loc>
     <lastmod>2024-09-11T16:35:41.342Z</lastmod>
   </url>
   <url>
-    <loc>{{< var website.site-url >}}/index.html</loc>
-    <lastmod>2024-10-01T21:35:04.427Z</lastmod>
+    <loc>{{< var website.site-url >}}/projects/index.html</loc>
+    <lastmod>2024-10-18T08:52:24.892Z</lastmod>
   </url>
 </urlset>

@@ -44,7 +44,7 @@ I greatly enjoy teaching and have successfully delivered **lectures and workshop
 <!-- I bring an analytical foundation to projects, and help making data-driven decision regardless of the sector or size of the organization.   -->
 <!-- As a life-long learner, I enjoy studying new things and writing as a way of reflecting on interesting ideas or new skills I am learning. Hence this [**blog**](https://luisamimmi.org/blog/) page.    -->
 
-You can learn more about my background via my [**CV**](../cv) or peruse some illustrative [**projects**](https://luisamimmi.org/projects/), data tools and other learning experiments.
+You can learn more about my background via my [**CV**](../cv), take a look at my [**published work**](https://luisamimmi.org/writings/), or peruse some illustrative [**projects**](https://luisamimmi.org/projects/), data tools and other learning experiments.
 
 
 <!-- the [**research**](../writings) page,  -->
