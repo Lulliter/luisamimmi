@@ -159,11 +159,12 @@ print_ref_buttons3 <- function(key_select, bib = mybib, bib_df = mybib_df_acad) 
 	PDF_download <- blog_wPDF_links(key_select, bib_df = mybib_df_acad) # CALL Function 3)
 
 	# --  RETURN
-	paste(ref, "<br>", doi, open_material, rg, blog, thesis,  unpublished,
+	paste(ref, "<br>", doi, open_material, rg, blog, thesis, unpublished,
 			 PDF_download,
 			"<br>", sep = " ")  # sep = "<br>"
 
 }
 
-print_ref_buttons3("mimmi_natalita_2023")
+# print_ref_buttons3("mimmi_natalita_2023")
+# print_ref_buttons3("cusa_idee_2024")
 

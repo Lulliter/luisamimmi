@@ -22,14 +22,6 @@ knitr::opts_chunk$set(echo = FALSE)
 if (!require(pacman)) {install.packages(pacman)} 
 library(pacman)
 
-# pacman::p_ver("distilltools" )
-# pacman::p_exists("distilltools")  # FALSe
-# pacman::p_load_gh("EllaKaye/distilltools") # not on CRAN
-# 
-# pacman::p_ver(  "bib2df")
-# pacman::p_exists("bib2df")  #TRUE
-# pacman::p_ver_diff(  "bib2df")
-# # p_load_gh("ropensci/bib2df") # otherwise warns `as_data_frame() was deprecated in tibble 2.0.0.`
 
 #remotes::install_github("ropensci/bib2df")
 p_load(RefManageR,
@@ -63,7 +55,7 @@ mybib_df_raw <- bib2df::bib2df(bib_path)
 # - Format dataframe version of bibliography
 mybib_df <-
 	mybib_df_raw %>%
- clean_names() %>%
+	clean_names() %>%
 	select(key = bibtexkey, date, author, 
 			 title, journaltitle, doi, 
 			 category,type, url, 
@@ -102,9 +94,7 @@ mybib_df2 <- cbind(mybib_df, mybib_meta)
 ```
 
 <!-- # [url] -->
-
 <!-- 2.A (pubs) Distribute **url** column to right columns (which will have the names of icons later) -->
-
 <!-- OKKIO: NEED TO FIX "EXTRA" IN ZOTERO TO MAKE IT WORK ...  -->
 
 ```{r }
@@ -142,8 +132,10 @@ check <-  mybib_df2 [ !is.na (mybib_df2$url) &
 # ALL the REST -->  url_other (open access)
 rest <- check$key
 mybib_df2$url_other[which(mybib_df2$key %in% rest) ] <- mybib_df2$url[which(mybib_df2$key %in% rest) ] 
+
 # (GENERAL PDF ) <- NO perche mi incasina !!!!!!!!!!!!!!!!!!!!
 # mybib_df2$url_pdf <- ifelse(str_detect(mybib_df2$url, ".pdf$"),  mybib_df2$url, mybib_df2$url_pdf)
+
 # - add some empty column for later 
 # mybib_df2$bibtex <- as.character(NA)
 mybib_df2$image <- as.logical(NA)
@@ -161,6 +153,7 @@ mybib_df2$category2[mybib_df2$type == "IDB blog" ] <- "media"         # 1
 mybib_df2$category2[mybib_df2$type == "Thesis" ] <- "theses"   # 4 
 mybib_df2$category2[mybib_df2$type == "Invited Talk" ] <- "conference" # 5 
 mybib_df2$category2[mybib_df2$type == "Presentation" ] <- "conference"
+
 # ========== I am an author? 
 mybib_df2$lmm <- ifelse(str_detect(mybib_df2$author,  "Mimmi|G20-Italy"), 
 								"yes",
@@ -202,7 +195,6 @@ names(mybib_df_acad)[names(mybib_df2) == "url_pdf"] <- "pdf" # not used
 
 
 ```{r }
-
 # SPECIAL DISTINCTION BETWEEN PERSONAL AND NON PERSONAL BLOGS 
 ## --  path engineering for the button `download PDF doc`  
 mybib_df_acad <-  mybib_df_acad %>%
@@ -220,9 +212,6 @@ mybib_df_acad <-  mybib_df_acad %>%
 	mutate (rss_profess = case_when(
 			 !str_detect (type , "Personal Blog" )  ~ rss,
 			 .default =  NA_character_) )  
-	
-
-
 ```
 
 ```{r }
@@ -230,8 +219,8 @@ mybib_df_acad <-  mybib_df_acad %>%
 rm(list=setdiff(ls(), c( "mybib_df2", "mybib", "mybib_df_acad")))
 ```
 
+<!-- =========================================================================== -->
 <!-- # [function] -->
-
 <!-- 3  Functions for formatting a citation {now in R/functions_publications}-->
 
 ```{r}
@@ -240,6 +229,12 @@ source(here::here("R","functions_publications2.R"))
 # print_ref_simple(key_select = "mimmi_youth_2009-1",  bib = mytalk)
 
 ```
+
+
+
+<!-- =========================================================================== -->
+
+
 
 Below is a list of my publications of various types.
 
@@ -259,22 +254,32 @@ mybib_df_acad %>%
 `r print_ref_buttons3("mimmi_econometric_2010")`
 
 ### Technical Reports and Other Publications
+```{r}
+#| include: false
+mybib_df_acad$persblog_PDF[mybib_df_acad$key == "cusa_idee_2024"]  <- "IdeePavia_2024.pdf"
+```
 
 ```{r}
 #| include: false
 mybib_df_acad %>% 
-	 filter(category  == "REPORT" & lmm == "yes") %>% 
+	filter(category  == "REPORT" & lmm == "yes") %>% 
+	# already in PEER 
+	filter (key != "mimmi_predicting_2017") %>% 
+	filter (key != "mimmi_assessing_2012") %>% 
+	# Metto tra i blog 
+#	filter (key != "cusa_idee_2024") %>% 
 	select(key, type, category, category2)
 ```
 
 <!-- `r print_ref_buttons3("mimmi_predicting_2017")`<br>  RIPETE PUBBLICAZIONE -->
-
-`r print_ref_buttons3("rodriguez_applying_2014")`<br> <!-- `r print_ref_buttons3("mimmi_assessing_2012")`<br> RIPETE PUBBLICAZIONE --> 
+`r print_ref_buttons3("cusa_idee_2024")`<br>        <!-- in Misc. xche voglio il PDF che il sito poi cade   -->  
+`r print_ref_buttons3("rodriguez_applying_2014")`<br> 
+<!-- `r print_ref_buttons3("mimmi_assessing_2012")`<br> RIPETE PUBBLICAZIONE --> 
 `r print_ref_buttons3("mimmi_should_2012")`<br> 
 `r print_ref_buttons3("johannes_snapshot_2010")`<br> 
 `r print_ref_buttons3("mimmi_youth_2009")`
 
-### Technical Reports and Other Publications\*
+### Collaborative Publications\*
 
 ```{r}
 #| include: false
@@ -288,7 +293,7 @@ mybib_df_acad %>%
 `r print_ref_buttons3("world_bank_well_2021")`<br> 
 `r print_ref_buttons3("daigger_future_2019")`
 
-### Misc. Divulgative Pieces
+### Outreach and Divulgative Pieces
 
 ```{r}
 #| include: false
