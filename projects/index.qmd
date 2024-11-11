@@ -12,13 +12,13 @@ The projects below include: **R code** I wrote for analyzing, modelling and visu
 
 ## 2024
 
-<!-- ### Text analytics project applied to World Bank *corpus* of Projects' documents  (2022 - 2024) -->
+### Text analytics project applied to World Bank *corpus* of Projects' documents  (FY 2001 - 2023)
 
-<!-- [(***WORK IN PROGRESS...***)]{style="color: #cc8400;"} -->
+[(***WORK IN PROGRESS...***)]{style="color: #cc8400;"}
 
-<!-- [{{< fa up-right-from-square >}} Project website](https://lulliter.github.io/slogan/) \| [{{< fa brands github >}} Source Code](https://github.com/Lulliter/slogan) -->
+[{{< fa up-right-from-square >}} Project website](https://lulliter.github.io/slogan/) \| [{{< fa brands github >}} Source Code](https://github.com/Lulliter/slogan)
 
-<!-- This is an ongoing project I started to learn some NLP (Natural Language Processing) techniques to answer a question that I find extremely interesting and compelling: *What is the impact of slogans and catchphrases on policy decisions?* These are heavily used in the policy debate and strategic planning and I am curious to explore *patterns* of their occurrence.  <br><br> -->
+This is an ongoing project I started to learn some NLP (Natural Language Processing) techniques to answer a question that I find extremely interesting and compelling: *What is the impact of slogans and catchphrases on policy decisions?* These are heavily used in the policy debate and strategic planning and I am curious to explore *patterns* of their occurrence using project documents as input data.  <br><br>
 
 
 ### Introductory workshop on *"R for Biostatistics"* (July 2024)
