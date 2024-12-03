@@ -24,26 +24,24 @@ $font-family-sans-serif: "Noto Sans Mono", "Source Code Pro", "mono-space" ;
 /*--------------------- MY COLORS ---------------------*/
 // Define Color variables `$var-name: value;`
 $darkblue: #163342;
-$darkred: #7f173d;
+$darkred: #e5b2c4; // #7f173d;
 $teal: #17717f;
 $cream: #FDFBF7;
 $lightgrey : #d3d3d3;
 $darkgray: #7a7a7a;
 
-$nav_head_bckg: #3881a5;   //    #b78a92	#72aed8
-$nav_foot_bckg: #BDD5E1;	//			  #e7d8da	#e3eff7
 
 $theme_main_dark: #0a222e;
-$theme_main: #23749b;
-$theme_main_light: #BDD5E1;
-$theme_main_extralight:#f6f9fb;
+$theme_main: #17717f;
+$theme_main_light: #a2c6cc;
+$theme_main_extralight:#ffffff;
 
-$theme_related1: #3b7697;
+$theme_related1: #23749b;
 $theme_related2: #3d8085;
 
-$theme_link: #9b2374;
-$theme_link_light: #e1bdd5;
-$theme_link_extralight: #ebd3e3;
+$theme_link: #af4f90; //#9b2374;
+$theme_link_light: #c37bac;
+$theme_link_extralight: #f5e9f1;
 
 $theme_comp1: #239b86;
 $theme_comp1_light: #bde1da;
@@ -57,6 +55,8 @@ $gold:#7f6b00;
 // see https://quarto.org/docs/output-formats/html-themes.html#sass-variables
 // in realta non mi funzionano !?!?
 
+
+// ------ PAGE BODY  -------//
 // The page text color.
 $body-color: $theme_main_dark;
 // The page background color.
@@ -68,13 +68,17 @@ $input-bg: $theme_comp2_light;
 // The background color for popovers (for example, when a citation preview is shown).
 $popover-bg: $theme_comp1;
 
+// ------ NAVBAR -------//
 // The background color of the navbar. (Defaults to the theme’s $primary color.)
-$navbar-bg: $theme_main;
+$navbar-bg: $theme_main; // (#17717f, teal)
 // The color of foreground elements (text and navigation) on the navbar. If not specified, a contrasting color is automatically computed.
 $navbar-fg: $theme_main_extralight;
 // The highlight color for links in the navbar. If not specified, the $link-color is used or a contrasting color is automatically computed.
-$navbar-hl: $darkred;
-
+$navbar-hl: #c0cbd1; // grey
+// Background of nav header //
+$nav_head_bckg: #17717f;   //    #b78a92	#72aed8
+// Background of nav footer //
+$nav_foot_bckg: #b9d4d9;	//			  #e7d8da	#e3eff7
 
 
 /*--------------------- BOOTSTRAP FONT VARIABLES ---------------------*/
@@ -97,11 +101,22 @@ $font-size-base: 1rem;
 // nome sito
 .navbar-brand {
   font-size: 2rem; //var(--bs-navbar-brand-font-size);
+  font-weight: 700;  // Make it bold (optional)
   color: var(--bs-navbar-brand-color);
   white-space: nowrap;
   font-weight: 600; // + bold
 }
 
+// navbar tabs names
+.navbar .navbar-nav .nav-link {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: $theme_main_extralight;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: $navbar-hl; // Change color on hover
+  text-decoration: underline; // Optional: underline on hover
+}
 
 h1, .h1 {
   color: $theme_related1;
@@ -118,6 +133,7 @@ h2, .h2 {
 }
 
 body {
+	background-color: $body-bg;
     font-family:"Lucida Grande", serif;
 //    font-size: 12px;
     -ms-user-select: none;
@@ -126,12 +142,28 @@ body {
     user-select: none;
 }
 
+.main-content {
+  background-color: lighten($theme_main_extralight, 20%); // Lighter background for main content
+  padding: 2rem; // Optional: Add spacing for a better layout
+  border-radius: 8px; // Optional: Add rounded corners for aesthetics
+}
+
+
+
 .column-margin{
   color: $darkgray;
   font-size: .825rem;
 }
 .nav-footer a {
-  color: $theme_main;// #515c61;
-
+  color: $theme_main; // Optional: set a matching text color for readability
+  color: $theme_link; // Use your SCSS variable for link color
+}
+.nav-footer a:hover {
+  color: $theme_link_light; // Change color on hover for interactivity
+  text-decoration: none;    // Optional: remove underline on hover
 }
 
+.nav-footer {
+  color: $theme_main; // Optional: set a matching text color for readability
+  background-color: $nav_foot_bckg; // Use the SCSS variable
+}
