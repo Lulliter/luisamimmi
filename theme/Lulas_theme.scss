@@ -98,13 +98,13 @@ $font-size-base: 1rem;
 
 
 /*-- scss:rules --*/
-// nome sito
+
+// Navbar (solo website name)
 .navbar-brand {
   font-size: 2rem; //var(--bs-navbar-brand-font-size);
   font-weight: 700;  // Make it bold (optional)
   color: var(--bs-navbar-brand-color);
   white-space: nowrap;
-  font-weight: 600; // + bold
 }
 
 // navbar tabs names
@@ -148,12 +148,12 @@ body {
   border-radius: 8px; // Optional: Add rounded corners for aesthetics
 }
 
-
-
 .column-margin{
   color: $darkgray;
   font-size: .825rem;
 }
+
+// footer background
 .nav-footer a {
   color: $theme_main; // Optional: set a matching text color for readability
   color: $theme_link; // Use your SCSS variable for link color

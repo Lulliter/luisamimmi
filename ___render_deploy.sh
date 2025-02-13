@@ -54,7 +54,7 @@ fi
 git commit -m "$msg"
 =======
 
-git commit -m "writings/PDF/IdeePavia_2024.pdf ✍🏻 "
+git commit -m "revised colors theme 🎨🖍️"
 git commit -m "added SLOGAN"
 		# git commit -m "revision INSTALL + cleanup slides 2"  -m "01_... + 00_carico_tab-contesto.qmd "
 
