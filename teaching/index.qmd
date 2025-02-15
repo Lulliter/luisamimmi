@@ -112,7 +112,7 @@ This website collects the materials for a four day workshop organized by [MITGES
 
 ### Seminar on *"Reproducible Data Analysis"* (July 2023)
 
-[{{< fa up-right-from-square >}} Slides](Reproducibility.pdf)
+[{{< fa up-right-from-square >}} Slides](Reproducibility_Compressed.pdf)
 
 This seminar (titled _Principi, tecniche e strumenti per l’analisi riproducibile dei dati_) is an introduction to reproducible data analysis, I offered to the PNRR Unit, within the Presidency of the Ministries Council, Rome. The seminar covers principles, techniques, and tools for reproducible data analysis.
 
