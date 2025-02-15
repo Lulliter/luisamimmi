@@ -47,9 +47,12 @@ website:
       - text: "Research"
         icon: cup-hot-fill # archive-fill # https://icons.getbootstrap.com/?q=home
         href: writings/index.qmd
-      - text: "{{< fa brands r-project >}} Projects"
+      - text: "{{< fa brands r-project >}} Projects" # FA icon directly in text
 #        icon: "{{< fa brands r-project >}}" # terminal-fill #mortarboard-fill # https://icons.getbootstrap.com/?q=home
         href: projects/index.qmd
+      - text: "Teaching"
+        icon: mortarboard-fill # archive-fill # https://icons.getbootstrap.com/?q=home
+        href: teaching/index.qmd
       # - text: "Blog"
       #   icon: cup-hot-fill # archive-fill # https://icons.getbootstrap.com/?q=home
       #   href: posts/index.qmd

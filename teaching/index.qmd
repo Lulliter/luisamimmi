@@ -1,0 +1,125 @@
+---
+title: Teaching
+execute:
+  echo: false
+  warning: false
+comments: false
+toc: true
+toc-location: left
+bibliography: ../bib/Lula-MyPublications-Broad.bib
+---
+
+Selected materials from my teaching activities, including workshops, seminars, and on the job training I have delivered over the years.
+
+ 
+<!-- # [setup] -->
+ 
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = FALSE)
+
+if (!require(pacman)) {install.packages(pacman)} 
+library(pacman)
+
+# pacman::p_ver("distilltools" )
+# pacman::p_exists("distilltools")  # FALSe
+# pacman::p_load_gh("EllaKaye/distilltools") # not on CRAN
+# 
+# pacman::p_ver(  "bib2df")
+# pacman::p_exists("bib2df")  #TRUE
+# pacman::p_ver_diff(  "bib2df")
+# # p_load_gh("ropensci/bib2df") # otherwise warns `as_data_frame() was deprecated in tibble 2.0.0.`
+
+remotes::install_github("ropensci/bib2df")
+p_load(RefManageR,
+		 bib2df,
+		 bibtex,
+		 janitor,
+		 lubridate,
+		 glue,
+		 tidyverse	)
+
+```
+
+<!-- 1.B LOAD & CLEAN ZOTERO'S Lula-MyTalks.bib -->
+
+```{r talks_zot_link}
+# - Load bibliography (exported from Zotero)
+talk_path <- here::here ("bib", "Lula-MyTalks.bib")
+
+# - as list using RefManageR
+mytalk <- RefManageR::ReadBib(talk_path, check = FALSE )  #bibtex::do_read_bib(file = talk_path, encoding = "unknown", srcfile)
+
+# - as dataframe
+mytalk_df_raw <- bib2df::bib2df(talk_path)  
+
+# - Format dataframe version of bibliography
+mytalk_df <-
+	mytalk_df_raw %>%
+	clean_names() %>%
+	select(key = bibtexkey, date, author, 
+			 title, eventtitle, #doi, 
+			 category,type, url, 
+			 #url_preprint, # added in Zotero tex.url_preprint: https://...
+			 file, abstract ) %>%
+	mutate(
+		# date = parse_date_time(date, "ymd",
+		# 							  #select_formats = .select_formats
+		# 							  drop = FALSE),
+		yyyy_mm = str_sub(date, start = 1, end = 7), # I have some irregularities in format  
+		date_parsed = parse_date_time(yyyy_mm,"ym", truncated = 2 ),
+		year = year(date_parsed), 
+		month = month(date_parsed)) %>%
+	arrange(desc(year), key) %>% 
+	dplyr::relocate(c("yyyy_mm", "year", "month"), .after =date)
+
+# - Load additional metadata
+mybib_meta <- tibble::tribble( 
+	~"url_pdf",~"url_other") 
+
+mybib_meta[1:nrow(mytalk_df), ] <- as.character(NA)
+
+mytalk_df2 <- cbind(mytalk_df, mybib_meta)
+# names(mytalk_df2)
+```
+
+
+```{r}
+rm(mybib, mytalk, mytalk_df, mytalk_df_raw, mybib_meta)
+```
+
+<!-- 2.B (Talks) Distribute **url** column to right columns (which will have the names of icons later) -->
+```{r}
+#| echo: FALSE
+#| output: FALSE
+# lesson list of handles
+lesson_list <- mytalk_df2 %>% 
+	filter(type == "Lesson") %>%
+	select(key, title, year) %>% 
+	# inverse chronological order
+	arrange(desc(year)) 
+
+lesson_list
+```
+
+
+### Introductory workshop on *"R for Biostatistics"* (July 2024)
+
+[{{< fa up-right-from-square >}} Project website](https://R4biostats.com) \| [{{< fa brands github >}} Source Code](https://github.com/Lulliter/R4biostats)
+
+This website collects the materials for a four day workshop organized by [MITGEST Doctoral Network](https://www.mitgest.eu/) in July 2024. The workshop is offered as part of a summer school for EU doctoral biology students, hosted by the Radboud Center for Mitochondrial Medicine, in Nijmegen, Netherlands. My sister ([M. Chiara Mimmi, Ph.D.](https://www.linkedin.com/in/maria-chiara-mimmi-b0aa9233/)), is in charge of the workshop, while I co-created the materials for the R practice sessions, plus the course website.  
+<!-- ![](../images/banner_BIOSTATS.png) <br><br> -->
+
+### Seminar on *"Reproducible Data Analysis"* (July 2023)
+
+[{{< fa up-right-from-square >}} Slides](Reproducibility.pdf)
+
+This seminar (titled _Principi, tecniche e strumenti per l’analisi riproducibile dei dati_) is an introduction to reproducible data analysis, I offered to the PNRR Unit, within the Presidency of the Ministries Council, Rome. The seminar covers principles, techniques, and tools for reproducible data analysis.
+
+### Lessons learned from a pilot study on *"Willingness to pay for legal electricity among slum residents"* (April 2012)
+
+[{{< fa up-right-from-square >}} Slides](Mumbai.pdf)
+
+This lesson was an internal training initiatives in which I shared with my team the World Bank some lessons learned from a pilot study conducted on slum electrification in Mumbai. The lesson focused on the sampling methodology and the estimation of willingness to pay for infrastructure services, based on a household survey conducted in 4 urban slums of Mumbai.
+
+

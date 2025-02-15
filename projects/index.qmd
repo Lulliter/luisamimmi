@@ -20,14 +20,6 @@ The projects below include: **R code** I wrote for analyzing, modelling and visu
 
 This is an ongoing project I started to learn some NLP (Natural Language Processing) techniques to answer a question that I find extremely interesting and compelling: *What is the impact of slogans and catchphrases on policy decisions?* These are heavily used in the policy debate and strategic planning and I am curious to explore *patterns* of their occurrence using project documents as input data.  <br><br>
 
-
-### Introductory workshop on *"R for Biostatistics"* (July 2024)
-
-[{{< fa up-right-from-square >}} Project website](https://R4biostats.com) \| [{{< fa brands github >}} Source Code](https://github.com/Lulliter/R4biostats)
-
-This website collects the materials for a four day workshop organized by [MITGEST Doctoral Network](https://www.mitgest.eu/) in July 2024. The workshop is offered as part of a summer school for EU doctoral biology students, hosted by the Radboud Center for Mitochondrial Medicine, in Nijmegen, Netherlands. My sister ([M. Chiara Mimmi, Ph.D.](https://www.linkedin.com/in/maria-chiara-mimmi-b0aa9233/)), is in charge of the workshop, while I co-created the materials for the R practice sessions, plus the course website.  
-<!-- ![](../images/banner_BIOSTATS.png) <br><br> -->
-
 ### Position paper on city government *"Idee per Pavia"* (April 2024)
 
 [{{< fa up-right-from-square >}} Project website](https://ideeperpavia.com/) \| [{{< fa brands github >}} Source Code](https://github.com/Lulliter/ideeperpavia) | (in Italian 🇮🇹)
@@ -56,11 +48,6 @@ I am a self-taught programmer (`R`, `git`, `Quarto`, `css`, etc.), so I put toge
 
 <!-- This is an ongoing project I started to explore text analytics to answer a question that I find extremely interesting and compelling: *What is the impact of slogans on policy decisions?* My working hypothesis is that often slogans involves a progressive detachment of words/phrases from their original meaning, so *"Why" and "how" does such a deviation between words and reality occur?* <br><br> -->
 
-### Seminar on *"Reproducible Data analysis"* for the PNRR Unit staff at Cohesion Dept., Presidency of the Council of Ministers (July 2023)
-
-[{{< fa file >}} Presentation](Reproducibility_Compressed.pdf) \| [{{< fa brands github >}} Source Code](https://github.com/Lulliter/Reproducibility) | (in Italian 🇮🇹)
-
-In this seminar I introduced the principles and practical approaches of reproducible data analysis, and suggested some feasible solutions geared to the needs of the office staff.  
 
 ## 2022
 

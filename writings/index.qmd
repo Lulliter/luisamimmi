@@ -6,7 +6,7 @@ execute:
 comments: false
 toc: true
 toc-location: left
-bibliography: Lula-MyPublications-Broad.bib
+bibliography: ../bib/Lula-MyPublications-Broad.bib
 ---
 
 <!-- # ESEMPI -->
@@ -44,7 +44,7 @@ p_load(RefManageR,
 
 ```{r  pubs_zot_link}
 # - Load bibliography (exported from Zotero)
-bib_path <- here::here ("writings","Lula-MyPublications-Broad.bib")
+bib_path <- here::here ("bib","Lula-MyPublications-Broad.bib")
 
 # - as list  (NEEDED for functions later)
 mybib <- RefManageR::ReadBib(bib_path, check = FALSE )  #bibtex::do_read_bib(file = bib_path, encoding = "unknown", srcfile)
