@@ -64,7 +64,7 @@ git commit -m "upd CV"
 git push origin master
 
 #=========================================== ALL IN ONE  ================================================#
-git add -u && git commit -a -m "quick" && git push
+git add -u && git commit -a -m "CV upd" && git push
 
 #=========================================== FIle pubblico  ================================================#
 # https://quarto.org/docs/publishing/quarto-pub.html
