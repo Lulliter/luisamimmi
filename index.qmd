@@ -40,7 +40,7 @@ toc: false
 [I am a Policy & Data Analyst, freelance consultant, and {{< fa brands r-project >}} enthusiast.]{style="color:  #7f6b00; font-weight: bold;"}
 
 My consulting services include **data and statistical analysis**, **quantitative program evaluation**, and **policy analysis**. I have extensively applied these skills across different sectors and contexts, working with multilateral development banks, central and local government policy-makers, academic researchers, small firms and non-profit organisations (mostly in Italy 🇮🇹 and in the US 🇺🇸).  
-I greatly enjoy teaching and have successfully delivered [**lectures and workshops**](https://luisamimmi.org/teaching/) on statistics, reproducible data analysis and visualization.
+I greatly enjoy teaching and have successfully delivered [**lectures and workshops**] on statistics, reproducible data analysis and visualization.
 <!-- I bring an analytical foundation to projects, and help making data-driven decision regardless of the sector or size of the organization.   -->
 <!-- As a life-long learner, I enjoy studying new things and writing as a way of reflecting on interesting ideas or new skills I am learning. Hence this [**blog**](https://luisamimmi.org/blog/) page.    -->
 
