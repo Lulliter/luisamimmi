@@ -57,15 +57,15 @@ git commit -m "$msg"
 
 git commit -m "revised colors theme 🎨🖍️"
 git commit -m "added TEACHING section"
-git commit -m "upd CV"
-		# git commit -m "revision INSTALL + cleanup slides 2"  -m "01_... + 00_carico_tab-contesto.qmd "
+git commit -m "_metadata.yml"
+# git commit -m "revision INSTALL + cleanup slides 2"  -m "01_... + 00_carico_tab-contesto.qmd "
 
 # Push local source (master branch) to remote reference (origin)
 #cd .
 git push origin master
 
 #=========================================== ALL IN ONE  ================================================#
-git add -u && git commit -a -m "CV upd" && git push
+git add -u && git commit -a -m "_metadata.yml" && git push
 
 #=========================================== FIle pubblico  ================================================#
 # https://quarto.org/docs/publishing/quarto-pub.html
