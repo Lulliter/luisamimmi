@@ -8,9 +8,10 @@ project:
     - "!secret/"
     - "!zzz_old_distill/"
     - "!posts/"
-    # - "!writings/"
     - "!talks/"
-
+  resources:
+    - "teaching/_metadata.yml"
+    - "writings/_metadata.yml"
 execute:
   freeze: auto  # Re-render only when source changes
 

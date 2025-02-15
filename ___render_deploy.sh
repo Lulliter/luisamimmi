@@ -12,6 +12,7 @@ quarto preview
 
 # ====== RENDER the entire site
 quarto render
+quarto render --clean
 
 # render a single file only
 project:
