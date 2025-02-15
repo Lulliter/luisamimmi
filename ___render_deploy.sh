@@ -56,6 +56,7 @@ git commit -m "$msg"
 
 git commit -m "revised colors theme 🎨🖍️"
 git commit -m "added SLOGAN"
+git commit -m "upd CV"
 		# git commit -m "revision INSTALL + cleanup slides 2"  -m "01_... + 00_carico_tab-contesto.qmd "
 
 # Push local source (master branch) to remote reference (origin)
