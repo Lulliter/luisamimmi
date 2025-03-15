@@ -42,7 +42,7 @@ git add cv/*
 git add images/*
 git add docs/*
 git add posts/*
-git add writings/
+git add teaching/Reproducibility_Compressed.pdf
 git add README*
 git add _extensions/
 =======
@@ -56,7 +56,7 @@ git commit -m "$msg"
 =======
 
 git commit -m "revised colors theme 🎨🖍️"
-git commit -m "added TEACHING section"
+git commit -m "added TEACHING section n "
 git commit -m "_metadata.yml"
 # git commit -m "revision INSTALL + cleanup slides 2"  -m "01_... + 00_carico_tab-contesto.qmd "
 

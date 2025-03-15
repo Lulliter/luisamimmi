@@ -10,12 +10,6 @@
 // Andrew Heiss
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Fira+Sans+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-/*-- Sass variables = you assign a value to a name that begins with `$var: XXXXX` and then refer to `$var`
-	you can tell a default is set if it ends with `!default`--*/
-
-// use litera as the base
-$theme: "litera" !default;
-
 // sans-serif font family: a lot in case reader don't have my font installed
 $font-family-sans-serif: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol","Cambria", "Georgia", "serif",  "Noto Color Emoji" !default;
 // monospace font family: a lot in case reader don't have my font installed
@@ -23,18 +17,11 @@ $font-family-sans-serif: "Noto Sans Mono", "Source Code Pro", "mono-space" ;
 
 /*--------------------- MY COLORS ---------------------*/
 // Define Color variables `$var-name: value;`
-$darkblue: #163342;
-$darkred: #e5b2c4; // #7f173d;
-$teal: #17717f;
-$cream: #FDFBF7;
-$lightgrey : #d3d3d3;
-$darkgray: #7a7a7a;
 
-
+$theme_main_extralight:#ffffff;
 $theme_main_dark: #0a222e;
 $theme_main: #17717f;
 $theme_main_light: #a2c6cc;
-$theme_main_extralight:#ffffff;
 
 $theme_related1: #23749b;
 $theme_related2: #3d8085;
@@ -49,7 +36,20 @@ $theme_comp1_light: #bde1da;
 $theme_comp2: #A55C38;
 $theme_comp2_light: #e4cec3;
 
+$darkblue: #163342;
+$darkred: #e5b2c4; // #7f173d;
+$teal: #17717f;
+$cream: #FDFBF7;
+$lightgrey : #d3d3d3;
+$darkgray: #7a7a7a;
 $gold:#7f6b00;
+
+/*-- Sass variables = you assign a value to a name that begins with `$var: XXXXX` and then refer to `$var`
+	you can tell a default is set if it ends with `!default`--*/
+
+// use litera as the base
+$theme: "litera" !default;
+
 
 /*--------------------- RULES ---------------------*/
 // see https://quarto.org/docs/output-formats/html-themes.html#sass-variables

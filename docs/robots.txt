@@ -1,1 +1,1 @@
-Sitemap: {{< var website.site-url >}}/sitemap.xml
+Sitemap: https://www.luisamimmi.org/sitemap.xml

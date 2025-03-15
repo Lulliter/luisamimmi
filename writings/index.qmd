@@ -1,5 +1,5 @@
 ---
-title: Writings and Research
+title: Writing and Research
 execute:
   echo: false
   warning: false
