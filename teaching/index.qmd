@@ -1,5 +1,5 @@
 ---
-title: Teaching
+title: Workshops and training
 execute:
   echo: false
   warning: false

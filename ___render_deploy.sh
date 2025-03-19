@@ -55,7 +55,7 @@ fi
 git commit -m "$msg"
 =======
 
-git commit -m "revised colors theme 🎨🖍️"
+git commit -m "small rev theme 🎨🖍️"
 git commit -m "added TEACHING section n "
 git commit -m "_metadata.yml"
 # git commit -m "revision INSTALL + cleanup slides 2"  -m "01_... + 00_carico_tab-contesto.qmd "

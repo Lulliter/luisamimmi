@@ -7,7 +7,7 @@ execute:
   freeze: true  # never re-render during project render
 engine: knitr 
 cv:
-  pdf: "LMM_CV_eng.pdf"
+  pdf: "LMM_resume_eng.pdf"
 ---
 
 ```{css echo=FALSE}
