@@ -22,7 +22,7 @@ This is an ongoing project I started to learn some NLP (Natural Language Process
 
 ### Position paper on city government *"Idee per Pavia"* (April 2024)
 
-[{{< fa up-right-from-square >}} Project website](https://ideeperpavia.com/) \| [{{< fa brands github >}} Source Code](https://github.com/Lulliter/ideeperpavia) | (in Italian 🇮🇹)
+[{{< fa up-right-from-square >}} Project website](https://lulliter.github.io/ideeperpavia/) \| [{{< fa brands github >}} Source Code](https://github.com/Lulliter/ideeperpavia) | (in Italian 🇮🇹)
 
 This is webpage I created to disseminate a position paper that I co-authored with the members of the Catholic Social Action Office of the Diocese of Pavia (my hometown in Italy). The report is meant as a tool to promote open and constructive dialogue on several urban planning issues and proposals in view of the upcoming municipal elections of June 2024. 
 
