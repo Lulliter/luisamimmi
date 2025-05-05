@@ -123,3 +123,8 @@ This seminar (titled _Principi, tecniche e strumenti per l’analisi riproducibi
 This lesson was an internal training initiatives in which I shared with my team the World Bank some lessons learned from a pilot study conducted on slum electrification in Mumbai. The lesson focused on the sampling methodology and the estimation of willingness to pay for infrastructure services, based on a household survey conducted in 4 urban slums of Mumbai.
 
 
+### Invited seminar at EnergyLab conference on *"OBA Approach: Core principles and a case of rural electrification"* (April 2011)
+
+[{{< fa up-right-from-square >}} Slides](Present_OBA-Milan_2011.pdf)
+
+This lesson was offered in the context of a conference organized by the Italian entity "Energy Lab" to discuss innovative solutions to energy povery issues in the developing world. 

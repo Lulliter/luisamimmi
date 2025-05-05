@@ -65,7 +65,7 @@ git commit -m "_metadata.yml"
 git push origin master
 
 #=========================================== ALL IN ONE  ================================================#
-git add -u && git commit -a -m "_metadata.yml" && git push
+git add -u && git commit -a -m "UPD: link ideexPV" && git push
 
 #=========================================== FIle pubblico  ================================================#
 # https://quarto.org/docs/publishing/quarto-pub.html
