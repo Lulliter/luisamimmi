@@ -107,14 +107,14 @@ lesson_list
 
 [{{< fa up-right-from-square >}} Project website](https://R4biostats.com) \| [{{< fa brands github >}} Source Code](https://github.com/Lulliter/R4biostats)
 
-This website collects the materials for a four day workshop organized by [MITGEST Doctoral Network](https://www.mitgest.eu/) in July 2024. The workshop is offered as part of a summer school for EU doctoral biology students, hosted by the Radboud Center for Mitochondrial Medicine, in Nijmegen, Netherlands. My sister ([M. Chiara Mimmi, Ph.D.](https://www.linkedin.com/in/maria-chiara-mimmi-b0aa9233/)), is in charge of the workshop, while I co-created the materials for the R practice sessions, plus the course website.  
+This website collects the materials for a four day workshop organized by [MITGEST Doctoral Network](https://www.mitgest.eu/) in July 2024. The workshop was offered as part of a summer school for EU doctoral biology students, hosted by the Radboud Center for Mitochondrial Medicine, in Nijmegen, Netherlands. My sister ([M. Chiara Mimmi, Ph.D.](https://www.linkedin.com/in/maria-chiara-mimmi-b0aa9233/)), was in charge of the workshop, while I co-created the materials for the R practice sessions, plus the course website.  
 <!-- ![](../images/banner_BIOSTATS.png) <br><br> -->
 
 ### Seminar on *"Reproducible Data Analysis"* (July 2023)
 
 [{{< fa up-right-from-square >}} Slides](Reproducibility_Compressed.pdf)
 
-This seminar (titled _Principi, tecniche e strumenti per l’analisi riproducibile dei dati_) is an introduction to reproducible data analysis, I offered to the PNRR Unit, within the Presidency of the Ministries Council, Rome. The seminar covers principles, techniques, and tools for reproducible data analysis.
+This seminar (titled _Principi, tecniche e strumenti per l’analisi riproducibile dei dati_) is a high-level introduction to reproducible data analysis, I offered to the "PNRR Unit", within the Presidency of the Ministries Council, Rome. The seminar covers principles, techniques, and tools for reproducible data analysis.
 
 ### Lessons learned from a pilot study on *"Willingness to pay for legal electricity among slum residents"* (April 2012)
 
